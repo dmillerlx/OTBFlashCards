@@ -1,0 +1,326 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Closed Secilian Tree"]
+[Black "?"]
+[Result "*"]
+[ECO "B20"]
+[Annotator "gmcor"]
+[PlyCount "20"]
+
+{[%evp 0,20,31,39,60,45,61,28,53,61,38,21,13,-2,2,-10,-6,-11,5,1,-10,-254,-274]
+} 1. e4 c5 (1... d5 2. exd5 Qxd5 3. f4 c5) 2. Nc3 (2. Bc4 e6 $1 (2... Nc6 $5 3.
+Nf3 e6) (2... d6 $6 3. Qh5 g6 (3... e6) 4. Qd5 e6 5. Qd3 Nf6 (5... Bg7 {
+[%cal Gg8e7]}) 6. Nc3 Bg7 (6... a6) 7. Kd1 (7. Nb5 d5 8. exd5 exd5 9. Bxd5)
+7... O-O 8. h4 Nc6 {[%cal Gc6f5]} 9. Nf3 a6 10. Qe2 b5 11. Bd3 (11. e5 Nd7 12.
+Bxe6 fxe6) 11... c4) (2... Nf6 3. e5 d5 4. Bb5+ Nfd7) 3. Nc3 (3. d3 d5 4. exd5
+exd5 5. Qe2+ Be7 6. Bb5+ Kf8 $1 7. b4 (7. c3 Qa5 8. d4 c4 9. Bxc4 dxc4 10. Qxc4
+) 7... a6 8. Ba4 b5 9. Bb3 c4) (3. c3) (3. Nf3 a6 $1 (3... d5 $1 4. exd5 exd5
+5. Bb5+ Nc6 (5... Bd7 6. Bxd7+ Qxd7 7. d4 Nc6 8. O-O) 6. O-O (6. Ne5 Nge7 7. d4
+a6 8. Nxc6 Nxc6 9. Bxc6+ bxc6) (6. d4 a6 (6... Nf6 7. O-O (7. Bg5 h6 8. Bh4 Be6
+) 7... Bd6 8. Re1+ Be6 9. Ng5 (9. dxc5 Bxc5) 9... O-O 10. Nxe6 fxe6 11. Rxe6
+Nxd4) 7. Bxc6+ bxc6) 6... Nf6 (6... Bd6 {[%cal Gg8e7,Ge8g8]} 7. d4 Nge7)) 4.
+O-O (4. d4 cxd4 5. Nxd4 Nf6 6. Nc3 d6 {Back in the Najdorf} 7. Bb3 b5) (4. Nc3
+b5 5. Be2 Bb7 6. d3 d5) 4... d5 5. exd5 exd5 6. Be2 Nf6) (3. e5 Nc6 (3... d5 4.
+Be2 (4. exd6 Nf6 (4... Bxd6 5. Nf3 Nf6 6. d3 O-O 7. Bg5 h6 8. Bh4 {[%cal Gb8d7,
+Gd8c7,Gb7b6,Gc8b7,Gb7h1]} b6) 5. Nc3 Bxd6) 4... Nc6) 4. Nf3 Qc7 5. Qe2 Nge7 6.
+c3 (6. d3 Ng6) (6. Nc3 Ng6 7. Nb5 Qb8 {[%cal Gc3f7]}) 6... Ng6 7. d4 cxd4 8.
+cxd4 Na5 $1) 3... Nf6 (3... Ne7) 4. e5 d5 $1) (2. Nf3 d6 3. Nc3 (3. Bc4 Nf6 4.
+d3 (4. Nc3 Nc6 (4... e6 5. d4 (5. d3 d5 6. exd5 exd5 7. Bb5+ Nc6) (5. e5 dxe5
+6. Nxe5) 5... cxd4 (5... d5 6. exd5 exd5 7. Bb5+ {[%csl Gc5]} Nc6 8. dxc5 (8.
+O-O {[%cal Gd4c6,Gd4c5]})) 6. Nxd4 a6) (4... a6 5. e5 (5. d4 cxd4 6. Nxd4 e6)
+5... dxe5 6. Nxe5 e6 7. a4) 5. d4 cxd4 6. Nxd4 {[%csl Gc6]}) 4... e6 {[%cal
+Gf8e7,Ge8g8,Gc2c3,Gd3d4,Gd6d5]} (4... g6 {[%cal Gd6d5,Gf8g7,Ge8g8]})) (3. Bb5+
+Nd7 4. O-O (4. Ba4 Ngf6 5. O-O a6) 4... a6 5. Bd3 Ngf6 6. Re1 {[%csl Gd3][%cal
+Gc2c3,Gd3c2]} (6. c3) 6... e6) (3. d4 cxd4 4. Qxd4 (4. Nxd4) 4... Nc6 5. Bb5
+Bd7 6. Bxc6 Bxc6 7. Nc3) (3. c3 Nf6 4. Be2 (4. Bd3 $5 Nc6 $1 5. O-O (5. h3 {
+To prevemt Bg4} e5 6. Bc2 Be7 7. O-O d5 $1) (5. Bc2 Bg4 6. d4 cxd4 7. cxd4 Bxf3
+8. gxf3 e6 $1) 5... Bg4 $1 6. h3 Bh5 {[%cal Ge7e6,Gf8e7]} 7. g4 Bg6 {[%csl Ge4]
+[%cal Gg6c2,Gd1d4,Gc5d4,Gc3d4,Gd7d5]}) (4. h3) 4... Bd7 $1) 3... a6 $1 (3...
+Nc6) (3... Nf6 4. Bb5+ Nbd7) (3... e5 {[%cal Gf8e7,Gg8f6,Ge8g8]} 4. Bc4 Be7) 4.
+d4 (4. Bc4 Nf6) 4... cxd4 5. Nxd4 Nf6 (5... e5 6. Nf5 Bxf5 7. exf5)) (2. f4 d5
+{[%cal Ge4e5,Gg7g5]} (2... Nc6) 3. e5 (3. exd5 Qxd5 {[%csl Gc5,Gf4]} (3... Qd6)
+4. Nc3 Qd6) (3. d3 dxe4 4. dxe4 Qxd1+ 5. Kxd1) 3... Nh6 $1 (3... Nc6 4. Nf3 Nh6
+(4... Bg4) (4... f6) (4... h5) 5. h3) (3... Bf5) 4. Nf3 (4. h3 Nf5 5. Qf3 h5)
+4... Nc6 (4... Bg4 5. h3 Bxf3 6. Bb5+ Nc6 7. Qxf3 Nf5) 5. h3 (5. Bb5 Qb6 6.
+Bxc6+ bxc6) (5. Nc3 a6 6. d3 Bg4 (6... e6 7. Ne2) 7. h3 (7. Be2 Nf5 8. O-O e6
+9. h3 Bxf3 10. Bxf3 Be7)) 5... Nf5) (2. b4 cxb4 3. a3 (3. Nf3) 3... d5 $1) (2.
+g3 d5 $1 3. exd5 Qxd5 4. Nf3 Bg4 (4... Nc6) 5. Bg2 (5. Be2 Nc6 6. Nc3 Qd7) 5...
+Qe6+ 6. Qe2 Qxe2+ 7. Kxe2 Nc6 8. c3 e5) (2. b3 Nc6 3. Bb2 e5) 2... Nc6 (2... d6
+3. f4) 3. f4 {[%cal Gd2d4]} (3. Bb5 $5 Nd4 $1 4. Nf3 e6 {[%cal Gg8e7,Gf3d4,
+Gc5d4,Gc3e2,Gd2d4]} (4... Nxb5 5. Nxb5 d6 (5... Nf6 6. e5 Nd5 7. Ng5 {[%cal
+Gd1f3,Gg5f7]} a6 8. c4) 6. d4 cxd4 7. Nfxd4 a6 8. Nc3 Nf6 9. Be3) (4... a6) 5.
+O-O (5. Nxd4 cxd4 6. Ne2 Ne7 (6... a6 7. Bd3) (6... Qb6 7. Bd3 Ne7 8. c3 (8.
+O-O) 8... dxc3 (8... Nc6 9. Qb3) 9. bxc3 {[%cal Gd3c2,Gd2d4]}) 7. O-O) 5... a6
+$1 (5... Nxf3+ 6. Qxf3) 6. Bd3 Nxf3+ 7. Qxf3 {[%csl Gd3]} Bd6 {[%cal Gb7b6,
+Gc8b7,Gb7g2]} (7... Ne7)) (3. Bc4 e6 (3... g6 4. Nf3 Bg7 5. d3 e6 6. Be3 Nd4))
+(3. Nf3 e5 $1 (3... Nf6 $5) (3... g6 4. d4) (3... d6 4. d4 cxd4 5. Nxd4 e5) 4.
+Bc4 Be7) (3. g3 g6 4. Bg2 Bg7 5. Nge2 (5. d3 e6 6. Be3 Nd4 7. Qd2 h5 (7... Ne7
+8. Nd1 b6 (8... O-O) 9. c3 Ndc6 10. d4 (10. Bh6 O-O 11. Bxg7 (11. h4 Bxh6 12.
+Qxh6 f6 13. Qd2 (13. h5 g5 14. f4) (13. f4 Kh8) 13... d5 14. Ne3 Bb7 15. h5 g5
+16. f4 gxf4 17. gxf4 Kh8) 11... Kxg7 12. h4 h6 (12... h5 13. g4 (13. Ne3 d5 14.
+exd5 exd5) 13... hxg4 14. h5 Ba6 15. hxg6 Rh8 16. Rxh8 Qxh8 17. gxf7 Qh2 18.
+Kf1 Kxf7) (12... f6 13. h5 g5 14. f4 h6) 13. h5 g5 14. f4 gxf4) 10... cxd4 11.
+cxd4 Ba6)) 5... d6 (5... h5 6. h4) (5... Rb8) (5... e6 6. h4 h5 7. d3 Nge7 8.
+Be3 Nd4 {[%cal Gb7b6,Ge3d4,Gc5d4,Gc3b5]} (8... b6 9. d4) 9. Bxd4 (9. O-O b6 (
+9... O-O {[%csl Gd4]}) 10. Bxd4 cxd4 11. Nb5 d5 (11... Nc6 12. Nd6+ Ke7 13.
+Nxc8+ Rxc8) 12. Nbxd4) 9... cxd4 10. Nb5 Qa5+) 6. d3 {There is 2 way/plans of
+playing from this point. 1 Play with Nf6, Rb8 and b5 wich creates an attack on
+the queen side. Or you can play With e6!? the Nge7 (Similar to the Grand Prix
+way of playing) then you play with b6! and Ba6. The only problme with this
+idea is that you tent to allow d4. Seee Wotacheck and le Quan liem games as
+black as an example.} Nf6 7. Be3 Be6 (7... Bd7 8. Qd2 h5 9. h4) 8. Qd2) (3.
+Nge2 e5 4. g3 (4. Nd5 Nf6 5. Nec3)) 3... g6 4. Nf3 (4. d4) 4... Bg7 (4... d6 5.
+d4 cxd4 6. Nxd4 Bg7 7. Be3) 5. Bc4 {[%cal Gd7d6,Ge7e6,Gd7d5]} e6 {[%csl Ge6,
+Gf7][%cal Gf7c4,Gd7d5,Gf4f5]} 6. e5 (6. O-O Nge7) (6. f5 gxf5 (6... exf5) (6...
+Nge7 7. fxe6 dxe6 (7... fxe6)) 7. O-O (7. exf5 exf5) 7... Nge7 8. Ng5) 6... d5
+(6... Nge7 7. Ne4) 7. exd6 (7. Be2 Nge7 (7... a6 {[%csl Gf5][%cal Gf4f5,Gg8e7,
+Ge7f5]})) 7... Qxd6 8. d3 Nge7 {[%csl Gf4][%cal Gc1f4]} 9. Ne4 Qc7 10. Nxc5
+Qa5+ *
+
+[Event "K-12 national tournament"]
+[Site "?"]
+[Date "2024.12.07"]
+[Round "4"]
+[White "Owen"]
+[Black "Theodore"]
+[Result "1/2-1/2"]
+[Annotator "dusti"]
+[ECO "B50"]
+[WhiteElo "700"]
+[BlackElo "1200"]
+[PlyCount "110"]
+[GameId "2120294934499466"]
+[EventDate "2024.??.??"]
+[SourceVersionDate "2014.07.29"]
+
+{[%evp 0,110,22,22,50,52,71,65,53,44,47,39,47,54,39,23,28,15,20,6,24,-17,-12,-28,-24,-46,-50,-68,-69,-145,-33,-93,-63,-93,-81,-80,-93,-104,-15,-16,-29,-118,-37,-47,-5,-58,22,4,12,-55,5,5,96,93,102,109,116,149,141,139,159,139,113,119,222,224,234,127,139,143,150,158,162,161,170,165,234,53,84,87,91,96,97,97,97,94,96,92,92,92,90,90,90,90,95,99,99,13,6,0,0,0,0,0,45,0,0,0,50,0,0,0,49]} 1. e4 c5 2. Nc3 g6 3. Nf3 Bg7 4. Bc4 Nc6 5. O-O Nf6 6. d3 O-O 7. Bg5 d6 8. h3 Bd7 9. Rb1 a6 10. Bd5 Nxd5 11. exd5 Nd4 12. Nxd4 cxd4 13. Ne4 h6 14. Bh4 f6 15. c3 dxc3 16. bxc3 b5 17. c4 bxc4 18. dxc4 Rb8 19. Rxb8 Qxb8 20. Qb1 Bf5 21. f3 Kf7 22. Bg3 Qc7 23. Qb3 Rb8 24. Qc3 Bxe4 25. fxe4 f5 26. Qd3 Kg8 27. exf5 gxf5 28. Rxf5 Rf8 29. Rxf8+ Bxf8 30. Qc3 Bg7 31. Qb4 Qc5+ 32. Qxc5 dxc5 33. d6 exd6 34. Bxd6 Bd4+ 35. Kh2 Kf7 36. Kg3 Ke6 37. Bf8 Be3 38. Kh4 Ke5 39. Kh5 Kd4 40. Bxh6 Bxh6 41. Kxh6 Kxc4 42. g4 Kb4 43. g5 c4 44. g6 c3 45. g7 c2 46. g8=Q c1=Q+ 47. Qg5 Qc6+ 48. Kh5 Qe8+ 49. Kh4 Qe1+ 50. Qg3 Qe7+ 51. Kg4 Qg7+ 52. Kf4 Qf6+ 53. Kg4 Qg7+ 54. Kh4 Qh6+ 55. Kg4 Qg7+ 1/2-1/2
+
+[Event "USATW"]
+[Site "?"]
+[Date "2025.02.18"]
+[Round "2"]
+[White "Taylor"]
+[Black "Theodore"]
+[Result "0-1"]
+[Annotator "dusti"]
+[ECO "B34"]
+[WhiteElo "1001"]
+[BlackElo "1367"]
+[PlyCount "82"]
+[GameId "2146783135711273"]
+[EventDate "2025.02.18"]
+[SourceVersionDate "2025.02.18"]
+
+{[%evp 0,82,19,38,40,46,90,77,74,76,63,64,64,33,29,24,24,24,21,17,8,-12,25,31,28,-4,0,7,20,16,17,11,2,0,24,23,22,19,16,6,3,-20,57,28,146,138,118,118,118,93,109,109,88,85,76,86,90,-504,-526,-975,-1151,-1479,-1518,-1522,-1632,-1708,-1717,-1845,-1875,-29834,-29980,-29985,-29986,-29987,-29988,-29991,-29992,-29993,-29994,-29995,-29994,-29997,-29998,-29999,-29999]} 1. e4 c5 2. Nc3 g6 3. Nf3 Bg7 4. d4 cxd4 5. Nxd4 Nc6 6. Nxc6 bxc6 7. Bd3 d6 8. Be3 Nf6 9. f3 O-O 10. Qd2 a5 11. O-O Rb8 12. Rab1 Be6 13. b3 Qc7 14. Rfd1 Nd7 15. Ne2 Ne5 16. Nf4 Nxd3 17. Nxe6 fxe6 18. cxd3 c5 19. Rdc1 Qa7 20. a3 a4 21. b4 Rf7 22. bxc5 Rxb1 23. Rxb1 dxc5 24. Rc1 Bd4 25. Bxd4 cxd4 26. Qb4 Rf8 27. Rc4 Ra8 28. Rxd4 Rd8 29. Qc4 Qxd4+ 30. Qxd4 Rxd4 31. Kf2 Rxd3 32. Ke2 Rxa3 33. Kd2 Rb3 34. Kc2 Rb8 35. g4 a3 36. Kd3 a2 37. Kc4 a1=Q 38. f4 Qc1+ 39. Kd4 Rb4+ 40. Ke5 Qc5+ 41. Kxe6 Qd6# 0-1
+
+[Event "BAC Cash 3.29.2025"]
+[Site "?"]
+[Date "2025.03.31"]
+[Round "3"]
+[White "Theodore"]
+[Black "Anish, Korlimarla"]
+[Result "*"]
+[Annotator "dusti"]
+[ECO "C50"]
+[WhiteElo "1417"]
+[BlackElo "1330"]
+[PlyCount "110"]
+[GameId "2161617957826611"]
+[EventDate "2025.??.??"]
+[TimeControl "600"]
+
+{[%evp 0,110,16,13,52,60,40,41,50,18,-1,7,5,10,24,-2,-11,-9,-14,-17,48,42,54,-21,-23,-1,9,21,5,-86,-50,-160,-147,-98,-98,-158,-125,-441,-427,-419,-163,-175,-168,-168,-168,-167,-137,-185,-189,-188,-203,-200,-199,-199,-198,-197,-201,-201,-185,-211,-189,-292,-245,-250,-207,-195,-258,-601,-623,-627,-660,-660,-761,-787,-710,-1159,-772,-791,-750,-826,-836,-847,-853,-853,-1469,-28051,-1499,-28049,-29980,-29981,-930,-28959,-29984,-29985,-29986,-29993,-29984,-29993,-29992,-29993,-29992,-29997,-29992,-29993,-29994,-29997,-29994,-29995,-29996,-29997,-29998,-29999,-29999]} 1. e4 c5 2. Nc3 e6 3. f4 d5 4. exd5 exd5 5. d4 Qh4+ 6. g3 Qe7+ 7. Be2 Nf6 8. dxc5 Qxc5 9. Nf3 Bg4 10. Qd3 Nc6 11. Bd2 Nb4 12. Qb5+ Qxb5 13. Bxb5+ Kd8 14. Nd4 Bc5 15. a3 Bxd4 16. axb4 a6 17. Be2 Re8 18. Kd1 Bxc3 19. Bxg4 Nxg4 20. Bxc3 Nf2+ 21. Kd2 Nxh1 22. Rxh1 g6 23. Bf6+ Kd7 24. h3 Re6 25. Bd4 Rae8 26. Rh2 Kc6 27. c3 Kb5 28. b3 Re4 29. Kd3 f5 30. c4+ dxc4+ 31. bxc4+ Kxb4 32. Rb2+ Ka3 33. Rxb7 Rd8 34. Rxh7 Rdxd4+ 35. Kc3 Rxc4+ 36. Kd3 Rb4 37. Ra7 Rb3+ 38. Kd2 Ra4 39. Rg7 Rxg3 40. h4 Rxf4 41. h5 Rf2+ 42. Ke1 Rh2 43. Kf1 Rb3 44. Re7 Rxh5 45. Re1 Rh1+ 46. Ke2 Rb2+ 47. Kd1 Rb1+ 48. Kc2 Rbxe1 49. Kc3 Re4 50. Kd2 Rh2+ 51. Kd3 Rh3+ 52. Kd2 Rg4 53. Ke2 Rg2+ 54. Kf1 Rhh2 55. Ke1 Rh1# {Tokha1972 won by checkmate} *
+
+[Event "KLC Sunday group class"]
+[Site "?"]
+[Date "2025.03.24"]
+[Round "?"]
+[White "Yulan"]
+[Black "Theodore"]
+[Result "1/2-1/2"]
+[Annotator "dusti"]
+[ECO "B25"]
+[WhiteElo "1149"]
+[BlackElo "1429"]
+[PlyCount "99"]
+[GameId "2159085223626584"]
+
+{[%evp 0,99,16,11,44,44,95,24,24,26,14,17,17,-7,-10,-10,-10,-13,4,3,11,13,10,7,68,0,85,58,68,62,72,0,-8,-27,30,43,75,75,58,33,86,46,41,-22,45,45,120,46,112,58,87,49,118,98,103,-44,-42,-58,-68,-61,-37,-75,-41,-122,-104,-106,-49,-149,-71,-84,-6,-99,397,-223,902,-1215,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]} 1. e4 c5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. d3 Nf6 6. f4 d6 7. Nf3 O-O 8. O-O Bg4 9. Be3 a6 10. h3 Bxf3 11. Qxf3 e6 12. g4 Qd7 13. f5 Ne5 14. Qf4 Qc7 15. fxg6 fxg6 16. Qg3 b5 17. Qh4 c4 18. d4 Nc6 19. d5 exd5 20. exd5 Ne5 21. Bg5 Qc5+ 22. Kh1 Nfd7 23. Bf4 Nb6 24. Rad1 Rae8 25. Qg3 b4 26. Ne4 Qc7 27. Bxe5 Bxe5 28. Qe1 Rxf1+ 29. Qxf1 Rf8 30. Qe2 Bxb2 31. Rf1 Rxf1+ 32. Qxf1 Bg7 33. Qd1 c3 34. Qd3 a5 35. Ng5 Qc4 36. Qd1 Qxa2 37. Ne6 Qb2 38. Nxg7 Kxg7 39. Qd4+ Kg8 40. Qxb6 Qc1+ 41. Kh2 Qf4+ 42. Kg1 Qc1+ 43. Bf1 Qxc2 44. Qxa5 b3 45. Qd8+ Kg7 46. Qe7+ Kg8 47. Qe8+ Kg7 48. Qe7+ Kg8 49. Qe8+ Kg7 50. Qe7+ 1/2-1/2
+
+[Event "BAC Cash 3.29.2025"]
+[Site "?"]
+[Date "2025.03.31"]
+[Round "2"]
+[White "Taylor, Shen"]
+[Black "Theodore"]
+[Result "0-1"]
+[Annotator "dusti"]
+[ECO "B70"]
+[WhiteElo "1020"]
+[BlackElo "1417"]
+[PlyCount "68"]
+[GameId "2161617386627111"]
+
+{[%evp 0,68,28,25,58,46,81,75,66,49,60,39,62,39,34,12,5,5,0,0,18,21,22,2,25,10,25,35,25,0,51,42,114,20,4,2,2,-12,0,-43,-41,-48,-30,-41,4,-125,-137,-144,-144,-251,-255,-505,-485,-538,-532,-553,-575,-592,-569,-580,-539,-572,-540,-555,-498,-595,-641,-739,-771,-792,-790]} 1. e4 c5 2. Nc3 d6 3. Nf3 Nf6 4. d4 cxd4 5. Nxd4 g6 6. Bd3 Bg7 7. Nf3 Nc6 8. h3 O-O 9. O-O Bd7 10. Be3 Rc8 11. Qd2 a6 12. Rfe1 b5 13. a3 Be6 14. Bh6 d5 15. exd5 Nxd5 16. Nxd5 Bxd5 17. Bxg7 Kxg7 18. Qc3+ Kg8 19. Nh2 e5 20. Ng4 Nd4 21. Qd2 Bc4 22. Nxe5 Bxd3 23. cxd3 Nb3 24. Qh6 Nxa1 25. Re4 Qc7 26. Rh4 Qc1+ 27. Kh2 Qxh6 28. Rxh6 Kg7 29. Rh4 Nb3 30. Re4 Nc5 31. Re3 Rfe8 32. f4 f6 33. Ng4 Rxe3 34. Nxe3 Nxd3 0-1
+
+[Event "Larry Evans 2025"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "Yulan, Wang"]
+[Black "Theodore, Miller"]
+[Result "1/2-1/2"]
+[Annotator "dusti"]
+[ECO "B25"]
+[WhiteElo "1358"]
+[BlackElo "1449"]
+[PlyCount "57"]
+[GameId "2169167048159333"]
+[SourceVersionDate "2014.07.29"]
+
+{[%evp 0,57,27,19,39,44,87,22,22,14,23,13,19,-1,1,1,-14,0,10,-23,9,-7,-3,-26,68,-46,123,134,134,100,101,7,208,197,189,185,185,162,184,123,161,132,171,109,119,120,165,127,360,158,144,132,146,-6,1,10,25,-11,-1,-19]} 1. e4 c5 2. Nc3 d6 3. g3 Nf6 4. Bg2 g6 5. d3 Bg7 6. f4 Nc6 7. Nf3 O-O 8. O-O Bg4 9. Be3 Qc8 $6 10. Qe2 $6 a6 11. Qf2 b6 $6 12. Nd2 $2 Ne8 $2 13. f5 gxf5 14. exf5 $6 e6 15. fxe6 $2 Bxe6 $2 16. Qf3 $1 Bd7 17. Nc4 Rb8 18. Bf4 Nd4 19. Qd1 $6 Bg4 $6 20. Qd2 Qd7 21. Nd5 Ne2+ 22. Kh1 $1 Nxf4 23. Qxf4 Qe6 $2 24. Rab1 Bh6 25. Nf6+ $6 Nxf6 26. Qxf6 d5 27. Qxe6 $2 Bxe6 28. Ne5 Rbc8 29. b3 1/2-1/2
+
+[Event "Washington Open"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "Cedric, Davies"]
+[Black "Theodore"]
+[Result "1-0"]
+[Annotator "dusti"]
+[ECO "B23"]
+[WhiteElo "1660"]
+[BlackElo "1522"]
+[PlyCount "55"]
+[GameId "2182987391615017"]
+[SourceVersionDate "2014.07.29"]
+
+{[%evp 0,55,17,13,40,44,67,45,42,42,39,29,29,-6,4,4,4,-8,-8,-7,9,4,7,4,16,7,19,-19,-57,10,10,10,10,0,21,41,65,73,201,231,285,356,467,407,542,311,902,902,29991,29992,29993,29992,29993,29994,29995,29996,29999,29999]} 1. e4 c5 2. Nc3 d6 3. d4 cxd4 4. Qxd4 Nc6 5. Qd2 Nf6 6. b3 g6 $6 {Why not go to the h8 to a1diagonal $2 Is it because the opponent Bishop will take the diagonal. Why not challenge their Bishop then $2 Could it also be about e7-d6 to e6-d5 upgrade $2} 7. Bb2 Bg7 8. O-O-O O-O 9. Kb1 Bd7 {Briefly considered Qa5 but I didn't see the purpose of it.} 10. f3 Rc8 11. g4 h5 $6 {I thought if gxh5 i can close off the whole attack.} 12. gxh5 Nxh5 13. Be2 $2 Nd4 {(4min )1. I calculated Qb6 trying to get out of the prison but realized f4 would be able to break my king side structure therefore i thought of getting the bishop pair advantage by attacking the e2 bishop. this i thought was a strong move because it's a central knight.} 14. f4 Nxe2 $6 {I really wanted to take the bishop so I have the bishop pair.} 15. Ngxe2 Bc6 $2 {(10min) completely stomped didn't know what to do here. There are 2 threats, e5 and f5. my plan was to stop both of them with Bc6 if f5 gxf5 exf5 i can take the rook on h1. same with e5. I considered the Bg4 move but I didn't think it was good.} 16. Ng3 Nf6 17. f5 $6 Qe8 $6 {I anticipated fxg6 fxg6 and I could Qf7 increasing the scope. however i didn't realize they didn't have to fxg6. Instead they could launch an attack with h4 h5 push.} 18. h4 b5 $6 {(6min) I was stomped. I had nothing to move.} 19. h5 b4 20. Nd5 Nxd5 21. exd5 Bxb2 22. Kxb2 Bd7 $6 23. hxg6 fxg6 24. Qh6 Rxc2+ 25. Kb1 (25. Kxc2 Qc8+ 26. Kb1 Bxf5+ 27. Nxf5 Qxf5+ 28. Ka1) 25... Rh2 26. Rxh2 Bxf5+ 27. Nxf5 Qf7 28. Qh8# 1-0
+
+[Event "Washington Open"]
+[Site "?"]
+[Date "2025.05.29"]
+[Round "5"]
+[White "Benjamin, Fredrick"]
+[Black "Theodore"]
+[Result "1-0"]
+[Annotator "dusti"]
+[ECO "B23"]
+[WhiteElo "1685"]
+[BlackElo "1522"]
+[PlyCount "77"]
+[GameId "2182989432709199"]
+[EventDate "2025.05.29"]
+[SourceVersionDate "2025.05.29"]
+
+{[%evp 0,77,20,25,44,38,83,51,31,35,33,22,38,7,47,4,3,-24,14,13,20,-4,46,16,64,36,32,39,109,-13,0,1,28,62,224,194,185,193,185,162,183,128,193,206,419,363,408,347,482,478,612,698,1097,1243,1426,1489,1734,351,341,336,549,554,667,657,678,561,701,707,1119,1137,1174,1048,29995,29996,29997,29996,29997,29998,29999,29999]} 1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Bb5 Nf6 5. Nf3 g6 $6 {I missed opponent can take on Bxc6 and disrupt my defense against the grand prix.  Bxc6 I would lose my pawn structure double pawn.} 6. d3 $6 Bg7 $6 7. O-O $6 O-O $6 8. Qe1 $2 a6 9. Bxc6 $1 bxc6 10. Qh4 $6 Qc7 $2 {I should have activated my rook Rb8, taking the semi open file.} 11. f5 Bd7 {I supposed it's too late to do passive moves.  Now he can go full fledge attack.  I was trying to connect my rooks with this move.  Why is this wrong coach Melik $2} 12. fxg6 $2 fxg6 13. Bh6 $6 c4 $2 {my plan was dxc4, i can ruin his pawn structure with Qd6+} 14. Rab1 cxd3 15. cxd3 Qb6+ 16. Kh1 Rab8 $4 {I allowed his full fledged attack to succeed.  I didn't see the the threat of the knight.  I should have spent more than 2 minutes here.} 17. Ng5 $1 Rf7 $6 {i don't know how to defend against the mating threat.  So I put the rook in a bad position surrounding on 3 sides with pieces.} 18. Nxf7 Kxf7 19. Bxg7 Kxg7 20. Qf2 Qb7 $6 21. d4 Be8 $6 22. e5 dxe5 23. dxe5 Nd7 24. Ne4 Qc7 25. e6 Nf6 26. Nxf6 exf6 27. Qxf6+ Kh6 28. Qf4+ Qxf4 29. Rxf4 Rd8 30. Rf8 Kg5 31. e7 Rb8 32. h3 h5 33. Rd1 Kh4 $6 34. Rd4+ Kg5 35. Rd8 Rxd8 36. exd8=Q+ Kh6 37. Qxe8 Kg7 38. Qe7+ Kh6 39. Rh8# 1-0
+
+[Event "Mechanics FIDE May 2025"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Fan, Jin"]
+[Black "Theodore, Miller"]
+[Result "1-0"]
+[ECO "B50"]
+[WhiteElo "1591"]
+[BlackElo "1501"]
+[Annotator "dusti"]
+[PlyCount "99"]
+[SourceVersionDate "2014.07.29"]
+
+{[%evp 0,99,38,16,46,60,82,78,61,54,75,59,39,44,36,28,39,26,18,-34,-37,-30,-34,
+-33,-40,-41,-30,-71,-71,-80,-73,-77,-39,-66,-36,-49,-42,-24,-16,-6,4,-38,0,-11,
+44,12,61,65,68,68,86,77,96,93,105,93,88,95,311,282,379,363,364,377,389,308,313,
+310,442,475,480,480,503,462,510,580,722,770,731,769,867,726,909,694,968,1161,
+1353,1507,1408,1523,2137,2133,29991,29992,29993,29992,29993,29994,29997,29998,
+29999,29999]} 1. e4 c5 2. Nc3 d6 3. Nf3 Nf6 4. Bc4 g6 5. d3 Bg7 6. O-O O-O 7.
+h3 a6 8. a3 b5 9. Bd5 Nxd5 10. Nxd5 e6 11. Nc3 Bb7 12. Rb1 d5 (12... Nc6 13.
+Re1 d5 (13... Nd4 {[%cal Gb7f3,Gg7b2]}) (13... Rc8 {[%cal Gb7f3,Ga6a5,Gb5b4]}
+14. Be3 Qb6 15. Qd2 Nd4 16. Bh6 Nxf3+ 17. gxf3) (13... Qc7 14. Be3 Rac8 15. Qd2
+Nb8 16. Rbd1 d5 (16... Rfe8 17. Bh6 Bh8) 17. Bh6) 14. e5) 13. e5 Nc6 14. Re1 {
+[%csl Ge5][%cal Gc6e5]} h6 (14... f6 15. exf6 Qxf6 {[%cal Ge6c6,Gc6d4,Gf6f1]})
+15. Bf4 Qb6 16. Qd2 Kh7 17. b4 cxb4 (17... Rac8 {[%csl Ga3,Gc5]} 18. bxc5 (18.
+Be3 d4) (18. Qe3 d4) 18... Qxc5) 18. axb4 Rac8 19. d4 {[%cal Gc8c2]} Qc7 20.
+Ne2 Ne7 (20... a5) 21. c3 {[%cal Ge2g3]} Rcd8 (21... a5 {[%cal Ga5c3]} 22. bxa5
+Qxa5 {[%csl Gc3][%cal Gb5b4,Gb7a6,Ga6e2]}) 22. Nc1 Nc8 23. Nd3 Nb6 24. Nc5 Nd7
+25. Ra1 Nxc5 26. dxc5 Ra8 27. Ra5 Qe7 28. Nd4 f6 29. exf6 Qxf6 30. Be5 Qxe5 31.
+Rxe5 Bxe5 32. Nxe6 Rfe8 33. Nd4 Ra7 34. Nxb5 Raa8 35. Nd4 Ra7 36. Ra1 Rf8 37.
+b5 a5 38. b6 Raa8 39. c6 Ba6 40. Rxa5 Rfb8 41. f4 Bd6 42. Rxd5 Bf8 43. Rd7+ Kh8
+44. Ne6 Bg7 45. Rxg7 Rxb6 46. Rh7+ Kg8 47. Qd7 Rb1+ 48. Kh2 Rb7 49. cxb7 Bxb7
+50. Qg7# 1-0
+
+[Event "World Open U1800"]
+[Site "?"]
+[Date "2025.07.04"]
+[Round "2"]
+[White "Muadh, Perry"]
+[Black "Theodore, Miller"]
+[Result "0-1"]
+[Annotator "theod"]
+[ECO "B23"]
+[WhiteElo "1700"]
+[BlackElo "1607"]
+[PlyCount "62"]
+[GameId "2195926102765625"]
+[EventDate "2025.07.04"]
+[SourceVersionDate "2025.07.04"]
+
+{[%evp 0,62,29,27,51,45,71,64,48,48,53,34,20,5,13,-41,-39,-62,-16,-33,-39,-49,-55,-130,-66,-66,-28,-92,-82,-81,-81,-162,-171,-176,-21,18,-10,-6,-3,-39,-57,-64,-88,-92,-96,-142,-121,-128,-105,-134,-122,-396,-403,-378,-377,-451,-398,-1079,-1087,-1215,-1382,-29997,-29998,-29999,-29999]} 1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 d6 5. Bc4 Nc6 6. O-O Nf6 7. e5 dxe5 8. fxe5 Nxe5 9. Bb5+ Ned7 10. d4 O-O 11. Qe2 a6 12. Bxd7 Nxd7 13. Be3 cxd4 14. Nxd4 Qc7 15. Nd5 Qd6 16. Qc4 {[%c_arrow d7e5;keyPressed;none;from;d7;opacity;0.8;to;e5;persistent;false]} b5 17. Qc6 Qxc6 18. Nxe7+ Kh8 19. Nexc6 Bb7 20. Rae1 Bxc6 21. Nxc6 Bxb2 22. Bg5 f6 23. Bh6 Rfe8 24. Rd1 Ne5 25. Rxf6 Ng4 26. Rf7 Nxh6 27. Rb7 Bc3 28. Rdd7 Re1+ 29. Kf2 Rf8+ 30. Kg3 Re3+ 31. Kh4 Bf6# 0-1
+
+[Event "World Open U13 Championship"]
+[Site "?"]
+[Date "2025.07.08"]
+[Round "1"]
+[White "David, Yoo"]
+[Black "Theodore"]
+[Result "0-1"]
+[Annotator "dusti"]
+[ECO "B23"]
+[WhiteElo "1452"]
+[BlackElo "1493"]
+[PlyCount "54"]
+[GameId "2197469398544546"]
+[EventDate "2025.07.08"]
+[SourceVersionDate "2025.07.08"]
+
+{[%evp 0,54,28,28,66,59,91,45,27,40,35,6,7,16,6,6,-19,-26,-37,-35,-2,-10,-13,-54,-27,-46,-41,-44,-33,-43,-38,-59,-32,-29,-29,-37,-31,-28,-44,-35,-45,-30,-11,-9,-17,-14,-6,-1,0,-5,-16,-43,-65,-38,-49,-582,-594]} 1. e4 c5 2. Nc3 g6 3. f4 Bg7 4. Nf3 Nc6 5. Bc4 e6 6. O-O Nge7 7. e5 O-O 8. d3 d5 9. exd6 Qxd6 10. Ne4 Qc7 11. c3 b6 12. Be3 Bb7 13. Qe2 Rad8 14. Rad1 Nf5 15. Kh1 Nd6 16. Nxd6 Qxd6 17. d4 cxd4 18. Nxd4 Nxd4 19. Bxd4 Bxd4 20. Rxd4 Qc6 21. Rfd1 Rxd4 22. Rxd4 Qc5 23. Qe5 Qe7 24. Bb5 Rd8 25. Bd3 Rxd4 26. Qxd4 Qh4 27. Be4 Qe1+ 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "2025.08.03"]
+[Round "1"]
+[White "KONETI, JEEVESH.."]
+[Black "Miller, Theodore"]
+[Result "1-0"]
+[ECO "B23"]
+[WhiteElo "1313"]
+[BlackElo "1595"]
+[Annotator "dusti"]
+[PlyCount "55"]
+[EventDate "2025.08.06"]
+[SourceVersionDate "2025.08.06"]
+
+{[%evp 0,55,19,31,72,49,100,53,43,27,24,13,13,-17,-24,-19,-26,-26,-34,-32,-35,
+-28,-20,4,0,9,32,13,21,-2,55,95,99,97,494,672,583,675,1227,660,742,427,405,429,
+397,236,242,242,266,272,29989,335,29995,29996,29997,29998,29999,29999]} 1. e4
+c5 2. Nc3 g6 3. f4 Bg7 4. Bc4 (4. Nf3 Nc6 {[%csl Gd4]} 5. Bb5 Nd4 6. Nxd4 cxd4)
+4... e6 5. d3 (5. Nf3 Nc6 6. d3 Nge7 7. Be3 d5 (7... Nd4) 8. exd5 exd5) 5...
+Ne7 6. Nf3 O-O 7. O-O d5 8. Bb3 Nbc6 9. Qe1 b6 (9... b5 10. Nxb5 Qb6 11. c4)
+10. Qh4 {[%cal Gf4f5,Gc1h6]} f6 (10... Nd4 $1 11. Nxd4 (11. exd5 Nxb3 (11...
+exd5 12. Nxd4 cxd4 {[%csl Gd4,Gd5]} 13. Ne2 Be6 {[%csl Re3][%cal Ge7f5,Gf5e3,
+Gf8e8,Ga8c8,Gc8c2,Ge8e2]}) 12. axb3 exd5 13. Ng5) (11. Ng5 h6 12. Nf3 Nxb3 13.
+axb3 Nc6) (11. f5 {[%cal Gc1g5]} Nxb3 12. axb3 exf5 {[%cal Gb3g8,Gg8f7]} (12...
+gxf5) 13. Bh6 (13. Bg5 {[%cal Gb3g8]}) 13... f6 {[%csl Gg8][%cal Gf6g5,Gf3g5,
+Gb3g8]} (13... fxe4)) 11... cxd4 12. Ne2 dxe4 13. dxe4 Ba6 {[%cal Gc5d4,Gc8c2]}
+) (10... Na5 {[%cal Gb3f7]}) 11. exd5 exd5 12. Re1 Bf5 13. Bd2 Qd7 {[%cal
+Gg8h8,Gc3d5]} 14. Re2 Rfe8 {[%cal Gc3d5,Ge2e7]} (14... Na5 15. Rxe7 Qxe7 16.
+Nxd5) (14... Kh8 15. Rae1 {[%csl Gb3]} d4 16. Ne4 Nd5) (14... a6 {[%cal Gb6b5,
+Gc5c3,Gb3g8]} 15. Rae1 b5 16. a4 (16. Rxe7 Nxe7 17. Rxe7 Qxe7 18. Nxd5) 16...
+c4 17. dxc4 (17. axb5) 17... bxc4 18. Ba2) (14... Be6 15. Rae1 Bf7 (15... Nf5
+16. Qf2 Bf7)) 15. Rae1 Rad8 16. h3 {[%cal Gg2g4,Gc3d6,Ge2e7]} (16. Nxd5) 16...
+Qc7 17. Nxd5 Nxd5 18. Rxe8+ Kf7 19. Rxd8 Qxd8 20. Qf2 Kf8 21. g4 Bc8 22. Bxd5
+Qxd5 23. Bc3 Bb7 24. Qe2 Bh8 25. g5 Nd4 26. Qe8+ Kg7 27. Re7+ Qf7 28. Rxf7# 1-0
+

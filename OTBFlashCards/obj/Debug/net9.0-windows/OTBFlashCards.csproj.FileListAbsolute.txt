@@ -1,0 +1,17 @@
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\bin\Debug\net9.0-windows\OTBFlashCards.exe
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\bin\Debug\net9.0-windows\OTBFlashCards.deps.json
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\bin\Debug\net9.0-windows\OTBFlashCards.runtimeconfig.json
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\bin\Debug\net9.0-windows\OTBFlashCards.dll
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\bin\Debug\net9.0-windows\OTBFlashCards.pdb
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.Form1.resources
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.csproj.GenerateResource.cache
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.AssemblyInfoInputs.cache
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.AssemblyInfo.cs
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.csproj.CoreCompileInputs.cache
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.dll
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\refint\OTBFlashCards.dll
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.pdb
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.genruntimeconfig.cache
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\ref\OTBFlashCards.dll
+C:\data\chess\apps\OTBFlashCards\OTBFlashCards\obj\Debug\net9.0-windows\OTBFlashCards.AssistedModeForm.resources

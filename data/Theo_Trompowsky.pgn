@@ -1,0 +1,288 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2021.03.09"]
+[Round "?"]
+[White "Tromposwky Tree"]
+[Black "?"]
+[Result "*"]
+[ECO "A45"]
+[Annotator "gmcor"]
+[PlyCount "10"]
+[SourceVersionDate "2021.03.09"]
+
+{[%evp 0,10,20,30,29,6,27,0,-16,-17,-3,-60,-42]} 1. d4 Nf6 2. Bg5 Ne4 3. h4 (3.
+Bf4 c5 (3... g5 4. Bc1) 4. d5 (4. f3 Qa5+ $1 {[%cal Ga5e1,Gc5d4,Gc3d4] Svidler
+game} (4... g5 $2 5. Bc1) 5. c3 Nf6 {[%cal Gc5d4]} 6. Nd2 cxd4 7. Nb3 Qb6 8.
+Qxd4 Nc6 (8... Qxd4 $5) 9. Qxb6 axb6) 4... Qb6 (4... g6 5. Nd2 Nxd2 6. Qxd2 Qb6
+7. O-O-O) 5. Bc1 g6 6. f3 Nd6) (3. Bh4 c5 4. f3 (4. d5 Qb6) 4... g5 $1 5. fxe4
+gxh4 6. e3 Bh6 $1) (3. Nf3 Nxg5 4. Nxg5 c5 (4... e5) (4... g6 5. e4 (5. h4 Bg7)
+5... Bg7 {[%csl Gg7][%cal Gg7b2]})) 3... c5 4. d5 Qb6 $1 5. b3 (5. Bc1) (5. Nd2
+) (5. Nc3 Nxg5 (5... Nxc3 6. bxc3 g6) 6. hxg5 g6 $1 (6... Qxb2 7. Rh3 Qb6 8.
+Rb1 Qd8 (8... Qg6 9. Nf3 d6 10. Rh4 {[%cal Ge2e3,Gf1d3]} Nd7 11. e3 Ne5 12.
+Bb5+ Bd7 (12... Kd8 13. Nxe5 dxe5 14. Ne4 Bf5 15. Nxc5 Bxc2 16. Rc1 $1 (16.
+Nxb7+) 16... Qb6 17. Qxc2 Qxb5 18. Rc4 {This is how Fidel beat Doug!}) 13. Nxe5
+) 9. g6 $1 {This is the main ide aof the h4 pawn} fxg6 10. Qd3 {[%cal Gh3h7]}))
+5... c4 (5... Qb4+ 6. Nd2 Nc3 7. Qc1 Nxd5) *
+
+[Event "Cap d'Agde-A"]
+[Site "Cap d'Agde"]
+[Date "2003.10.26"]
+[Round "7"]
+[White "Adams, Michael"]
+[Black "Gelfand, Boris"]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2725"]
+[BlackElo "2703"]
+[Annotator "Finkel,A"]
+[PlyCount "80"]
+[EventDate "2003.10.24"]
+[EventType "tourn (rapid)"]
+[EventRounds "7"]
+[EventCountry "FRA"]
+[EventCategory "19"]
+[SourceTitle "CBM 098"]
+[Source "ChessBase"]
+[SourceDate "2004.02.03"]
+[SourceVersion "1"]
+[SourceVersionDate "2004.02.03"]
+[SourceQuality "1"]
+
+{[%evp 0,34,28,30,30,-9,8,8,33,-1,22,13,28,27,22,22,22,16,59,10,26,1,-10,-6,
+-20,-13,6,4,57,27,10,-17,-17,-20,-45,-62,-32]} 1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5
+4. d5 Qb6 5. Bc1 g6 6. f3 Nd6 {This game was played in the last round of group
+stage and Gelfand desperately needed to win the game so he opted for this
+risky continuation.} (6... Nf6 7. Nh3 Bg7 8. e4 O-O 9. c4 e6 10. Nc3 exd5 11.
+cxd5 d6 12. Nf2 Nbd7 13. Be2 a6 14. O-O Rb8 15. a4 Ne8 {1/2-1/2 Hodgson,
+J-Marinkovic,I/Cacak 1996}) (6... Qa5+ 7. c3 Nd6 8. e4 f5 9. Bf4 Qb6 10. Qb3
+Nf7 11. Na3 $14 {Allegro,V-Thiede,L/Bad Ragaz op 1995}) 7. e4 (7. Nc3 Bg7 8. e3
+(8. Nh3 c4 9. g3 Na6 10. Bg2 Nf5 11. e4 Ne3 12. Qe2 Nxg2+ 13. Kf1 Ne1 14. Qxe1
+d6 $17 {Efimov,I-Milov,V/Batumi 1999}) 8... c4 (8... O-O 9. Nh3 Qc7 (9... c4
+10. Nf2 e6 11. Be2 Nf5 12. Qd2 Nxe3 13. Qxe3 Bd4 $13 {Rowson,J-Lalic,B/Glasgow
+1999}) (9... Nf5 10. g4 $2 Nxe3 11. Bxe3 Qxb2 $17 {Helbig,U-Thiel,T/BL9798})
+10. a4 b6 11. Nf2 f5 12. Be2 e5 13. e4 f4 14. a5 Ba6 15. O-O Qb7 {1/2-1/2
+Hodgson,J-Turner,M/Oxford 1998}) 9. Nh3 Na6 10. Be2 Nc7 11. Nf2 (11. Nf4 Qc5
+12. a4 h5 13. h4 e5 14. Nh3 Nf5 15. Kf2 Qe7 16. Ng5 Bh6 $13 {Mukic,J-Milov,V/
+Saint Vincent 2001}) 11... Qa5 12. e4 Ncb5 13. O-O Nxc3 14. bxc3 Bxc3 15. Bf4
+Bxa1 16. Qxa1 O-O 17. e5 $44 {Kinsman,A-Berthelot,Y/Cannes 1998}) (7. a4 $5 c4
+$6 8. e4 Bg7 9. c3 O-O 10. Na3 f5 11. exf5 Nxf5 12. Nxc4 Qc5 13. g4 $1 $16 {
+Rabinovich,A-Sax,G/Saint Vincent 2000/CBM 78}) 7... Bg7 8. Nc3 (8. Nd2 O-O 9.
+f4 (9. Bd3 f5 10. c4 fxe4 11. fxe4 Nf7 12. Ngf3 d6 13. O-O Nd7 14. Rb1 Nf6 15.
+Qe1 Bd7 16. Nb3 Ng4 17. Bd2 Qa6 18. Nc1 Nfe5 19. Be2 Nxf3+ 20. gxf3 Bd4+ 21.
+Kg2 Ne3+ 22. Bxe3 Bxe3 23. Bd3 Bg5 24. Ne2 e5 25. dxe6 Bxe6 26. Qc3 Rae8 27. a3
+Qc6 28. Qe1 Kh8 29. Qg3 Bf6 30. Nc3 g5 31. Nd5 Be5 32. Qf2 Qd7 33. Kh1 Qf7 34.
+Be2 Rg8 35. Qg2 Rg6 36. Ne3 Rf8 37. Ng4 Bd4 38. b3 h5 39. Nf2 Qd7 40. Rbd1 Rf4
+41. Rfe1 Rg7 42. Qg3 Rf6 43. Rf1 Be5 44. Qg1 Qc8 45. Rd2 Qf8 46. Rdd1 Bd4 47.
+Rxd4 cxd4 48. Nd3 Bh3 49. Rf2 g4 50. Qg3 Qe7 51. Nf4 gxf3 52. Qxf3 Bg4 53. Qd3
+Qe5 {0-1 (53) Pankov,G (2384)-Vachier Lagrave,M (2684) Dagomys 2009}) 9... e6
+10. e5 Nf5 11. Nc4 Qd8 12. Ne3 (12. dxe6 dxe6 13. Qxd8 Rxd8 14. c3 b6 15. Nf3
+Bb7 16. Be2 Nd7 17. O-O f6 18. g4 Ne7 19. exf6 Nxf6 20. Ng5 Bd5 21. Ne3 Rd6 22.
+Nc4 Rdd8 23. Ne3 Rd6 24. Nxd5 Nexd5 25. Bf3 Re8 26. Re1 h6 27. Nh3 h5 28. gxh5
+Nxh5 29. f5 e5 30. Bg5 Ndf6 31. fxg6 Bf8 32. Nf2 Kg7 33. Bxf6+ Nxf6 34. Ne4
+Rde6 35. Nxf6 Rxf6 36. Be4 c4 37. Rad1 Bc5+ 38. Kh1 Rf2 39. Rf1 Rf4 40. Rfe1
+Rf2 41. b4 cxb3 42. axb3 a5 43. Rd3 Rf4 44. Rh3 Rh8 45. Rxh8 Kxh8 46. Kg2 Kg7
+47. Re2 Rg4+ 48. Kf3 Rf4+ 49. Kg3 b5 50. Bc6 b4 51. Rxe5 Bd6 52. Kxf4 bxc3 53.
+Be4 Kf6 54. h4 Bxe5+ 55. Ke3 c2 56. Bxc2 Kg7 57. Kf3 Bc3 58. Kg2 Be5 59. Kf3
+Bc3 60. Kg2 Be5 61. Kf3 {1/2-1/2 (61) Bauer,C (2682)-Vachier Lagrave,M (2686)
+Pau 2012}) 12... Nxe3 13. Bxe3 d6 14. Nf3 dxe5 15. dxe6 Bxe6 16. Nxe5 Nd7 $15 {
+Legky,N-Rotstein,A/Cannes 1992}) (8. c3 O-O 9. Na3 f5 10. exf5 Nxf5 11. Qb3 Qf6
+12. Nh3 Kh8 13. Bg5 Qf7 $132 {Miltner,A-Lanka,Z/BL9697}) 8... f5 (8... O-O 9.
+Nge2 (9. Nh3 f5 10. Nf2 fxe4 11. Nfxe4 Nxe4 12. fxe4 Bxc3+ 13. bxc3 Qf6 $17 {
+Kovacevic,S-Lalic,B/Navalmoral 1999}) 9... f5 10. Ng3 e6 11. a4 c4 12. a5 Qc5
+$13 {Summerscale,A-Benitah,Y/FRA-chT 1996}) 9. exf5 Nxf5 {[%cal Gb6g1]} 10. Bd3
+(10. g4 Nh6 11. d6 e6 12. Nb5 Na6 13. Bf4 (13. Be3 {1/2-1/2 Hodgson,J-Nunn,J/
+Oxford 1998}) 13... Qc6 14. Bxh6 Bxh6 15. c4 O-O 16. h4 Bf4 17. h5 $36 {
+[%csl Ra6,Ra8,Rc8] McShane,L-Kotronias,V/Catalan Bay 2003}) 10... O-O {[%csl
+Gd3][%cal Ge1g1,Gc5c4,Gb6g1]} 11. Bxf5 Rxf5 12. Nge2 c4 $6 13. Ng3 Rf8 14. Qe2
+(14. h4 $5 Na6 15. h5 $36) 14... Na6 15. a4 (15. Qxc4 d6 (15... Qb4 16. Qd3 Nc5
+17. Qd2 Qc4 18. d6 Bxc3 19. Qxc3 Qxc3+ 20. bxc3 exd6 21. Be3 $16 {[%cal Gh2h5]}
+) 16. a3 Bf5 17. Nge4 Rac8 $36) 15... Nb4 16. a5 Qd4 17. Ra4 (17. Be3 $2 Nxc2+
+18. Qxc2 Qxe3+ $19) 17... Nxd5 18. Nxd5 Qxd5 19. Qxc4 Qxc4 20. Rxc4 Rf6 21. O-O
+Rc6 22. Re4 e6 (22... Rxc2 23. Rxe7 Bd4+ 24. Kh1 Bc5 25. Re8+ Kf7 26. Rh8 Kg7
+27. Re8 Bb4 $15) 23. c3 Ra6 24. Ra4 b6 (24... b5 25. Ra3 Rb8 26. b4 Bb7 $15)
+25. Be3 $11 Rxa5 26. Rxa5 bxa5 27. Ra1 Rb8 28. Rxa5 Rxb2 29. Rxa7 Bb7 30. Bd4
+e5 31. Bc5 Bf8 32. Bxf8 Kxf8 33. Ra5 d6 34. Ra7 Ke7 35. Ne4 h6 36. c4 Ke6 37.
+Nc3 Rc2 38. Rxb7 Rxc3 39. Rc7 h5 40. h4 Rc2 1/2-1/2
+
+[Event "TCh-RUS Premier 2018"]
+[Site "Sochi RUS"]
+[Date "2018.05.03"]
+[Round "3.1"]
+[White "Romanov, E."]
+[Black "Svidler, P."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2619"]
+[BlackElo "2760"]
+[Annotator "gmcor"]
+[PlyCount "79"]
+[EventDate "2018.05.01"]
+[EventType "team"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+[SourceTitle "The Week in Chess 1226"]
+[Source "Mark Crowther"]
+[SourceDate "2018.05.07"]
+[SourceVersion "2"]
+[SourceVersionDate "2018.05.08"]
+[SourceQuality "2"]
+[WhiteTeam "SShOR St. Petersburg"]
+[BlackTeam "The Bronze Horseman St. Petersburg"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 (3... d5 4. Nd2 Nf6) 4. f3 (4. dxc5 Qa5+ 5. c3 (
+5. Nd2 Qb4 (5... Nc6 6. c3 Nxd2 7. Qxd2 Qxc5))) (4. Nd2 Nxd2 5. Qxd2 cxd4 6.
+Qxd4 Nc6) (4. d5) 4... Qa5+ $1 5. c3 (5. Nd2 Nxd2 6. Bxd2 Qb6 7. dxc5 Qxc5 {
+[%cal Gg1f3]}) 5... Nf6 6. Nd2 (6. d5) 6... cxd4 7. Nb3 (7. cxd4 Nc6 {[%csl
+Gd4][%cal Ga5e1]} 8. e3 Nd5 (8... d5)) 7... Qb6 8. Qxd4 (8. cxd4 a5 {[%cal
+Ga5a4]}) 8... Nc6 9. Qxb6 axb6 {[%cal Gd7d5,Ge7e5]} 10. Nd4 (10. e4 e5 11. Be3
+d5 (11... Na5 12. Nd2 Bc5) 12. exd5 Nxd5 13. Bf2 Be6 {[%cal Ga8a2]} 14. a3)
+10... Ra5 $1 11. b4 {[%csl Gc3]} Ra4 {[%csl Ga2][%cal Ga4a1]} 12. e4 Nxd4 13.
+cxd4 e6 14. Bb5 Rxb4 15. a4 Rxd4 16. Ne2 Rb4 17. Kd2 Bc5 18. Kc2 Ke7 19. Bd2 d5
+20. Bxb4 Bxb4 21. Kb3 Bc5 22. e5 Nd7 23. f4 Rg8 24. g3 g5 25. Rhe1 Be3 26. Kc2
+Nc5 27. Ra3 d4 28. Rd1 gxf4 29. Nxd4 f6 30. gxf4 Bxf4 31. exf6+ Kxf6 32. Ne2 e5
+33. Nxf4 exf4 34. Rf3 Bf5+ 35. Kc3 Ke5 36. Bc4 Rc8 37. Kb4 Na6+ 38. Kc3 Nc5 39.
+Kb4 Na6+ 40. Kc3 1/2-1/2
+
+[Event "19th ch-EUR Indiv 2018"]
+[Site "Batumi GEO"]
+[Date "2018.03.27"]
+[Round "10.14"]
+[White "Mchedlishvili, M."]
+[Black "Melkumyan, H."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2600"]
+[BlackElo "2664"]
+[Annotator "gmcor"]
+[PlyCount "110"]
+[EventDate "2018.03.17"]
+[EventType "swiss"]
+[EventRounds "11"]
+[EventCountry "GEO"]
+[SourceTitle "The Week in Chess 1221"]
+[Source "Mark Crowther"]
+[SourceDate "2018.04.02"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.04.02"]
+[SourceQuality "2"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. f3 Qa5+ 5. c3 Nf6 6. d5 Qb6 7. Bc1 (7. Qc1) (
+7. b3 e6) 7... e6 8. e4 exd5 9. exd5 Be7 (9... Bd6 $1) 10. c4 d6 {[%cal Ge7f6,
+Gf6a1]} 11. Bd3 Nbd7 12. f4 O-O 13. Nc3 Re8 14. Nge2 Nf8 15. Qc2 Bg4 16. O-O
+Bxe2 17. Bxe2 N6d7 {[%csl Gc4,Gc5,Gd5,Gd6]} 18. Ne4 f5 19. Nf2 Bf6 20. Bd3 Re7
+21. Bxf5 Rae8 {[%cal Gf6b2]} 22. Bd3 Bd4 23. g3 Nf6 24. Kg2 Qc7 25. Rb1 b5 26.
+b3 Qb7 27. h3 h5 28. Kh2 Qc8 29. Qd1 b4 30. Bb2 Re3 31. Bc1 h4 32. g4 Rg3 33.
+Nh1 Rxd3 34. Qxd3 Nxg4+ 35. hxg4 Qxg4 36. Rb2 Bxb2 37. Bxb2 Re2+ 38. Rf2 Qxf4+
+39. Kg2 Qg5+ 40. Ng3 Re3 41. Rxf8+ Kxf8 42. Qf5+ Qxf5 43. Bxg7+ Kf7 44. Nxf5
+h3+ 45. Kh2 Rf3 46. Nxd6+ Kxg7 47. Ne4 Kg6 48. Nxc5 Kg5 49. d6 Kh4 50. Ne4 Re3
+51. d7 Rd3 52. Nf6 Rd2+ 53. Kh1 Rd1+ 54. Kh2 Rd2+ 55. Kh1 h2 0-1
+
+[Event "Bundesliga 2017-18"]
+[Site "Hofheim GER"]
+[Date "2018.03.11"]
+[Round "12.7"]
+[White "Jobava, Ba"]
+[Black "Ragger, M."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2705"]
+[BlackElo "2659"]
+[Annotator "gmcor"]
+[PlyCount "93"]
+[EventDate "2017.10.21"]
+[EventType "team"]
+[EventRounds "15"]
+[EventCountry "GER"]
+[SourceTitle "The Week in Chess 1218"]
+[Source "Mark Crowther"]
+[SourceDate "2018.03.12"]
+[SourceVersion "2"]
+[SourceVersionDate "2018.03.12"]
+[SourceQuality "2"]
+[WhiteTeam "SV 1930 Hockenheim"]
+[BlackTeam "SG Solingen"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. f3 Qa5+ 5. c3 Nf6 6. Nd2 cxd4 7. Nb3 Qd8 (
+7... Qb6 8. Qxd4 Nc6 9. Qxb6 axb6) 8. cxd4 e6 9. e4 Nc6 10. Ne2 d5 11. Nc3 (11.
+e5 Nd7 {[%cal Gd7b6,Gb6c4]}) 11... dxe4 12. fxe4 Bb4 {[%csl Ge4]} 13. Bd3 e5 $1
+14. dxe5 Nh5 {[%cal Gd8d3]} 15. Be3 Bg4 16. Be2 Qh4+ 17. Bf2 Bxe2 18. Bxh4 Bxd1
+19. Rxd1 Nf4 20. Bg3 Nh5 21. Bh4 Nf4 22. Bg3 Nh5 23. Bf2 Nf4 24. g3 Ne6 25. O-O
+Bxc3 26. bxc3 Nxe5 27. Rd5 Nc4 28. Na5 Nxa5 29. Rxa5 a6 30. a4 O-O 31. Rb1 Rfc8
+32. Rxb7 Rxc3 33. Rb6 Rd8 34. Rbxa6 Rd1+ 35. Kg2 g6 36. Rd5 Ra1 37. Rd7 Rc2 38.
+Ra8+ Kg7 39. Raa7 Nd8 40. Rxd8 Raa2 41. g4 Rxf2+ 42. Kg3 Rg2+ 43. Kf4 Raf2+ 44.
+Ke3 Re2+ 45. Kf4 Ref2+ 46. Ke3 Re2+ 47. Kf4 1/2-1/2
+
+[Event "World Rapid 2017"]
+[Site "Riyadh KSA"]
+[Date "2017.12.27"]
+[Round "8.36"]
+[White "Moiseenko, A1."]
+[Black "Melkumyan, H."]
+[Result "0-1"]
+[ECO "A45"]
+[WhiteElo "2667"]
+[BlackElo "2633"]
+[Annotator "gmcor"]
+[PlyCount "126"]
+[EventDate "2017.12.26"]
+[EventType "swiss (rapid)"]
+[EventRounds "15"]
+[EventCountry "SAU"]
+[SourceTitle "The Week in Chess 1208"]
+[Source "Mark Crowther"]
+[SourceDate "2018.01.01"]
+[SourceVersion "6"]
+[SourceVersionDate "2018.01.03"]
+[SourceQuality "2"]
+
+{[%evp 0,126,28,28,24,4,13,26,55,29,29,43,63,36,53,54,44,30,46,36,31,-13,-19,
+-25,-10,-37,0,-1,-1,-6,13,-4,0,-67,-57,-72,-78,-78,-100,-201,-175,-373,-437,
+-471,-155,-203,-224,-325,-376,-373,-373,-384,-336,-362,-368,-346,-368,-371,
+-388,-402,-392,-402,-409,-465,-403,-474,-478,-525,-577,-577,-266,-255,-265,
+-270,-276,-273,-273,-289,-285,-274,-273,-288,-256,-302,-294,-294,-299,-311,
+-314,-323,-319,-330,-315,-352,-353,-361,-326,-359,-385,-395,-303,-333,-305,
+-395,-395,-403,-428,-423,-465,-478,-462,-493,-525,-554,-526,-564,-349,-353,
+-1146,-1169,-1282,-1682,-1934,-1964,-1012,-1140,-1272,-2743,-29986]} 1. d4 Nf6
+2. Bg5 Ne4 3. Bf4 c5 4. f3 Nf6 (4... Qa5+) 5. d5 d6 (5... Qb6 6. Nc3 Qxb2 7.
+Bd2 Qb6 8. Rb1 Qd8 9. e4 d6 10. f4) 6. e4 g6 7. Nc3 Bg7 8. Qd2 a6 9. a4 Nbd7
+10. Bh6 Bxh6 11. Qxh6 Qa5 12. Ra3 Nb6 13. Be2 Bd7 14. Qd2 g5 15. h4 g4 16. f4
+O-O-O 17. h5 e6 18. dxe6 Bxe6 19. Nb1 Qb4 20. a5 Qxb2 21. Qd1 Nc4 22. Rb3 Qa1
+23. Bxc4 Bxc4 24. Ra3 Qb2 25. Ne2 Rhe8 26. O-O Rxe4 27. Nec3 Rd4 28. Qc1 Qxc1
+29. Rxc1 Nxh5 30. Na4 Nxf4 31. Nbc3 Kc7 32. Re1 Rd2 33. Nb6 Rxg2+ 34. Kh1 g3
+35. Ncd5+ Nxd5 36. Kxg2 Nxb6 37. axb6+ Kxb6 38. Kxg3 Rg8+ 39. Kf2 Kc6 40. Rh3
+Bd5 41. Ke3 Re8+ 42. Kd2 Rxe1 43. Kxe1 Be4 44. Kd2 b5 45. Ra3 Kb6 46. Re3 d5
+47. Rg3 Bg6 48. Re3 Be4 49. Rg3 b4 50. Rg8 Kb7 51. Re8 a5 52. Re7+ Kb6 53. Rxf7
+a4 54. Rf8 Kb5 55. Kc1 a3 56. Rg8 Kc4 57. Rg3 d4 58. Kb1 d3 59. cxd3+ Bxd3+ 60.
+Ka2 Kc3 61. Rg2 c4 62. Rh2 h5 63. Rb2 Bc2 0-1
+
+[Event "22nd Voronezh Master Open"]
+[Site "Voronezh RUS"]
+[Date "2018.06.20"]
+[Round "8.5"]
+[White "Kryakvin, D."]
+[Black "Belous, V."]
+[Result "1/2-1/2"]
+[ECO "A45"]
+[WhiteElo "2592"]
+[BlackElo "2555"]
+[Annotator "gmcor"]
+[PlyCount "57"]
+[EventDate "2018.06.12"]
+[EventType "swiss"]
+[EventRounds "9"]
+[EventCountry "RUS"]
+[SourceTitle "The Week in Chess 1233"]
+[Source "Mark Crowther"]
+[SourceDate "2018.06.25"]
+[SourceVersion "1"]
+[SourceVersionDate "2018.06.25"]
+[SourceQuality "2"]
+
+1. d4 Nf6 2. Bg5 Ne4 3. Bf4 c5 4. f3 Qa5+ 5. c3 Nf6 6. d5 Qb6 7. b3 e6 8. e4
+exd5 9. exd5 Bd6 10. Bg5 (10. Bxd6 Qxd6 {[%csl Gd5,Gf1]} 11. Nd2 (11. c4 O-O
+12. Ne2 Re8 {[%cal Gd6e5,Gd7d6,Gc8f5,Gb8d7]}) 11... Qe5+ 12. Qe2) 10... Be7 11.
+c4 Qd6 12. Qe2 O-O 13. Qe3 Re8 14. Ne2 Bd8 15. Qc1 Qe5 16. Nbc3 Nxd5 17. Nxd5
+Bxg5 18. f4 Bh4+ 19. g3 Qe4 20. gxh4 Qxh1 21. Nc7 Rxe2+ 22. Kxe2 Qxh2+ 23. Kd1
+Qf2 24. Be2 Qd4+ 25. Ke1 Qg1+ 26. Kd2 Qd4+ 27. Ke1 Qg1+ 28. Kd2 Qd4+ 29. Ke1
+1/2-1/2
+

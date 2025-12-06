@@ -1,0 +1,16 @@
+# Ignore build output folders
+bin/
+obj/
+
+# If you have any combined or custom build folders (adjust as needed)
+build/
+
+# User-specific files (optional)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files (optional)
+*.generated.cs
+*.bat

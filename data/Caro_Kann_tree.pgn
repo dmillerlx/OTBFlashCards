@@ -1,0 +1,16 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2025.08.18"]
+[Round "?"]
+[White "Caro_Kann_tree"]
+[Black "?"]
+[Result "*"]
+[Annotator "dusti"]
+[ECO "B11"]
+[PlyCount "22"]
+[GameId "2212294957315189"]
+[EventDate "2025.??.??"]
+[SourceVersionDate "2025.08.18"]
+
+{[%evp 0,22,25,16,59,59,51,35,71,64,45,48,52,13,30,0,20,-5,8,20,22,-13,-12,-11,15]} 1. e4 c6 2. Nc3 d5 3. Nf3 Bg4 (3... Nf6 4. e5 Ne4 5. Ne2 Bg4 6. Nfg1 Bxe2 7. Bxe2 e6 8. d3 Nc5 9. Nf3 Ncd7 10. O-O c5 11. c3 Nc6) (3... dxe4 4. Nxe4 Nd7 (4... Nf6 {I encounter this the most frequently} 5. Qe2 Nxe4 6. Qxe4 Nd7 (6... Qd5 7. Qh4 Qe6+ 8. Be2 Qg4 9. Qg3) 7. Bc4 Nf6 8. Ne5 e6 9. Qe2 b5 {none of my opponents played 9...b5} (9... Bd6 10. d4 O-O 11. O-O) 10. Bb3 (10. Bd3) 10... Qc7 11. d4 Bd6) 5. Bc4 Ngf6 6. Neg5 e6 7. Qe2 Nd5 8. d4 h6 9. Ne4 Be7 10. O-O O-O 11. a4 a5) 4. h3 Bxf3 (4... Bh5 {Encountered this a few times. Opponent never seem to want to make 4...Bxf3} 5. exd5 cxd5 6. Bb5+ Nc6 7. g4 Bg6 8. Ne5 Rc8 9. d4 e6 10. Qe2 Bb4 11. h4 Nge7 12. h5 Be4 13. f3 O-O 14. Nxc6) 5. Qxf3 Nf6 (5... e6 6. d4 dxe4 7. Nxe4 Nf6 8. Bd3 Qxd4 9. c3 Qd8 10. O-O Nbd7 11. Bf4 Nxe4) 6. d3 e6 7. Bd2 (7. g3 Bb4 8. Bd2 d4 9. Nb1 Qb6 10. b3 a5 11. a3 Bxd2+) 7... Nbd7 8. g4 Bb4 (8... h6 9. O-O-O Bb4) 9. g5 Ng8 10. h4 d4 11. Nb1 Qb6 *
+
