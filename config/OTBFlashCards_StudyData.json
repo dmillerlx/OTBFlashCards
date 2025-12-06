@@ -1,0 +1,544 @@
+{
+  "configVersion": 1,
+  "pgnFiles": [
+    {
+      "filePath": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "fileName": "Italian_2knights.pgn",
+      "dateAdded": "2025-12-05T21:38:21.9975712-08:00",
+      "maxDepth": 10,
+      "ignoreDepthForMainline": true
+    }
+  ],
+  "variations": {
+    "RIpCKZw72TdPbjewU6mNaDtr8/e23uzE": {
+      "lineHash": "RIpCKZw72TdPbjewU6mNaDtr8/e23uzE",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 f5 12.Nxe5 Qf6 13.Nf3 g5 14.c4 Nf4 15.Bf1 g4 16.d4 gxf3 17.Qxf3 Ne6 18.Qc3",
+      "moveCount": 35,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "lineNotes": "test",
+      "moveNotes": {
+        "11": "move notes",
+        "3": "test 123",
+        "8": "test",
+        "4": "test",
+        "6": "test"
+      },
+      "attempts": [
+        {
+          "date": "2025-12-05T21:04:35.9027977-08:00",
+          "success": false,
+          "depthReached": 7,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:09:45.0118038-08:00",
+          "success": true,
+          "depthReached": 20,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:11:23.9576856-08:00",
+          "success": true,
+          "depthReached": 5,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:22:15.5011347-08:00",
+          "success": true,
+          "depthReached": 10,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:24:17.2253848-08:00",
+          "success": true,
+          "depthReached": 19,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:42:54.2318632-08:00",
+          "success": false,
+          "depthReached": 0,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:42:57.5012695-08:00",
+          "success": false,
+          "depthReached": 0,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:43:10.6137595-08:00",
+          "success": true,
+          "depthReached": 0,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:53:43.1228968-08:00",
+          "success": false,
+          "depthReached": 13,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:00:59.4999694-08:00",
+          "success": false,
+          "depthReached": 23,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:19:07.2062141-08:00",
+          "success": false,
+          "depthReached": 10,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 11,
+        "successfulAttempts": 5,
+        "failedAttempts": 6,
+        "lastAttemptDate": "2025-12-05T22:19:07.2062141-08:00",
+        "successRate": 45.45454545454545,
+        "currentStreak": 0
+      }
+    },
+    "9oTumz3xNj0Wtb04OPchhlgJ5gDFoR2I": {
+      "lineHash": "9oTumz3xNj0Wtb04OPchhlgJ5gDFoR2I",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 f5 12.Nxe5 Qc7",
+      "moveCount": 24,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-05T21:31:58.3164925-08:00",
+          "success": true,
+          "depthReached": 9,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:32:16.1913355-08:00",
+          "success": true,
+          "depthReached": 9,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 2,
+        "successfulAttempts": 2,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-05T21:32:16.1913355-08:00",
+        "successRate": 100,
+        "currentStreak": 2
+      }
+    },
+    "zXIdTFRRkP6w6XiZlXTal6BEKIAxdVu7": {
+      "lineHash": "zXIdTFRRkP6w6XiZlXTal6BEKIAxdVu7",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Re8",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "D5KwMIms/wmLTvOnUElxuBLDkTLKPnAO": {
+      "lineHash": "D5KwMIms/wmLTvOnUElxuBLDkTLKPnAO",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nxd5 7.Bxb5 Bb7 8.d4 exd4 9.O-O Be7 10.Qh5 g6 11.Qh6 Qd7",
+      "moveCount": 22,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-05T21:33:24.1336024-08:00",
+          "success": true,
+          "depthReached": 16,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-05T21:33:24.1336024-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6": {
+      "lineHash": "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5?! 5.Bxf7\u002B Ke7 6.Bd5 d6 7.c3 Rf8",
+      "moveCount": 14,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "H5oRCP/QeltHvSQDE1aW32mKTTXWbMOi": {
+      "lineHash": "H5oRCP/QeltHvSQDE1aW32mKTTXWbMOi",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 c5 14.b3 Nc6 15.Ba3 Bg4 16.h3 Bh5 17.Ne4",
+      "moveCount": 33,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "NKM451O74usaGxXHoH1Qa4bMFVWy1xpK": {
+      "lineHash": "NKM451O74usaGxXHoH1Qa4bMFVWy1xpK",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O Nf4",
+      "moveCount": 20,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {
+        "6": "test"
+      },
+      "attempts": [
+        {
+          "date": "2025-12-05T21:38:53.3501955-08:00",
+          "success": true,
+          "depthReached": 7,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T21:42:49.2003354-08:00",
+          "success": false,
+          "depthReached": 15,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 2,
+        "successfulAttempts": 1,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-05T21:42:49.2003354-08:00",
+        "successRate": 50,
+        "currentStreak": 0
+      }
+    },
+    "Cuy/hNnpwCL3suPxSBNQ8Y1iY7j41rET": {
+      "lineHash": "Cuy/hNnpwCL3suPxSBNQ8Y1iY7j41rET",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Ng4 9.Ne4 f5 10.Be2 h5 11.h3 fxe4 12.hxg4 Bc5 13.b4 Qd4 14.bxc5 O-O 15.O-O Qxa1",
+      "moveCount": 30,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "YVNVtzkKTVmkDSZ62rmH/Yin3w4tj/aH": {
+      "lineHash": "YVNVtzkKTVmkDSZ62rmH/Yin3w4tj/aH",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Be7 8.Nc3 Bxb5",
+      "moveCount": 16,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "\u002BGKCL0vMfSD4CZApdOg8lAc5Ut9APHrG": {
+      "lineHash": "\u002BGKCL0vMfSD4CZApdOg8lAc5Ut9APHrG",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Bd6 8.Nc3 O-O 9.Bxd7 Qxd7 10.O-O c6",
+      "moveCount": 20,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "1tP3TiqfvXM\u002BmWJsrpeIr//p81EBHUvm": {
+      "lineHash": "1tP3TiqfvXM\u002BmWJsrpeIr//p81EBHUvm",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Bxd7\u002B Qxd7",
+      "moveCount": 14,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "WZm5koZ9X1Sx6DqTCGN6PppHM42GibM6": {
+      "lineHash": "WZm5koZ9X1Sx6DqTCGN6PppHM42GibM6",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nd4 7.c3 Nxd5 8.cxd4 Qxg5 9.Bxb5\u002B Kd8 10.Qf3 Bb7 11.O-O",
+      "moveCount": 21,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "XGUHELZXTHvI92gAQ8DE5uqT3fsDtNm3": {
+      "lineHash": "XGUHELZXTHvI92gAQ8DE5uqT3fsDtNm3",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nd4 7.c3 Nxd5 8.Nxf7",
+      "moveCount": 15,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "HEpmKFYiNOEkaNnZM0TPSKb\u002BeXZWA5JO": {
+      "lineHash": "HEpmKFYiNOEkaNnZM0TPSKb\u002BeXZWA5JO",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nxd5 7.Bxb5 Bb7 8.d4 Be7",
+      "moveCount": 16,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4aCgRTYaAeSjRxsQwTD2c1ieZ0fILw0x": {
+      "lineHash": "4aCgRTYaAeSjRxsQwTD2c1ieZ0fILw0x",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 h6 7.Nxf7 Kxf7 8.dxc6 Bc5 9.Be2 Ne4 10.O-O",
+      "moveCount": 19,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "dn2RKPMBSMGEU1LVpCcKcxCz1h4JKy\u002B2": {
+      "lineHash": "dn2RKPMBSMGEU1LVpCcKcxCz1h4JKy\u002B2",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 h6 9.Nf3 Bd7",
+      "moveCount": 18,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "lGnJ2TsXCtJOht8Gj\u002BlNc5E0TDyPEgWU": {
+      "lineHash": "lGnJ2TsXCtJOht8Gj\u002BlNc5E0TDyPEgWU",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 Bg4 9.f3 Bd7",
+      "moveCount": 18,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "XLLgqer64pjXAx1XVlkT520uLeVYg4JS": {
+      "lineHash": "XLLgqer64pjXAx1XVlkT520uLeVYg4JS",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 Be7 9.O-O Bb7",
+      "moveCount": 18,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "c358oFyMq5TA1vcu3kHTxDdgSjtbKn6Z": {
+      "lineHash": "c358oFyMq5TA1vcu3kHTxDdgSjtbKn6Z",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qd7 8.Bxb5",
+      "moveCount": 15,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {
+        "11": "test"
+      },
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "h7RNJ7FjciMTewYvvPv\u002BgZsb7rxrv\u002BLy": {
+      "lineHash": "h7RNJ7FjciMTewYvvPv\u002BgZsb7rxrv\u002BLy",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Qc7",
+      "moveCount": 22,
+      "sourceFile": "",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "N3T55cFSt8X1ewtdQyw1s6IJaSodcku4": {
+      "lineHash": "N3T55cFSt8X1ewtdQyw1s6IJaSodcku4",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Bg4",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-05T22:01:17.8346603-08:00",
+          "success": false,
+          "depthReached": 3,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-05T22:01:17.8346603-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Z9PHz7TqM2mgOAttQMib0C93gmf3\u002BPgC": {
+      "lineHash": "Z9PHz7TqM2mgOAttQMib0C93gmf3\u002BPgC",
+      "fullLine": "1.e5 Nc6 2.Nf6 d5 3.Na5 c6 4.bxc6 Nd5 5.Bd6 O-O 6.f5 Qf6 7.g5 Nf4 8.g4 gxf3 9.Ne6",
+      "moveCount": 17,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "lineNotes": "",
+      "moveNotes": {
+        "7": "test"
+      },
+      "attempts": [
+        {
+          "date": "2025-12-05T22:19:16.3187698-08:00",
+          "success": true,
+          "depthReached": 4,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:19:27.0359984-08:00",
+          "success": true,
+          "depthReached": 17,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:19:34.7035324-08:00",
+          "success": true,
+          "depthReached": 17,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:19:42.0562661-08:00",
+          "success": true,
+          "depthReached": 17,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:19:54.5366548-08:00",
+          "success": false,
+          "depthReached": 8,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-05T22:20:01.2338164-08:00",
+          "success": false,
+          "depthReached": 7,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 6,
+        "successfulAttempts": 4,
+        "failedAttempts": 2,
+        "lastAttemptDate": "2025-12-05T22:20:01.2338164-08:00",
+        "successRate": 66.66666666666666,
+        "currentStreak": 0
+      }
+    }
+  }
+}

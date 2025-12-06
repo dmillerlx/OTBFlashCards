@@ -32,6 +32,8 @@ namespace OTBFlashCards
             buttonPractice = new Button();
             buttonRemoveFile = new Button();
             buttonAddFiles = new Button();
+            buttonSettings = new Button();
+            buttonMetrics = new Button();
             panelMain = new Panel();
             listBoxVariations = new ListBox();
             labelVariations = new Label();
@@ -45,6 +47,8 @@ namespace OTBFlashCards
             // 
             // panelTop
             // 
+            panelTop.Controls.Add(buttonMetrics);
+            panelTop.Controls.Add(buttonSettings);
             panelTop.Controls.Add(buttonPractice);
             panelTop.Controls.Add(buttonRemoveFile);
             panelTop.Controls.Add(buttonAddFiles);
@@ -84,6 +88,26 @@ namespace OTBFlashCards
             buttonAddFiles.Text = "Add Files";
             buttonAddFiles.UseVisualStyleBackColor = true;
             buttonAddFiles.Click += buttonAddFiles_Click;
+            // 
+            // buttonSettings
+            // 
+            buttonSettings.Location = new Point(410, 15);
+            buttonSettings.Name = "buttonSettings";
+            buttonSettings.Size = new Size(100, 30);
+            buttonSettings.TabIndex = 3;
+            buttonSettings.Text = "⚙ Settings";
+            buttonSettings.UseVisualStyleBackColor = true;
+            buttonSettings.Click += buttonSettings_Click;
+            // 
+            // buttonMetrics
+            // 
+            buttonMetrics.Location = new Point(520, 15);
+            buttonMetrics.Name = "buttonMetrics";
+            buttonMetrics.Size = new Size(110, 30);
+            buttonMetrics.TabIndex = 4;
+            buttonMetrics.Text = "📊 Metrics";
+            buttonMetrics.UseVisualStyleBackColor = true;
+            buttonMetrics.Click += buttonMetrics_Click;
             // 
             // panelMain
             // 
@@ -184,6 +208,8 @@ namespace OTBFlashCards
         private System.Windows.Forms.Button buttonPractice;
         private System.Windows.Forms.Button buttonRemoveFile;
         private System.Windows.Forms.Button buttonAddFiles;
+        private System.Windows.Forms.Button buttonSettings;
+        private System.Windows.Forms.Button buttonMetrics;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.ListBox listBoxVariations;
         private System.Windows.Forms.Label labelVariations;

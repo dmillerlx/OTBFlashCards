@@ -18,6 +18,24 @@ namespace OTBFlashCards
             InitializeComponent();
             LoadPGNFilesFromRegistry();
             SetupDragDrop();
+            CheckFirstRun();
+        }
+
+        private void CheckFirstRun()
+        {
+            string dataPath = StudyDataManager.GetDataFilePath();
+            if (string.IsNullOrEmpty(dataPath))
+            {
+                MessageBox.Show(
+                    "Welcome to OTB Flash Cards!\n\n" +
+                    "Before you begin, please choose where to store your study data.\n" +
+                    "This file will track your practice attempts, notes, and progress.",
+                    "First Time Setup",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                
+                ShowSettings();
+            }
         }
 
         private void LoadPGNFilesFromRegistry()
@@ -201,8 +219,44 @@ namespace OTBFlashCards
             var variations = listBoxVariations.Tag as List<VariationLine>;
             if (variations != null && listBoxVariations.SelectedIndex < variations.Count)
             {
-                // Pass all variations with the selected one as the starting point
-                var assistedForm = new AssistedModeForm(variations, listBoxVariations.SelectedIndex);
+                // Get the currently selected file
+                string sourceFile = listBoxFiles.SelectedIndex >= 0 && listBoxFiles.SelectedIndex < pgnFiles.Count
+                    ? pgnFiles[listBoxFiles.SelectedIndex]
+                    : null;
+                
+                // Pass all variations with the selected one as the starting point and source file
+                var assistedForm = new AssistedModeForm(variations, listBoxVariations.SelectedIndex, sourceFile);
+                assistedForm.ShowDialog(this);
+            }
+        }
+
+        private void ShowSettings()
+        {
+            var settingsForm = new SettingsForm();
+            settingsForm.ShowDialog(this);
+        }
+
+        private void buttonSettings_Click(object sender, EventArgs e)
+        {
+            ShowSettings();
+        }
+
+        private void buttonMetrics_Click(object sender, EventArgs e)
+        {
+            // Get currently selected file if any
+            string sourceFile = listBoxFiles.SelectedIndex >= 0 && listBoxFiles.SelectedIndex < pgnFiles.Count
+                ? pgnFiles[listBoxFiles.SelectedIndex]
+                : null;
+            
+            var metricsForm = new MetricsForm(sourceFile);
+            if (metricsForm.ShowDialog(this) == DialogResult.OK && metricsForm.ShouldPractice)
+            {
+                // User wants to practice a variation from metrics
+                var varData = metricsForm.SelectedVariation;
+                var varLine = StudyDataManager.ConvertToVariationLine(varData);
+                
+                // Start practice mode with this variation
+                var assistedForm = new AssistedModeForm(varLine, varData.SourceFile);
                 assistedForm.ShowDialog(this);
             }
         }
