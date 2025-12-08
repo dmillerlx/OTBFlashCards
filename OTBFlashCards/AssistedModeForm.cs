@@ -19,6 +19,7 @@ namespace OTBFlashCards
         private string sourceFilePath; // Track which PGN file these variations came from
         private int? treeMaxDepth; // Tree-wide depth limit
         private bool treeIgnoreMainline; // Tree-wide ignore mainline setting
+        private bool showPriorityOnly = false; // Filter to show only priority variations
 
         public AssistedModeForm(VariationLine variation, string sourceFile = null)
         {
@@ -82,11 +83,60 @@ namespace OTBFlashCards
             var variation = variations[currentVariationIndex];
             labelTitle.Text = $"Assisted Mode - Variation {currentVariationIndex + 1}/{variations.Count} ({variation.MoveCount} moves)";
             
+            // Apply priority filter if needed
+            if (showPriorityOnly)
+            {
+                ApplyPriorityFilter();
+            }
+            
             // Load variation data
             currentVariationData = StudyDataManager.GetOrCreateVariation(variation, sourceFilePath);
             markedAsFailed = false;
             sessionStartTime = DateTime.Now;
             
+            UpdateDisplay();
+        }
+
+        private void ApplyPriorityFilter()
+        {
+            // Find priority variations
+            var priorityIndices = new List<int>();
+            for (int i = 0; i < variations.Count; i++)
+            {
+                var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                if (varData.IsPriority)
+                {
+                    priorityIndices.Add(i);
+                }
+            }
+
+            if (priorityIndices.Count == 0)
+            {
+                MessageBox.Show("No priority variations found.\n\nPress P to toggle priority filter off.",
+                    "No Priority Lines", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                showPriorityOnly = false;
+                return;
+            }
+
+            // If current variation is not priority, jump to first priority
+            if (!priorityIndices.Contains(currentVariationIndex))
+            {
+                currentVariationIndex = priorityIndices[0];
+                currentMoveIndex = -1;
+            }
+        }
+
+        private void TogglePriorityFilter()
+        {
+            showPriorityOnly = !showPriorityOnly;
+            
+            if (showPriorityOnly)
+            {
+                ApplyPriorityFilter();
+            }
+            
+            // Reload current variation
+            currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
             UpdateDisplay();
         }
 
@@ -160,7 +210,24 @@ namespace OTBFlashCards
                     depthInfo += " (ignored for mainline)";
                 }
             }
-            textBoxMoves.AppendText($"Variation {currentVariationIndex + 1} of {variations.Count} | Position: Move {currentMoveIndex + 1} of {variation.MoveCount}{depthInfo}\n");
+            
+            // Priority filter status
+            string filterInfo = showPriorityOnly ? " | [PRIORITY FILTER ON]" : "";
+            
+            textBoxMoves.AppendText($"Variation {currentVariationIndex + 1} of {variations.Count} | Position: Move {currentMoveIndex + 1} of {variation.MoveCount}{depthInfo}{filterInfo}\n");
+            
+            // Priority indicator - with color!
+            if (currentVariationData.IsPriority)
+            {
+                int startPos = textBoxMoves.TextLength;
+                textBoxMoves.AppendText("⭐ PRIORITY\n");
+                textBoxMoves.Select(startPos + 2, 8); // Select "PRIORITY" (skip star and space)
+                textBoxMoves.SelectionFont = new Font("Consolas", 12, FontStyle.Bold);
+                textBoxMoves.SelectionColor = Color.DarkOrange;
+                textBoxMoves.Select(textBoxMoves.TextLength, 0); // Deselect
+                textBoxMoves.SelectionFont = new Font("Consolas", 12, FontStyle.Regular);
+                textBoxMoves.SelectionColor = textBoxMoves.ForeColor;
+            }
             
             // Metrics info
             if (currentVariationData.Metrics.TotalAttempts > 0)
@@ -194,10 +261,11 @@ namespace OTBFlashCards
                 textBoxMoves.AppendText("\n");
                 textBoxMoves.AppendText("Variations:\n");
                 textBoxMoves.AppendText("  P/PgUp → Previous  |  N/PgDn → Next  |  R → Random  |  U → Random unreviewed\n");
+                textBoxMoves.AppendText("  Shift+P → Toggle Priority Filter (show only ⭐ lines)\n");
                 textBoxMoves.AppendText("\n");
                 textBoxMoves.AppendText("Study Tools:\n");
-                textBoxMoves.AppendText("  F → Mark as Failed  |  S → Mark as Success  |  D → Set Depth Limit\n");
-                textBoxMoves.AppendText("  L → Line Notes  |  M → Move Notes\n");
+                textBoxMoves.AppendText("  F → Mark as Failed  |  S → Mark as Success  |  T → Toggle Priority ⭐\n");
+                textBoxMoves.AppendText("  D → Set Depth Limit  |  L → Line Notes  |  M → Move Notes\n");
                 textBoxMoves.AppendText("\n");
                 textBoxMoves.AppendText("  H → Hide help  |  Esc → Exit (saves attempt)\n");
             }
@@ -330,12 +398,35 @@ namespace OTBFlashCards
         {
             if (currentVariationIndex > 0)
             {
-                currentVariationIndex--;
-                currentMoveIndex = -1;
-                currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
-                markedAsFailed = false;
-                sessionStartTime = DateTime.Now;
-                UpdateDisplay();
+                if (showPriorityOnly)
+                {
+                    // Find previous priority variation
+                    for (int i = currentVariationIndex - 1; i >= 0; i--)
+                    {
+                        var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                        if (varData.IsPriority)
+                        {
+                            currentVariationIndex = i;
+                            currentMoveIndex = -1;
+                            currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+                            markedAsFailed = false;
+                            sessionStartTime = DateTime.Now;
+                            UpdateDisplay();
+                            return;
+                        }
+                    }
+                    MessageBox.Show("No previous priority variation.", "At First Priority",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    currentVariationIndex--;
+                    currentMoveIndex = -1;
+                    currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+                    markedAsFailed = false;
+                    sessionStartTime = DateTime.Now;
+                    UpdateDisplay();
+                }
             }
         }
 
@@ -343,13 +434,37 @@ namespace OTBFlashCards
         {
             if (currentVariationIndex < variations.Count - 1)
             {
-                MarkCurrentAsReviewed();
-                currentVariationIndex++;
-                currentMoveIndex = -1;
-                currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
-                markedAsFailed = false;
-                sessionStartTime = DateTime.Now;
-                UpdateDisplay();
+                if (showPriorityOnly)
+                {
+                    // Find next priority variation
+                    for (int i = currentVariationIndex + 1; i < variations.Count; i++)
+                    {
+                        var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                        if (varData.IsPriority)
+                        {
+                            MarkCurrentAsReviewed();
+                            currentVariationIndex = i;
+                            currentMoveIndex = -1;
+                            currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+                            markedAsFailed = false;
+                            sessionStartTime = DateTime.Now;
+                            UpdateDisplay();
+                            return;
+                        }
+                    }
+                    MessageBox.Show("No next priority variation.", "At Last Priority",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MarkCurrentAsReviewed();
+                    currentVariationIndex++;
+                    currentMoveIndex = -1;
+                    currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+                    markedAsFailed = false;
+                    sessionStartTime = DateTime.Now;
+                    UpdateDisplay();
+                }
             }
         }
 
@@ -358,8 +473,38 @@ namespace OTBFlashCards
             if (variations.Count > 1)
             {
                 Random rand = new Random();
-                int newIndex = rand.Next(variations.Count);
-                currentVariationIndex = newIndex;
+                
+                if (showPriorityOnly)
+                {
+                    // Get list of priority variation indices
+                    var priorityIndices = new List<int>();
+                    for (int i = 0; i < variations.Count; i++)
+                    {
+                        var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                        if (varData.IsPriority)
+                        {
+                            priorityIndices.Add(i);
+                        }
+                    }
+
+                    if (priorityIndices.Count == 0)
+                    {
+                        MessageBox.Show("No priority variations found.", "No Priority Lines",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+
+                    // Pick random priority variation
+                    int randomIndex = rand.Next(priorityIndices.Count);
+                    currentVariationIndex = priorityIndices[randomIndex];
+                }
+                else
+                {
+                    // Pick any random variation
+                    int newIndex = rand.Next(variations.Count);
+                    currentVariationIndex = newIndex;
+                }
+                
                 currentMoveIndex = -1;
                 currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
                 markedAsFailed = false;
@@ -371,11 +516,63 @@ namespace OTBFlashCards
         private void RandomUnreviewedVariation()
         {
             var unreviewed = new List<int>();
-            for (int i = 0; i < variations.Count; i++)
+            
+            if (showPriorityOnly)
             {
-                if (!reviewedVariations.Contains(i))
+                // Get unreviewed priority variations
+                for (int i = 0; i < variations.Count; i++)
                 {
-                    unreviewed.Add(i);
+                    if (!reviewedVariations.Contains(i))
+                    {
+                        var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                        if (varData.IsPriority)
+                        {
+                            unreviewed.Add(i);
+                        }
+                    }
+                }
+
+                if (unreviewed.Count == 0)
+                {
+                    MessageBox.Show("No unreviewed priority variations.\n\nAll priority variations have been reviewed!",
+                        "All Priority Reviewed", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+            }
+            else
+            {
+                // Get all unreviewed variations
+                for (int i = 0; i < variations.Count; i++)
+                {
+                    if (!reviewedVariations.Contains(i))
+                    {
+                        unreviewed.Add(i);
+                    }
+                }
+
+                if (unreviewed.Count == 0)
+                {
+                    // All variations reviewed - ask if they want to reset
+                    var result = MessageBox.Show(
+                        "All variations have been reviewed!\n\nWould you like to reset and start over?",
+                        "All Done",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Information);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        // Reset all reviews
+                        reviewedVariations.Clear();
+                        // Pick a random variation
+                        Random rand = new Random();
+                        currentVariationIndex = rand.Next(variations.Count);
+                        currentMoveIndex = -1;
+                        currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+                        markedAsFailed = false;
+                        sessionStartTime = DateTime.Now;
+                        UpdateDisplay();
+                    }
+                    return;
                 }
             }
 
@@ -389,26 +586,6 @@ namespace OTBFlashCards
                 markedAsFailed = false;
                 sessionStartTime = DateTime.Now;
                 UpdateDisplay();
-            }
-            else
-            {
-                // All variations reviewed - ask if they want to reset
-                var result = MessageBox.Show(
-                    "All variations have been reviewed!\n\nWould you like to reset and start over?",
-                    "All Done",
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Information);
-
-                if (result == DialogResult.Yes)
-                {
-                    // Reset all reviews
-                    reviewedVariations.Clear();
-                    // Pick a random variation
-                    Random rand = new Random();
-                    currentVariationIndex = rand.Next(variations.Count);
-                    currentMoveIndex = -1;
-                    UpdateDisplay();
-                }
             }
         }
 
@@ -459,6 +636,13 @@ namespace OTBFlashCards
             markedAsFailed = false;
             MessageBox.Show("This variation will be marked as successful.", "Marked as Success",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+            UpdateDisplay();
+        }
+
+        private void TogglePriority()
+        {
+            currentVariationData.IsPriority = !currentVariationData.IsPriority;
+            StudyDataManager.Save();
             UpdateDisplay();
         }
 
@@ -574,6 +758,10 @@ namespace OTBFlashCards
                     PreviousVariation();
                     return true;
 
+                case Keys.P | Keys.Shift:
+                    TogglePriorityFilter();
+                    return true;
+
                 case Keys.PageDown:
                 case Keys.N:
                     NextVariation();
@@ -597,6 +785,10 @@ namespace OTBFlashCards
 
                 case Keys.S:
                     MarkAsSuccess();
+                    return true;
+
+                case Keys.T:
+                    TogglePriority();
                     return true;
 
                 case Keys.D:

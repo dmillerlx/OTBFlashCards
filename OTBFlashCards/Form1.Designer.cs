@@ -34,6 +34,7 @@ namespace OTBFlashCards
             buttonAddFiles = new Button();
             buttonSettings = new Button();
             buttonMetrics = new Button();
+            buttonTreeView = new Button();
             panelMain = new Panel();
             listBoxVariations = new ListBox();
             labelVariations = new Label();
@@ -47,6 +48,7 @@ namespace OTBFlashCards
             // 
             // panelTop
             // 
+            panelTop.Controls.Add(buttonTreeView);
             panelTop.Controls.Add(buttonMetrics);
             panelTop.Controls.Add(buttonSettings);
             panelTop.Controls.Add(buttonPractice);
@@ -108,6 +110,16 @@ namespace OTBFlashCards
             buttonMetrics.Text = "📊 Metrics";
             buttonMetrics.UseVisualStyleBackColor = true;
             buttonMetrics.Click += buttonMetrics_Click;
+            // 
+            // buttonTreeView
+            // 
+            buttonTreeView.Location = new Point(640, 15);
+            buttonTreeView.Name = "buttonTreeView";
+            buttonTreeView.Size = new Size(110, 30);
+            buttonTreeView.TabIndex = 5;
+            buttonTreeView.Text = "🌳 Tree View";
+            buttonTreeView.UseVisualStyleBackColor = true;
+            buttonTreeView.Click += buttonTreeView_Click;
             // 
             // panelMain
             // 
@@ -210,6 +222,7 @@ namespace OTBFlashCards
         private System.Windows.Forms.Button buttonAddFiles;
         private System.Windows.Forms.Button buttonSettings;
         private System.Windows.Forms.Button buttonMetrics;
+        private System.Windows.Forms.Button buttonTreeView;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.ListBox listBoxVariations;
         private System.Windows.Forms.Label labelVariations;

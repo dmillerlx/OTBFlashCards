@@ -15,88 +15,16 @@
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 f5 12.Nxe5 Qf6 13.Nf3 g5 14.c4 Nf4 15.Bf1 g4 16.d4 gxf3 17.Qxf3 Ne6 18.Qc3",
       "moveCount": 35,
       "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
-      "lineNotes": "test",
-      "moveNotes": {
-        "11": "move notes",
-        "3": "test 123",
-        "8": "test",
-        "4": "test",
-        "6": "test"
-      },
-      "attempts": [
-        {
-          "date": "2025-12-05T21:04:35.9027977-08:00",
-          "success": false,
-          "depthReached": 7,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:09:45.0118038-08:00",
-          "success": true,
-          "depthReached": 20,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:11:23.9576856-08:00",
-          "success": true,
-          "depthReached": 5,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:22:15.5011347-08:00",
-          "success": true,
-          "depthReached": 10,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:24:17.2253848-08:00",
-          "success": true,
-          "depthReached": 19,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:42:54.2318632-08:00",
-          "success": false,
-          "depthReached": 0,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:42:57.5012695-08:00",
-          "success": false,
-          "depthReached": 0,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:43:10.6137595-08:00",
-          "success": true,
-          "depthReached": 0,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:53:43.1228968-08:00",
-          "success": false,
-          "depthReached": 13,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:00:59.4999694-08:00",
-          "success": false,
-          "depthReached": 23,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:19:07.2062141-08:00",
-          "success": false,
-          "depthReached": 10,
-          "notes": ""
-        }
-      ],
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
       "metrics": {
-        "totalAttempts": 11,
-        "successfulAttempts": 5,
-        "failedAttempts": 6,
-        "lastAttemptDate": "2025-12-05T22:19:07.2062141-08:00",
-        "successRate": 45.45454545454545,
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
         "currentStreak": 0
       }
     },
@@ -104,30 +32,31 @@
       "lineHash": "9oTumz3xNj0Wtb04OPchhlgJ5gDFoR2I",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 f5 12.Nxe5 Qc7",
       "moveCount": 24,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [
         {
-          "date": "2025-12-05T21:31:58.3164925-08:00",
-          "success": true,
-          "depthReached": 9,
+          "date": "2025-12-07T23:25:02.3407138-08:00",
+          "success": false,
+          "depthReached": 1,
           "notes": ""
         },
         {
-          "date": "2025-12-05T21:32:16.1913355-08:00",
-          "success": true,
-          "depthReached": 9,
+          "date": "2025-12-07T23:26:33.7498325-08:00",
+          "success": false,
+          "depthReached": 4,
           "notes": ""
         }
       ],
       "metrics": {
         "totalAttempts": 2,
-        "successfulAttempts": 2,
-        "failedAttempts": 0,
-        "lastAttemptDate": "2025-12-05T21:32:16.1913355-08:00",
-        "successRate": 100,
-        "currentStreak": 2
+        "successfulAttempts": 0,
+        "failedAttempts": 2,
+        "lastAttemptDate": "2025-12-07T23:26:33.7498325-08:00",
+        "successRate": 0,
+        "currentStreak": 0
       }
     },
     "zXIdTFRRkP6w6XiZlXTal6BEKIAxdVu7": {
@@ -135,6 +64,7 @@
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Re8",
       "moveCount": 22,
       "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -151,31 +81,8 @@
       "lineHash": "D5KwMIms/wmLTvOnUElxuBLDkTLKPnAO",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nxd5 7.Bxb5 Bb7 8.d4 exd4 9.O-O Be7 10.Qh5 g6 11.Qh6 Qd7",
       "moveCount": 22,
-      "sourceFile": "",
-      "lineNotes": "",
-      "moveNotes": {},
-      "attempts": [
-        {
-          "date": "2025-12-05T21:33:24.1336024-08:00",
-          "success": true,
-          "depthReached": 16,
-          "notes": ""
-        }
-      ],
-      "metrics": {
-        "totalAttempts": 1,
-        "successfulAttempts": 1,
-        "failedAttempts": 0,
-        "lastAttemptDate": "2025-12-05T21:33:24.1336024-08:00",
-        "successRate": 100,
-        "currentStreak": 1
-      }
-    },
-    "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6": {
-      "lineHash": "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6",
-      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5?! 5.Bxf7\u002B Ke7 6.Bd5 d6 7.c3 Rf8",
-      "moveCount": 14,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -188,11 +95,37 @@
         "currentStreak": 0
       }
     },
+    "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6": {
+      "lineHash": "q8NmRmd/t/Yks6tGJffrEw2Kb7ghNpx6",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5?! 5.Bxf7\u002B Ke7 6.Bd5 d6 7.c3 Rf8",
+      "moveCount": 14,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-07T23:25:25.4055588-08:00",
+          "success": false,
+          "depthReached": 4,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:25:25.4055588-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
     "H5oRCP/QeltHvSQDE1aW32mKTTXWbMOi": {
       "lineHash": "H5oRCP/QeltHvSQDE1aW32mKTTXWbMOi",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 c5 14.b3 Nc6 15.Ba3 Bg4 16.h3 Bh5 17.Ne4",
       "moveCount": 33,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -209,31 +142,17 @@
       "lineHash": "NKM451O74usaGxXHoH1Qa4bMFVWy1xpK",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O Nf4",
       "moveCount": 20,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
-      "moveNotes": {
-        "6": "test"
-      },
-      "attempts": [
-        {
-          "date": "2025-12-05T21:38:53.3501955-08:00",
-          "success": true,
-          "depthReached": 7,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T21:42:49.2003354-08:00",
-          "success": false,
-          "depthReached": 15,
-          "notes": ""
-        }
-      ],
+      "moveNotes": {},
+      "attempts": [],
       "metrics": {
-        "totalAttempts": 2,
-        "successfulAttempts": 1,
-        "failedAttempts": 1,
-        "lastAttemptDate": "2025-12-05T21:42:49.2003354-08:00",
-        "successRate": 50,
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
         "currentStreak": 0
       }
     },
@@ -241,7 +160,8 @@
       "lineHash": "Cuy/hNnpwCL3suPxSBNQ8Y1iY7j41rET",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Ng4 9.Ne4 f5 10.Be2 h5 11.h3 fxe4 12.hxg4 Bc5 13.b4 Qd4 14.bxc5 O-O 15.O-O Qxa1",
       "moveCount": 30,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -258,7 +178,8 @@
       "lineHash": "YVNVtzkKTVmkDSZ62rmH/Yin3w4tj/aH",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Be7 8.Nc3 Bxb5",
       "moveCount": 16,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -275,7 +196,8 @@
       "lineHash": "\u002BGKCL0vMfSD4CZApdOg8lAc5Ut9APHrG",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Bd6 8.Nc3 O-O 9.Bxd7 Qxd7 10.O-O c6",
       "moveCount": 20,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -292,7 +214,8 @@
       "lineHash": "1tP3TiqfvXM\u002BmWJsrpeIr//p81EBHUvm",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Bxd7\u002B Qxd7",
       "moveCount": 14,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -309,7 +232,8 @@
       "lineHash": "WZm5koZ9X1Sx6DqTCGN6PppHM42GibM6",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nd4 7.c3 Nxd5 8.cxd4 Qxg5 9.Bxb5\u002B Kd8 10.Qf3 Bb7 11.O-O",
       "moveCount": 21,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -326,7 +250,8 @@
       "lineHash": "XGUHELZXTHvI92gAQ8DE5uqT3fsDtNm3",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nd4 7.c3 Nxd5 8.Nxf7",
       "moveCount": 15,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -343,7 +268,8 @@
       "lineHash": "HEpmKFYiNOEkaNnZM0TPSKb\u002BeXZWA5JO",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Nxd5 7.Bxb5 Bb7 8.d4 Be7",
       "moveCount": 16,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -360,7 +286,8 @@
       "lineHash": "4aCgRTYaAeSjRxsQwTD2c1ieZ0fILw0x",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 h6 7.Nxf7 Kxf7 8.dxc6 Bc5 9.Be2 Ne4 10.O-O",
       "moveCount": 19,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -377,7 +304,8 @@
       "lineHash": "dn2RKPMBSMGEU1LVpCcKcxCz1h4JKy\u002B2",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 h6 9.Nf3 Bd7",
       "moveCount": 18,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -394,7 +322,8 @@
       "lineHash": "lGnJ2TsXCtJOht8Gj\u002BlNc5E0TDyPEgWU",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 Bg4 9.f3 Bd7",
       "moveCount": 18,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -411,7 +340,8 @@
       "lineHash": "XLLgqer64pjXAx1XVlkT520uLeVYg4JS",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qc5 8.Bxb5 Be7 9.O-O Bb7",
       "moveCount": 18,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -428,11 +358,10 @@
       "lineHash": "c358oFyMq5TA1vcu3kHTxDdgSjtbKn6Z",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5 7.Nc3 Qd7 8.Bxb5",
       "moveCount": 15,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
-      "moveNotes": {
-        "11": "test"
-      },
+      "moveNotes": {},
       "attempts": [],
       "metrics": {
         "totalAttempts": 0,
@@ -447,7 +376,8 @@
       "lineHash": "h7RNJ7FjciMTewYvvPv\u002BgZsb7rxrv\u002BLy",
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Qc7",
       "moveCount": 22,
-      "sourceFile": "",
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
       "attempts": [],
@@ -465,21 +395,15 @@
       "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 Bg4",
       "moveCount": 22,
       "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [
-        {
-          "date": "2025-12-05T22:01:17.8346603-08:00",
-          "success": false,
-          "depthReached": 3,
-          "notes": ""
-        }
-      ],
+      "attempts": [],
       "metrics": {
-        "totalAttempts": 1,
+        "totalAttempts": 0,
         "successfulAttempts": 0,
-        "failedAttempts": 1,
-        "lastAttemptDate": "2025-12-05T22:01:17.8346603-08:00",
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
         "successRate": 0,
         "currentStreak": 0
       }
@@ -489,54 +413,663 @@
       "fullLine": "1.e5 Nc6 2.Nf6 d5 3.Na5 c6 4.bxc6 Nd5 5.Bd6 O-O 6.f5 Qf6 7.g5 Nf4 8.g4 gxf3 9.Ne6",
       "moveCount": 17,
       "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
       "lineNotes": "",
-      "moveNotes": {
-        "7": "test"
-      },
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "pHWbujHC9yFkzGj/56Kx6DDnmLu3gC9I": {
+      "lineHash": "pHWbujHC9yFkzGj/56Kx6DDnmLu3gC9I",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 h6 9.Ne4 Nd5 10.O-O Be7 11.Ng3 O-O 12.Bf5 Ba6 13.d3",
+      "moveCount": 25,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "XBydNhdnPcTuyw\u002Bz2jE1jRwQsQQQcNxe": {
+      "lineHash": "XBydNhdnPcTuyw\u002Bz2jE1jRwQsQQQcNxe",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Bd6 11.Re1 Nxd3 12.cxd3 O-O 13.Nc3 f6 14.b3 Ba6 15.d4 exd4 16.Nxd4",
+      "moveCount": 31,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "gNhmEvfrsJ/BftT3NPjYSnIWYk203YCH": {
+      "lineHash": "gNhmEvfrsJ/BftT3NPjYSnIWYk203YCH",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Be7 8.Nc3 O-O 9.O-O Bxb5 10.Qxb5 c6 11.dxc6 Nxc6 12.Qe2 Nd4 13.Qd1 Rc8",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "pTWTueLX/pa\u002B0UQbKFlxH3udM/etla9q": {
+      "lineHash": "pTWTueLX/pa\u002B0UQbKFlxH3udM/etla9q",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 f6",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ofvMUAiaJOZMzmi7ZefT6B7/lUbvkrUU": {
+      "lineHash": "ofvMUAiaJOZMzmi7ZefT6B7/lUbvkrUU",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O Nd5 10.Nf3 Qc7",
+      "moveCount": 20,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jxIT1YxG2qf7mf\u002BflAtNNYpbvTWQe9Ly": {
+      "lineHash": "jxIT1YxG2qf7mf\u002BflAtNNYpbvTWQe9Ly",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 c5 14.b3 Re8 15.Ne4 Bf8",
+      "moveCount": 30,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "gPLSOaf0OLQblhICHN9JXGoW3XZoGRka": {
+      "lineHash": "gPLSOaf0OLQblhICHN9JXGoW3XZoGRka",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O Nd5 10.Nf3 Nf4",
+      "moveCount": 20,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "XfKV4rbGtZgKuWn0A\u002Bz\u002BhL9RhBs3dPKG": {
+      "lineHash": "XfKV4rbGtZgKuWn0A\u002Bz\u002BhL9RhBs3dPKG",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Nxe4?! 5.Bxf7\u002B Ke7 6.d4",
+      "moveCount": 11,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "S\u002BYy9vnpS2dcrHBZvXGxpoj0prUTzP4C": {
+      "lineHash": "S\u002BYy9vnpS2dcrHBZvXGxpoj0prUTzP4C",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O h6 10.Ne4 Nd5 11.Ng3 O-O 12.Bf5 c5 13.d3 Bb7",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "LIFMwWo5ZLt4D9ccfr7XafdD2IJIb\u002BBV": {
+      "lineHash": "LIFMwWo5ZLt4D9ccfr7XafdD2IJIb\u002BBV",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O f5",
+      "moveCount": 20,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
       "attempts": [
         {
-          "date": "2025-12-05T22:19:16.3187698-08:00",
-          "success": true,
-          "depthReached": 4,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:19:27.0359984-08:00",
-          "success": true,
-          "depthReached": 17,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:19:34.7035324-08:00",
-          "success": true,
-          "depthReached": 17,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:19:42.0562661-08:00",
-          "success": true,
-          "depthReached": 17,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:19:54.5366548-08:00",
-          "success": false,
-          "depthReached": 8,
-          "notes": ""
-        },
-        {
-          "date": "2025-12-05T22:20:01.2338164-08:00",
+          "date": "2025-12-07T23:28:28.1754051-08:00",
           "success": false,
           "depthReached": 7,
           "notes": ""
         }
       ],
       "metrics": {
-        "totalAttempts": 6,
-        "successfulAttempts": 4,
-        "failedAttempts": 2,
-        "lastAttemptDate": "2025-12-05T22:20:01.2338164-08:00",
-        "successRate": 66.66666666666666,
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:28:28.1754051-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "3AEYb3tDhvmH7/my7s1B24flebzv/pIc": {
+      "lineHash": "3AEYb3tDhvmH7/my7s1B24flebzv/pIc",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Bd6 11.Re1 Nxd3 12.cxd3 O-O 13.Nc3 Re8 14.b3 c5",
+      "moveCount": 28,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "z/dcPK7tlWosGTAofVPzEkXfHUm6rK7\u002B": {
+      "lineHash": "z/dcPK7tlWosGTAofVPzEkXfHUm6rK7\u002B",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Bd6 11.Re1 Nxd3 12.cxd3 O-O 13.Nc3 c5 14.b3 Nc6 15.Ba3",
+      "moveCount": 29,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-07T23:25:42.4546732-08:00",
+          "success": false,
+          "depthReached": 6,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:25:42.4546732-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Pi88zkmwrv5XrM9ITyfsRj9nB7wls67e": {
+      "lineHash": "Pi88zkmwrv5XrM9ITyfsRj9nB7wls67e",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Bd6 11.Re1 Nxd3 12.cxd3 O-O 13.Nc3 c5 14.b3 Re8 15.Ne4 Bf8 16.Ba3 Nc6",
+      "moveCount": 32,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jL1aWJTREHJJGC8Ipvi/Fcg\u002B5UPa4Usj": {
+      "lineHash": "jL1aWJTREHJJGC8Ipvi/Fcg\u002B5UPa4Usj",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 Re8 14.b3 c5",
+      "moveCount": 28,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "hb/lxAoihyDi0IJ9dq5mMxI/R7N2E9/l": {
+      "lineHash": "hb/lxAoihyDi0IJ9dq5mMxI/R7N2E9/l",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 Re8 14.b3 Ba6 15.Ne4 Bf8",
+      "moveCount": 30,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ML2kC/FjBpNzueulkOeJEEfGqAhOKx6j": {
+      "lineHash": "ML2kC/FjBpNzueulkOeJEEfGqAhOKx6j",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 c5 14.b3 Re8 15.Ne4 Nc6",
+      "moveCount": 30,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "gXsAkayuC0aCnNdfBHj/Uem92R4\u002Bl\u002Bb3": {
+      "lineHash": "gXsAkayuC0aCnNdfBHj/Uem92R4\u002Bl\u002Bb3",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 c5 14.b3 f6",
+      "moveCount": 28,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "otFQff6vnEelEfdFm\u002BCSa0c\u002B\u002B7ciwjIq": {
+      "lineHash": "otFQff6vnEelEfdFm\u002BCSa0c\u002B\u002B7ciwjIq",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Nf4 10.O-O Nxd3 11.cxd3 Bd6 12.Re1 O-O 13.Nc3 f6",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "sxF138o40CfdEHOVSeGDoHPe/JjtD7yi": {
+      "lineHash": "sxF138o40CfdEHOVSeGDoHPe/JjtD7yi",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 h6 9.Ne4 Nd5 10.O-O Nf4 11.Be2 Be7 12.d3 Nxe2\u002B 13.Qxe2",
+      "moveCount": 25,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-07T23:26:23.7006237-08:00",
+          "success": false,
+          "depthReached": 4,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:26:23.7006237-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "mjirKS5yd\u002BvO/5GdDnj7LorcwdJ\u002BzlZv": {
+      "lineHash": "mjirKS5yd\u002BvO/5GdDnj7LorcwdJ\u002BzlZv",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 h6 9.Ne4 Nd5 10.O-O g6 11.Re1 Bg7 12.Bf1 O-O 13.d3 f5",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-07T23:26:10.4968504-08:00",
+          "success": false,
+          "depthReached": 5,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:26:10.4968504-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Klk4S\u002B6E1NTTd4n6sm88goyRrAI0c0P3": {
+      "lineHash": "Klk4S\u002B6E1NTTd4n6sm88goyRrAI0c0P3",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 h6 9.Ne4 Nxe4",
+      "moveCount": 18,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "kojM7eY2Ygcj3hzg1bEA0UuTmQtiDHGn": {
+      "lineHash": "kojM7eY2Ygcj3hzg1bEA0UuTmQtiDHGn",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O O-O 10.Nc3 h6 11.Nf3 Bd6 12.Re1",
+      "moveCount": 23,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Cjo89nPi6\u002BOn\u002B1ogTnxLgQEyWIRHasCp": {
+      "lineHash": "Cjo89nPi6\u002BOn\u002B1ogTnxLgQEyWIRHasCp",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O O-O 10.Nc3 h6 11.Nf3 Qc7 12.Re1 Bd6 13.Bf1 Bg4",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "nyqxXgrEdPj5dP/pMG0ieaGi\u002BRR3BIuT": {
+      "lineHash": "nyqxXgrEdPj5dP/pMG0ieaGi\u002BRR3BIuT",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O h6 10.Ne4 Nd5 11.Ng3 O-O 12.Bf5 Ba6 13.d3 Re8 14.Re1",
+      "moveCount": 27,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Efcjze3bvRv8Osn9wbg57shFpPWoaiXs": {
+      "lineHash": "Efcjze3bvRv8Osn9wbg57shFpPWoaiXs",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O h6 10.Ne4 Nd5 11.Ng3 O-O 12.Bf5 Ba6 13.d3 Bg5",
+      "moveCount": 26,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-07T23:26:55.722071-08:00",
+          "success": false,
+          "depthReached": 13,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 0,
+        "failedAttempts": 1,
+        "lastAttemptDate": "2025-12-07T23:26:55.722071-08:00",
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ncNzAuSRoZZ\u002BcQJvhIR4jOPZKfJMsu1\u002B": {
+      "lineHash": "ncNzAuSRoZZ\u002BcQJvhIR4jOPZKfJMsu1\u002B",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O h6 10.Ne4 Nd5 11.Ng3 O-O 12.Bf5 g6 13.Bxc8 Rxc8 14.d4 exd4",
+      "moveCount": 28,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "FGSJ0eUJfASwTculAbgw5kpmanDBfi1W": {
+      "lineHash": "FGSJ0eUJfASwTculAbgw5kpmanDBfi1W",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Be7 9.O-O h6 10.Ne4 Nd5 11.Ng3 g6",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Lf/yc\u002BflipztKDyxDDXYOqMH0/8zP/e4": {
+      "lineHash": "Lf/yc\u002BflipztKDyxDDXYOqMH0/8zP/e4",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Be7 8.Nc3 O-O 9.O-O c6 10.dxc6 Nxc6 11.Bxc6 Bxc6",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "x/pg3IbLu1gXo/Dl6dk6ehk2DS0HhS3e": {
+      "lineHash": "x/pg3IbLu1gXo/Dl6dk6ehk2DS0HhS3e",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B Bd7 7.Qe2 Be7 8.Nc3 O-O 9.O-O Bg4 10.f3 Bh5 11.Qxe5 Bg6",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Ojl8PPBRwBdLVk2VEUIq/2wSQ/Fj0Z1s": {
+      "lineHash": "Ojl8PPBRwBdLVk2VEUIq/2wSQ/Fj0Z1s",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nd4 6.c3 b5 7.Bf1 Nxd5 8.cxd4 Qxg5 9.Bxb5\u002B Kd8 10.Qf3 Bb7 11.O-O Rb8",
+      "moveCount": 22,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "k7RebyL8Ss2ytKn1izaGGqszGpe/G41f": {
+      "lineHash": "k7RebyL8Ss2ytKn1izaGGqszGpe/G41f",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5",
+      "moveCount": 10,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jxJHNYJN/L9m/rr9sWRBqDuO4haJks7t": {
+      "lineHash": "jxJHNYJN/L9m/rr9sWRBqDuO4haJks7t",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5?! 5.Bxf7\u002B Ke7 6.Bd5 Rf8 7.O-O d6 8.c3",
+      "moveCount": 15,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "7pQY\u002BQJjmR26eVLAG/X1jLLWzLEyb5QT": {
+      "lineHash": "7pQY\u002BQJjmR26eVLAG/X1jLLWzLEyb5QT",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5?! 5.Bxf7\u002B Ke7 6.Bd5 Rf8 7.O-O d6 8.h3",
+      "moveCount": 15,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "fE6vgrqG5zVW5U6h5/HArLYfHR3JBZ\u002B7": {
+      "lineHash": "fE6vgrqG5zVW5U6h5/HArLYfHR3JBZ\u002B7",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Nxe4?! 5.Bxf7\u002B Ke7 6.d3?!",
+      "moveCount": 11,
+      "sourceFile": "C:\\data\\chess\\apps\\OTBFlashCards\\data2\\Italian_2knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
         "currentStreak": 0
       }
     }

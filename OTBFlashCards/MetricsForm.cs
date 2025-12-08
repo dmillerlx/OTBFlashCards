@@ -14,6 +14,7 @@ namespace OTBFlashCards
         private Button buttonPracticeFailed;
         private Button buttonPracticeLowSuccess;
         private Button buttonPracticeSelected;
+        private Button buttonResetMetrics;
         private ComboBox comboBoxSort;
         private Label labelSort;
         private ComboBox comboBoxFilter;
@@ -43,6 +44,7 @@ namespace OTBFlashCards
             this.buttonPracticeFailed = new Button();
             this.buttonPracticeLowSuccess = new Button();
             this.buttonPracticeSelected = new Button();
+            this.buttonResetMetrics = new Button();
             this.buttonClose = new Button();
             this.SuspendLayout();
 
@@ -131,6 +133,14 @@ namespace OTBFlashCards
             this.buttonPracticeSelected.UseVisualStyleBackColor = true;
             this.buttonPracticeSelected.Click += buttonPracticeSelected_Click;
 
+            // buttonResetMetrics
+            this.buttonResetMetrics.Location = new Point(520, 485);
+            this.buttonResetMetrics.Name = "buttonResetMetrics";
+            this.buttonResetMetrics.Size = new Size(160, 30);
+            this.buttonResetMetrics.Text = "❌ Reset All Metrics";
+            this.buttonResetMetrics.UseVisualStyleBackColor = true;
+            this.buttonResetMetrics.Click += buttonResetMetrics_Click;
+
             // buttonClose
             this.buttonClose.Location = new Point(690, 485);
             this.buttonClose.Name = "buttonClose";
@@ -144,6 +154,7 @@ namespace OTBFlashCards
             this.AutoScaleMode = AutoScaleMode.Font;
             this.ClientSize = new Size(800, 530);
             this.Controls.Add(this.buttonClose);
+            this.Controls.Add(this.buttonResetMetrics);
             this.Controls.Add(this.buttonPracticeSelected);
             this.Controls.Add(this.buttonPracticeLowSuccess);
             this.Controls.Add(this.buttonPracticeFailed);
@@ -153,12 +164,14 @@ namespace OTBFlashCards
             this.Controls.Add(this.comboBoxFilter);
             this.Controls.Add(this.labelFilter);
             this.Controls.Add(this.labelStats);
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.Sizable;
+            this.MaximizeBox = true;
+            this.MinimizeBox = true;
+            this.MinimumSize = new Size(800, 530);
             this.Name = "MetricsForm";
             this.StartPosition = FormStartPosition.CenterParent;
             this.Text = "Practice Metrics & Statistics";
+            this.Resize += MetricsForm_Resize;
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -335,9 +348,102 @@ namespace OTBFlashCards
             }
         }
 
+        private void buttonResetMetrics_Click(object sender, EventArgs e)
+        {
+            // Count how many variations have metrics
+            var data = StudyDataManager.GetData();
+            int variationsWithMetrics = 0;
+            int totalAttempts = 0;
+            
+            // Filter by source file if needed
+            bool filterByFile = comboBoxFilter.SelectedIndex == 1 && !string.IsNullOrEmpty(currentSourceFile);
+            
+            foreach (var varData in data.Variations.Values)
+            {
+                if (filterByFile && varData.SourceFile != currentSourceFile)
+                    continue;
+                    
+                if (varData.Metrics.TotalAttempts > 0)
+                {
+                    variationsWithMetrics++;
+                    totalAttempts += varData.Metrics.TotalAttempts;
+                }
+            }
+
+            if (variationsWithMetrics == 0)
+            {
+                MessageBox.Show("No metrics to reset.", "No Metrics",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            // Build confirmation message
+            string scope = filterByFile ? $" in {System.IO.Path.GetFileName(currentSourceFile)}" : " across all files";
+            string message = $"Are you sure you want to RESET ALL METRICS{scope}?\n\n" +
+                           $"This will delete:\n" +
+                           $"  • All {totalAttempts} practice attempt(s)\n" +
+                           $"  • Success rates and streaks for {variationsWithMetrics} variation(s)\n" +
+                           $"  • All move and line notes\n\n" +
+                           $"Priority markings will NOT be affected.\n\n" +
+                           $"THIS ACTION CANNOT BE UNDONE.";
+
+            var result = MessageBox.Show(message, "Reset All Metrics",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Reset metrics for filtered variations
+                int resetCount = 0;
+                var variationsToReset = new List<VariationData>();
+                
+                foreach (var varData in data.Variations.Values)
+                {
+                    if (filterByFile && varData.SourceFile != currentSourceFile)
+                        continue;
+                        
+                    if (varData.Metrics.TotalAttempts > 0)
+                    {
+                        variationsToReset.Add(varData);
+                    }
+                }
+
+                foreach (var varData in variationsToReset)
+                {
+                    varData.Attempts.Clear();
+                    varData.Metrics = new MetricsData();
+                    varData.MoveNotes.Clear();
+                    varData.LineNotes = "";
+                    // Note: IsPriority is NOT reset
+                    resetCount++;
+                }
+
+                StudyDataManager.Save();
+                LoadMetrics();
+
+                MessageBox.Show($"Metrics reset for {resetCount} variation(s).\n\n" +
+                              $"Priority markings were preserved.",
+                    "Metrics Reset", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
         private void buttonClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void MetricsForm_Resize(object sender, EventArgs e)
+        {
+            // Adjust listbox size
+            listBoxVariations.Width = this.ClientSize.Width - 20;
+            listBoxVariations.Height = this.ClientSize.Height - 165;
+
+            // Adjust button positions to bottom
+            int buttonY = this.ClientSize.Height - 45;
+            buttonPracticeFailed.Location = new Point(10, buttonY);
+            buttonPracticeLowSuccess.Location = new Point(180, buttonY);
+            buttonPracticeSelected.Location = new Point(350, buttonY);
+            buttonResetMetrics.Location = new Point(520, buttonY);
+            buttonClose.Location = new Point(this.ClientSize.Width - 110, buttonY);
         }
     }
 }

@@ -55,6 +55,9 @@ namespace OTBFlashCards
         [JsonPropertyName("sourceFile")]
         public string SourceFile { get; set; } = ""; // Which PGN file this came from
 
+        [JsonPropertyName("isPriority")]
+        public bool IsPriority { get; set; } = false; // Marked as priority for study
+
         [JsonPropertyName("lineNotes")]
         public string LineNotes { get; set; } = "";
 
@@ -336,9 +339,25 @@ namespace OTBFlashCards
             
             foreach (var part in parts)
             {
-                // Skip move numbers (e.g., "1." "2.")
-                if (!part.Contains("."))
+                // Check if this is a move number (like "1." or "12.") or a move with number (like "1.e4")
+                if (part.Contains("."))
                 {
+                    // Split on the period to extract just the move
+                    var dotIndex = part.IndexOf('.');
+                    if (dotIndex < part.Length - 1)
+                    {
+                        // There's a move after the period (e.g., "1.e4" -> "e4")
+                        string move = part.Substring(dotIndex + 1);
+                        if (!string.IsNullOrEmpty(move))
+                        {
+                            moves.Add(move);
+                        }
+                    }
+                    // Otherwise it's just a move number like "1." - skip it
+                }
+                else
+                {
+                    // No period, it's just a move (e.g., "e5")
                     moves.Add(part);
                 }
             }

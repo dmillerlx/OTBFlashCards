@@ -260,5 +260,34 @@ namespace OTBFlashCards
                 assistedForm.ShowDialog(this);
             }
         }
+
+        private void buttonTreeView_Click(object sender, EventArgs e)
+        {
+            // Get currently selected file and its variations
+            if (listBoxFiles.SelectedIndex < 0 || listBoxFiles.SelectedIndex >= pgnFiles.Count)
+            {
+                MessageBox.Show("Please select a PGN file first to view its variation tree.",
+                    "No File Selected", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            string selectedFile = pgnFiles[listBoxFiles.SelectedIndex];
+            var variations = listBoxVariations.Tag as List<VariationLine>;
+            
+            if (variations == null || variations.Count == 0)
+            {
+                MessageBox.Show("No variations found in this file.",
+                    "No Variations", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            var treeViewForm = new TreeViewForm(variations, selectedFile);
+            if (treeViewForm.ShowDialog(this) == DialogResult.OK && treeViewForm.ShouldPractice)
+            {
+                // User wants to practice a variation from tree view
+                var assistedForm = new AssistedModeForm(treeViewForm.SelectedVariation, selectedFile);
+                assistedForm.ShowDialog(this);
+            }
+        }
     }
 }

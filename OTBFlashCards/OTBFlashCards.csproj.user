@@ -16,5 +16,8 @@
     <Compile Update="SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TreeViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
