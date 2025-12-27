@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C6FCCB1F-02B3-4418-957F-73D9EAB0F912}|OTBFlashCards\\OTBFlashCards.csproj|solutionrelative:otbflashcards\\studydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6FCCB1F-02B3-4418-957F-73D9EAB0F912}|OTBFlashCards\\OTBFlashCards.csproj|c:\\data\\chess\\apps\\otbflashcards\\otbflashcards\\otbflashcards.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C6FCCB1F-02B3-4418-957F-73D9EAB0F912}|OTBFlashCards\\OTBFlashCards.csproj|solutionrelative:otbflashcards\\otbflashcards.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6FCCB1F-02B3-4418-957F-73D9EAB0F912}|OTBFlashCards\\OTBFlashCards.csproj|c:\\data\\chess\\apps\\otbflashcards\\otbflashcards\\assistedmodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6FCCB1F-02B3-4418-957F-73D9EAB0F912}|OTBFlashCards\\OTBFlashCards.csproj|solutionrelative:otbflashcards\\assistedmodeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OTBFlashCards",
+              "DocumentMoniker": "C:\\data\\chess\\apps\\OTBFlashCards\\OTBFlashCards\\OTBFlashCards.csproj",
+              "RelativeDocumentMoniker": "OTBFlashCards\\OTBFlashCards.csproj",
+              "ToolTip": "C:\\data\\chess\\apps\\OTBFlashCards\\OTBFlashCards\\OTBFlashCards.csproj",
+              "RelativeToolTip": "OTBFlashCards\\OTBFlashCards.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-10T04:42:05.302Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +48,14 @@
               "RelativeDocumentMoniker": "OTBFlashCards\\StudyData.cs",
               "ToolTip": "C:\\data\\chess\\apps\\OTBFlashCards\\OTBFlashCards\\StudyData.cs",
               "RelativeToolTip": "OTBFlashCards\\StudyData.cs",
-              "ViewState": "AgIAAEwBAAAAAAAAAAAkwGUBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAkwF8BAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T06:17:51.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AssistedModeForm.cs",
               "DocumentMoniker": "C:\\data\\chess\\apps\\OTBFlashCards\\OTBFlashCards\\AssistedModeForm.cs",
               "RelativeDocumentMoniker": "OTBFlashCards\\AssistedModeForm.cs",
@@ -51,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\data\\chess\\apps\\OTBFlashCards\\OTBFlashCards\\Form1.cs",
               "RelativeDocumentMoniker": "OTBFlashCards\\Form1.cs",

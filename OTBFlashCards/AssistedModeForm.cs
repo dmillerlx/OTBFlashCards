@@ -20,6 +20,8 @@ namespace OTBFlashCards
         private int? treeMaxDepth; // Tree-wide depth limit
         private bool treeIgnoreMainline; // Tree-wide ignore mainline setting
         private bool showPriorityOnly = false; // Filter to show only priority variations
+        private List<int> sisterVariationIndices = new List<int>(); // Indices of sister variations at current position
+        private int currentSisterIndex = 0; // Current position within sister variations
 
         public AssistedModeForm(VariationLine variation, string sourceFile = null)
         {
@@ -143,7 +145,10 @@ namespace OTBFlashCards
         private void UpdateDisplay()
         {
             var variation = variations[currentVariationIndex];
-            
+
+            // Update sister variations for current position
+            UpdateSisterVariations();
+
             // Count unreviewed variations
             int unreviewedCount = 0;
             for (int i = 0; i < variations.Count; i++)
@@ -153,7 +158,7 @@ namespace OTBFlashCards
                     unreviewedCount++;
                 }
             }
-            
+
             // Clear and prepare RichTextBox
             textBoxMoves.Clear();
             textBoxMoves.SelectionFont = new Font("Consolas", 12, FontStyle.Regular);
@@ -213,8 +218,33 @@ namespace OTBFlashCards
             
             // Priority filter status
             string filterInfo = showPriorityOnly ? " | [PRIORITY FILTER ON]" : "";
-            
-            textBoxMoves.AppendText($"Variation {currentVariationIndex + 1} of {variations.Count} | Position: Move {currentMoveIndex + 1} of {variation.MoveCount}{depthInfo}{filterInfo}\n");
+
+            // Sister variations info - show alternative moves at this position
+            string sisterInfo = "";
+            if (sisterVariationIndices.Count > 1)
+            {
+                // Collect all unique moves at the current position
+                var alternativeMoves = new List<string>();
+                foreach (var sisterIdx in sisterVariationIndices)
+                {
+                    var move = variations[sisterIdx].Moves[currentMoveIndex];
+                    if (!alternativeMoves.Contains(move))
+                    {
+                        alternativeMoves.Add(move);
+                    }
+                }
+
+                // Only show if there are actually multiple unique moves
+                if (alternativeMoves.Count > 1)
+                {
+                    string moveList = string.Join(", ", alternativeMoves);
+                    string currentMove = variation.Moves[currentMoveIndex];
+                    int uniqueIndex = alternativeMoves.IndexOf(currentMove) + 1;
+                    sisterInfo = $" | Alts: {alternativeMoves.Count} [{moveList}] (#{uniqueIndex})";
+                }
+            }
+
+            textBoxMoves.AppendText($"Variation {currentVariationIndex + 1} of {variations.Count} | Position: Move {currentMoveIndex + 1} of {variation.MoveCount}{depthInfo}{filterInfo}{sisterInfo}\n");
             
             // Priority indicator - with color!
             if (currentVariationData.IsPriority)
@@ -263,6 +293,9 @@ namespace OTBFlashCards
                 textBoxMoves.AppendText("  P/PgUp → Previous  |  N/PgDn → Next  |  R → Random  |  U → Random unreviewed\n");
                 textBoxMoves.AppendText("  Shift+P → Toggle Priority Filter (show only ⭐ lines)\n");
                 textBoxMoves.AppendText("\n");
+                textBoxMoves.AppendText("Alternative Moves (browse different moves at current position):\n");
+                textBoxMoves.AppendText("  [ → Previous alternative  |  ] → Next alternative  |  \\ → Random alternative\n");
+                textBoxMoves.AppendText("\n");
                 textBoxMoves.AppendText("Study Tools:\n");
                 textBoxMoves.AppendText("  F → Mark as Failed  |  S → Mark as Success  |  T → Toggle Priority ⭐\n");
                 textBoxMoves.AppendText("  D → Set Depth Limit  |  L → Line Notes  |  M → Move Notes\n");
@@ -271,7 +304,7 @@ namespace OTBFlashCards
             }
             else
             {
-                textBoxMoves.AppendText("H=Help | Space/Arrows=Nav | N/P=Vars | F/S=Fail/Success | D=Depth | L/M=Notes | Esc=Exit\n");
+                textBoxMoves.AppendText("H=Help | Space/Arrows=Nav | N/P=Vars | [/]=Alts | F/S=Fail/Success | D=Depth | L/M=Notes | Esc=Exit\n");
             }
             
             textBoxMoves.AppendText("═══════════════════════════════════════════════════");
@@ -516,7 +549,7 @@ namespace OTBFlashCards
         private void RandomUnreviewedVariation()
         {
             var unreviewed = new List<int>();
-            
+
             if (showPriorityOnly)
             {
                 // Get unreviewed priority variations
@@ -587,6 +620,210 @@ namespace OTBFlashCards
                 sessionStartTime = DateTime.Now;
                 UpdateDisplay();
             }
+        }
+
+        private void UpdateSisterVariations()
+        {
+            sisterVariationIndices.Clear();
+            currentSisterIndex = 0;
+
+            // If we haven't moved yet, there are no sister variations to find
+            if (currentMoveIndex < 0)
+            {
+                return;
+            }
+
+            var currentVariation = variations[currentVariationIndex];
+
+            // Get moves up to BEFORE current position (not including current move)
+            var movesBeforeCurrent = new List<string>();
+            for (int i = 0; i < currentMoveIndex; i++)
+            {
+                movesBeforeCurrent.Add(currentVariation.Moves[i]);
+            }
+
+            // Find all variations that:
+            // 1. Have the same moves up to (but not including) the current position
+            // 2. Have a different move AT the current position
+            for (int i = 0; i < variations.Count; i++)
+            {
+                if (showPriorityOnly)
+                {
+                    var varData = StudyDataManager.GetOrCreateVariation(variations[i], sourceFilePath);
+                    if (!varData.IsPriority)
+                    {
+                        continue; // Skip non-priority variations when filter is on
+                    }
+                }
+
+                var otherVariation = variations[i];
+
+                // Check if this variation has at least currentMoveIndex moves (to have a move at this position)
+                if (otherVariation.Moves.Count > currentMoveIndex)
+                {
+                    // Compare moves up to (but not including) current position
+                    bool matchesBefore = true;
+                    for (int j = 0; j < currentMoveIndex; j++)
+                    {
+                        if (otherVariation.Moves[j] != movesBeforeCurrent[j])
+                        {
+                            matchesBefore = false;
+                            break;
+                        }
+                    }
+
+                    // If moves before match, this is a sister variation (different move at same position)
+                    if (matchesBefore)
+                    {
+                        sisterVariationIndices.Add(i);
+                        if (i == currentVariationIndex)
+                        {
+                            currentSisterIndex = sisterVariationIndices.Count - 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        private void PreviousSisterVariation()
+        {
+            // Check if there are multiple unique moves
+            if (!HasMultipleUniqueMoves())
+            {
+                return; // Silently ignore if only one unique move
+            }
+
+            string currentMove = variations[currentVariationIndex].Moves[currentMoveIndex];
+            int startIndex = currentSisterIndex;
+
+            // Loop backwards until we find a different move
+            do
+            {
+                currentSisterIndex--;
+                if (currentSisterIndex < 0)
+                {
+                    currentSisterIndex = sisterVariationIndices.Count - 1; // Wrap around
+                }
+
+                // Prevent infinite loop
+                if (currentSisterIndex == startIndex)
+                {
+                    break;
+                }
+
+                int candidateIdx = sisterVariationIndices[currentSisterIndex];
+                string candidateMove = variations[candidateIdx].Moves[currentMoveIndex];
+
+                if (candidateMove != currentMove)
+                {
+                    SwitchToSisterVariation(candidateIdx);
+                    return;
+                }
+            } while (true);
+        }
+
+        private void NextSisterVariation()
+        {
+            // Check if there are multiple unique moves
+            if (!HasMultipleUniqueMoves())
+            {
+                return; // Silently ignore if only one unique move
+            }
+
+            string currentMove = variations[currentVariationIndex].Moves[currentMoveIndex];
+            int startIndex = currentSisterIndex;
+
+            // Loop forwards until we find a different move
+            do
+            {
+                currentSisterIndex++;
+                if (currentSisterIndex >= sisterVariationIndices.Count)
+                {
+                    currentSisterIndex = 0; // Wrap around
+                }
+
+                // Prevent infinite loop
+                if (currentSisterIndex == startIndex)
+                {
+                    break;
+                }
+
+                int candidateIdx = sisterVariationIndices[currentSisterIndex];
+                string candidateMove = variations[candidateIdx].Moves[currentMoveIndex];
+
+                if (candidateMove != currentMove)
+                {
+                    SwitchToSisterVariation(candidateIdx);
+                    return;
+                }
+            } while (true);
+        }
+
+        private void RandomSisterVariation()
+        {
+            // Check if there are multiple unique moves
+            if (!HasMultipleUniqueMoves())
+            {
+                return; // Silently ignore if only one unique move
+            }
+
+            // Collect all unique moves and pick a random one different from current
+            string currentMove = variations[currentVariationIndex].Moves[currentMoveIndex];
+            var uniqueMoveIndices = new Dictionary<string, int>(); // move -> first variation index with that move
+
+            foreach (var sisterIdx in sisterVariationIndices)
+            {
+                string move = variations[sisterIdx].Moves[currentMoveIndex];
+                if (!uniqueMoveIndices.ContainsKey(move))
+                {
+                    uniqueMoveIndices[move] = sisterIdx;
+                }
+            }
+
+            // Remove current move from options
+            uniqueMoveIndices.Remove(currentMove);
+
+            if (uniqueMoveIndices.Count > 0)
+            {
+                Random rand = new Random();
+                var randomMove = uniqueMoveIndices.ElementAt(rand.Next(uniqueMoveIndices.Count));
+                int newVariationIdx = randomMove.Value;
+                currentSisterIndex = sisterVariationIndices.IndexOf(newVariationIdx);
+                SwitchToSisterVariation(newVariationIdx);
+            }
+        }
+
+        private bool HasMultipleUniqueMoves()
+        {
+            if (sisterVariationIndices.Count <= 1)
+            {
+                return false;
+            }
+
+            // Check if there are multiple unique moves at current position
+            var uniqueMoves = new HashSet<string>();
+            foreach (var sisterIdx in sisterVariationIndices)
+            {
+                uniqueMoves.Add(variations[sisterIdx].Moves[currentMoveIndex]);
+            }
+
+            return uniqueMoves.Count > 1;
+        }
+
+        private void SwitchToSisterVariation(int newVariationIndex)
+        {
+            if (newVariationIndex == currentVariationIndex)
+            {
+                return; // Already on this variation
+            }
+
+            currentVariationIndex = newVariationIndex;
+            currentVariationData = StudyDataManager.GetOrCreateVariation(variations[currentVariationIndex], sourceFilePath);
+            markedAsFailed = false;
+            sessionStartTime = DateTime.Now;
+
+            // Keep the same move index - we're at the same position in a different variation
+            UpdateDisplay();
         }
 
         private bool IsMainlineVariation()
@@ -773,6 +1010,18 @@ namespace OTBFlashCards
 
                 case Keys.U:
                     RandomUnreviewedVariation();
+                    return true;
+
+                case Keys.OemOpenBrackets: // [ key
+                    PreviousSisterVariation();
+                    return true;
+
+                case Keys.OemCloseBrackets: // ] key
+                    NextSisterVariation();
+                    return true;
+
+                case Keys.OemBackslash: // \ key
+                    RandomSisterVariation();
                     return true;
 
                 case Keys.H:

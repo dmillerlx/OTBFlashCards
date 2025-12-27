@@ -1072,6 +1072,1963 @@
         "successRate": 0,
         "currentStreak": 0
       }
+    },
+    "CKrmwUw52ZA1UxKA19okzS4hG4USKUrM": {
+      "lineHash": "CKrmwUw52ZA1UxKA19okzS4hG4USKUrM",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 O-O 8.Qd2 Nc6 9.O-O-O d5 10.exd5 Nxd5 11.Nxc6 bxc6 12.Bd4 Bxd4 13.Qxd4 Qb6 14.Na4 Qc7 15.Bc4 Rd8 16.Bb3 Bf5 17.g3 Nb6 18.Qc5 Rd6 19.Nc3 Rad8 20.Nb5",
+      "moveCount": 39,
+      "sourceFile": "C:\\chess\\Sync\\DustinOpeningTrees\\Black - Theodore - Dragon - Tree - 12 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4GvM6ukVje6e6GP32uvzoTTUEBApT1ng": {
+      "lineHash": "4GvM6ukVje6e6GP32uvzoTTUEBApT1ng",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be2 Bg7 7.Be3 O-O 8.O-O Nc6 9.Qd2 Ng4 10.Bxg4 Bxg4 11.f3 Bd7 12.Rad1 a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\DustinOpeningTrees\\Black - Theodore - Dragon - Tree - 12 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-26T14:16:23.1000086-08:00",
+          "success": true,
+          "depthReached": 24,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-26T14:16:23.1000086-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "5vpCsRHugO/9S9o0AtP6QoH/807z4AdM": {
+      "lineHash": "5vpCsRHugO/9S9o0AtP6QoH/807z4AdM",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.exd5 a6 9.Nc3 Nf6 10.d4 Nxd5 11.dxc5 Nxc3 12.Qxd8\u002B Kxd8 13.bxc3 Bxc3 14.Rb1 Kc7 15.Rb3 Bf6 16.Bd2 a5 17.Rfb1 Rd8 18.Rb5 Rd5 19.Bxa5\u002B Kd7",
+      "moveCount": 38,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "xKQd1xsg7yUAPK0VTeXmeV0\u002Bh8XjS/5X": {
+      "lineHash": "xKQd1xsg7yUAPK0VTeXmeV0\u002Bh8XjS/5X",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.exd5 a6 9.Nc3 Nf6 10.d3 Nxd5 11.Ne4 b6 12.a3 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Sq6qrAHKyIZYILlzaSFDVNbUuHaVioQD": {
+      "lineHash": "Sq6qrAHKyIZYILlzaSFDVNbUuHaVioQD",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.exd5 a6 9.Nc3 Nf6 10.d3 Nxd5 11.Nxd5 Qxd5 12.Qe2 b6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "q/AD5iuuZNDMsVimK3GmY4BaVx/9RM6k": {
+      "lineHash": "q/AD5iuuZNDMsVimK3GmY4BaVx/9RM6k",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.exd5 a6 9.Nc3 Nf6 10.d3 Nxd5 11.Bd2 O-O 12.Rb1 b5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "0gdqyyVaJ/VL7/5DIKpFZS9ce9IwX64H": {
+      "lineHash": "0gdqyyVaJ/VL7/5DIKpFZS9ce9IwX64H",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.e5 d4 9.c3 a6 10.Na3 Nh6 11.cxd4 cxd4 12.Qa4\u002B b5 13.Qxd4 O-O",
+      "moveCount": 26,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "gRWNRLNwX1jyYOjXrr3lBY8JpZHvlBuZ": {
+      "lineHash": "gRWNRLNwX1jyYOjXrr3lBY8JpZHvlBuZ",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.O-O Nxb5 7.Nxb5 d5 8.e5 d4 9.c3 a6 10.Na3 Nh6 11.cxd4 cxd4 12.d3 O-O 13.Nc2 Nf5 14.g4 Nh6",
+      "moveCount": 28,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "g8okzvfqZroWfz9uqe7vq13qffOg9HGC": {
+      "lineHash": "g8okzvfqZroWfz9uqe7vq13qffOg9HGC",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.d3 O-O 9.e5 d5 10.exd6 Nef5 11.Ne4 Nxd6 12.Nxd6 Qxd6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "KmzmfAq3WzcGHeFS6a5yNHTVeK6ufVkl": {
+      "lineHash": "KmzmfAq3WzcGHeFS6a5yNHTVeK6ufVkl",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.d3 O-O 9.e5 d5 10.Bb3 Nef5 11.Nxd4 Nxd4 12.Ne2 Nxb3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "QWRARNLNP0NYOR/ADk6I8eCZN1T2Nu0W": {
+      "lineHash": "QWRARNLNP0NYOR/ADk6I8eCZN1T2Nu0W",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.d3 O-O 9.Bb3 d5 10.e5 Nxf3\u002B 11.Qxf3 b5 12.Nxb5 c4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T11:39:57.7766957-08:00",
+          "success": true,
+          "depthReached": 19,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T11:39:57.7766957-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "SmaRCrjrHStB6ZU8lkiBa1k/wMYonGWb": {
+      "lineHash": "SmaRCrjrHStB6ZU8lkiBa1k/wMYonGWb",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.d3 O-O 9.a3 d5 10.Ba2 b5 11.Nxd4 Bxd4\u002B 12.Kh1 Bxc3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ZqkgQ6Fa1JLpuPt2jDIdOLYXH5XMnjYZ": {
+      "lineHash": "ZqkgQ6Fa1JLpuPt2jDIdOLYXH5XMnjYZ",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.e5 d5 9.exd6 Qxd6 10.d3 O-O 11.Kh1 b6 12.Ne4 Qc7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ISSzcgnDvF52B2TYx1RD7NtYTZB\u002BY8C5": {
+      "lineHash": "ISSzcgnDvF52B2TYx1RD7NtYTZB\u002BY8C5",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Ba4 Nf6 9.d3 O-O 10.O-O d6 11.h3 a5 12.Kh1 Nd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "/3lAZ/z4GeXiPfhGCTnbk8VIIqeSriNE": {
+      "lineHash": "/3lAZ/z4GeXiPfhGCTnbk8VIIqeSriNE",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Bc4 e6 9.d3 Ne7 10.O-O d5 11.exd5 exd5 12.Bb3 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "0EYH4a2uJRu4Xu/4VTdFS6bCwVjZF34/": {
+      "lineHash": "0EYH4a2uJRu4Xu/4VTdFS6bCwVjZF34/",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Bd3 d6 9.c3 e5 10.Qb3 Ne7 11.Qxb6 axb6 12.cxd4 exd4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "KD\u002BFRUcnbPncSmtOY5VR6Scb2m5Gpxu6": {
+      "lineHash": "KD\u002BFRUcnbPncSmtOY5VR6Scb2m5Gpxu6",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Bd3 d6 9.Ng3 Nf6 10.O-O O-O 11.Kh1 Bd7 12.c3 Bc6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "8y9ytN72XW4an5DPUslgpTJPPDwA9r2x": {
+      "lineHash": "8y9ytN72XW4an5DPUslgpTJPPDwA9r2x",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Bd3 d6 9.O-O Nf6 10.Kh1 O-O 11.c3 dxc3 12.bxc3 Bd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "UaNyHMeQKycmbzoRFAJ3Uonj7PZ0zR9C": {
+      "lineHash": "UaNyHMeQKycmbzoRFAJ3Uonj7PZ0zR9C",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Nxd4 cxd4 7.Ne2 Qb6 8.Bd3 d6 9.O-O Nf6 10.Qe1 Nd7 11.a4 a6 12.a5 Qc7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "TmP3BPPxlkoUn2n6QBmlT0FC7U4Oz1EZ": {
+      "lineHash": "TmP3BPPxlkoUn2n6QBmlT0FC7U4Oz1EZ",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.d3 Ne7 8.e5 O-O 9.O-O d5 10.exd6 Qxd6 11.Ne4 Qc7 12.c3 Nxf3\u002B",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "YCJatmPVFDhO8AYY9ebfiN0U1UWp3mCP": {
+      "lineHash": "YCJatmPVFDhO8AYY9ebfiN0U1UWp3mCP",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.d3 Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.Bb3 d5 11.e5 f6 12.exf6 Bxf6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "yp504s2IR6l9WVO7Nr\u002BgowAeXf1s94oL": {
+      "lineHash": "yp504s2IR6l9WVO7Nr\u002BgowAeXf1s94oL",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.d3 Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.O-O d5 11.Bb3 a5 12.a3 Bd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "wV/q10PF/nMyByxSEZMFG1fy6hcBOLPn": {
+      "lineHash": "wV/q10PF/nMyByxSEZMFG1fy6hcBOLPn",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.e5 d5 8.Bb5\u002B Bd7 9.Bxd7\u002B Qxd7 10.a4 Nxf3\u002B 11.Qxf3 Nh6 12.d3 Nf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ifUaKg\u002BmU69HW83\u002BcW2d5gliZQzQu7vE": {
+      "lineHash": "ifUaKg\u002BmU69HW83\u002BcW2d5gliZQzQu7vE",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.e5 d5 8.Nxd4 cxd4 9.Bb5\u002B Kf8 10.Ne2 Qb6 11.Bd3 f6 12.O-O Bd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "GSM9FJmEjtmQqBImpgWDQ6TBLe/kdqlC": {
+      "lineHash": "GSM9FJmEjtmQqBImpgWDQ6TBLe/kdqlC",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.e5 d5 8.Nxd4 cxd4 9.Bb5\u002B Kf8 10.Ne2 Qb6 11.a4 Nh6 12.Bd3 Nf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": true,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T11:56:36.6341916-08:00",
+          "success": true,
+          "depthReached": 9,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T11:56:36.6341916-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "9MFH\u002BZFA23Be7vnPHZ4nsAVVs6OA529Q": {
+      "lineHash": "9MFH\u002BZFA23Be7vnPHZ4nsAVVs6OA529Q",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.Bd3 f5 11.Ng3 fxe4 12.Nxe4 d5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "kIhCb8XpIYREMP/bNivrxjaMl2OkveT3": {
+      "lineHash": "kIhCb8XpIYREMP/bNivrxjaMl2OkveT3",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.d3 d5 11.Bb3 dxe4 12.dxe4 b6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "hlbw4ktSuRvg1\u002Bq9QSW9j4rglvS248/Z": {
+      "lineHash": "hlbw4ktSuRvg1\u002Bq9QSW9j4rglvS248/Z",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.Bb3 d5 11.d3 a5 12.a4 Qb6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T11:42:55.8332598-08:00",
+          "success": true,
+          "depthReached": 16,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T11:42:55.8332598-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "QJMzCkxVPLM9g6H/UjGKwGFyHZ0DO2DT": {
+      "lineHash": "QJMzCkxVPLM9g6H/UjGKwGFyHZ0DO2DT",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.Nxd4 cxd4 9.Ne2 O-O 10.Bb3 d5 11.e5 Qb6 12.d3 Bd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "mxTbj9tamF0iYi0oJj\u002BxzLxQ8IXwXMf\u002B": {
+      "lineHash": "mxTbj9tamF0iYi0oJj\u002BxzLxQ8IXwXMf\u002B",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.e5 d5 9.Nxd4 cxd4 10.Bb5\u002B Kf8 11.Ne2 Qb6 12.Bd3 h5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ErLElCjhtXZxw7My6bS95VNDgC44UG7Z": {
+      "lineHash": "ErLElCjhtXZxw7My6bS95VNDgC44UG7Z",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.e5 d5 9.exd6 Qxd6 10.Ne4 Qc6 11.d3 b5 12.Ne5 Bxe5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "/KQN0CNKYC5\u002BRikPNf4/ne2YfLDByNqp": {
+      "lineHash": "/KQN0CNKYC5\u002BRikPNf4/ne2YfLDByNqp",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bb5 Nd4 6.Bc4 e6 7.O-O Ne7 8.e5 d5 9.exd6 Qxd6 10.d3 O-O 11.Ne4 Qc7 12.c3 Ndf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "HYN7BuqWrVPqIneFq7fGSK/zbAkqLc2/": {
+      "lineHash": "HYN7BuqWrVPqIneFq7fGSK/zbAkqLc2/",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.Nge2 d6 9.O-O-O Be6 10.Kb1 Rc8 11.h4 Ne5 12.Nf4 Bc4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "EI8bDyofcluUVZtZfkVE9vSlZ2AyS/S2": {
+      "lineHash": "EI8bDyofcluUVZtZfkVE9vSlZ2AyS/S2",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.Nge2 d6 9.Nf4 Bd7 10.h4 Qa5 11.O-O-O Rfc8 12.Kb1 b5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "POIZOTOJdG1PdueJdJuMrvvXrVDRoJcz": {
+      "lineHash": "POIZOTOJdG1PdueJdJuMrvvXrVDRoJcz",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.Nge2 d6 9.O-O-O Be6 10.Nf4 Qa5 11.Nxe6 fxe6 12.Bc4",
+      "moveCount": 23,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "LbKMf3\u002BholLXr8TFsSuoeUY8/8bYTTuh": {
+      "lineHash": "LbKMf3\u002BholLXr8TFsSuoeUY8/8bYTTuh",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.Nge2 d6 9.h4 h5 10.Nf4 Qa5 11.Bc4 Ne5 12.Bb3 Bd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "YKmxoFlfpgcjZ9cBgzOXY6I9hYSzz2EL": {
+      "lineHash": "YKmxoFlfpgcjZ9cBgzOXY6I9hYSzz2EL",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Bh6 Qa5 10.Bxg7 Kxg7 11.Kb1 Be6 12.Nd5 Qxd2",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "KDmFvMOaUnW\u002Bnp4Q8sxRxcV\u002Bou\u002BFyTNu": {
+      "lineHash": "KDmFvMOaUnW\u002Bnp4Q8sxRxcV\u002Bou\u002BFyTNu",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Nge2 Qa5 10.Kb1 Be6 11.Nf4 Nxe4 12.fxe4 Bxc3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "SAOWsP57UIPYODxIp/XxckAFuNiH36KG": {
+      "lineHash": "SAOWsP57UIPYODxIp/XxckAFuNiH36KG",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Nge2 Qa5 10.Kb1 Be6 11.Nc1 a6 12.Nd5 Qd8",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4mbXbh6kIboU94oJx2xqadR2K18FNjLV": {
+      "lineHash": "4mbXbh6kIboU94oJx2xqadR2K18FNjLV",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Nge2 Qa5 10.Nf4 Nd7 11.Kb1 Rb8 12.Ncd5 Qxd2",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "AGozANwTn8qbohPRw4BgGcm1HglxMzJD": {
+      "lineHash": "AGozANwTn8qbohPRw4BgGcm1HglxMzJD",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Kb1 Qa5 10.Nge2 b5 11.h4 b4 12.Nd5 Nxd5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "0RUWQuOQSURuyRDuaGepeo6sc0oHth0t": {
+      "lineHash": "0RUWQuOQSURuyRDuaGepeo6sc0oHth0t",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.f3 O-O 8.O-O-O d6 9.Kb1 Qa5 10.h4 Be6 11.Nge2 Rfc8 12.Nf4 Ne5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "\u002BRuyngeFCBnSokD4jGR5N5DQ8SAvMCkr": {
+      "lineHash": "\u002BRuyngeFCBnSokD4jGR5N5DQ8SAvMCkr",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.O-O-O O-O 8.f3 d6 9.Nge2 Qa5 10.Kb1 b5 11.Nc1 b4 12.Nd5 Nxd5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "uI0HBKnMqWn9gpuIzcu4BkEWUV\u002BNsE1w": {
+      "lineHash": "uI0HBKnMqWn9gpuIzcu4BkEWUV\u002BNsE1w",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Be3 Nc6 6.Qd2 Bg7 7.O-O-O O-O 8.f3 d6 9.h4 h5 10.Nd5 Be6 11.g4 Bxd5 12.exd5 Ne5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "HkrPY4tttdgrh1QlyqcP\u002Bwaz38LB9xl8": {
+      "lineHash": "HkrPY4tttdgrh1QlyqcP\u002Bwaz38LB9xl8",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.fxe7 Qxe7\u002B 9.Qe3 Nd4 10.Kd1 Ne6 11.Nge2 Bg7 12.Bd2 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T11:51:00.1543989-08:00",
+          "success": true,
+          "depthReached": 6,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T11:51:00.1543989-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "QFl26VtDz9tol3/dAEvav2qfrlFqX1\u002Bt": {
+      "lineHash": "QFl26VtDz9tol3/dAEvav2qfrlFqX1\u002Bt",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.fxe7 Qxe7\u002B 9.Qe3 Nd4 10.Qxe7\u002B Bxe7 11.Kd1 O-O 12.Nd5 Bd8",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "HBGKSLPq0T2HM/6IIFxpFtVzR0\u002BmnjMy": {
+      "lineHash": "HBGKSLPq0T2HM/6IIFxpFtVzR0\u002BmnjMy",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qh4 b4 9.Nce2 exf6 10.Nf3 Bg7 11.O-O O-O 12.Bh6 d5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "e1ErjH9nmKGtJ7Nc7HJHhID0S\u002BoTCDKa": {
+      "lineHash": "e1ErjH9nmKGtJ7Nc7HJHhID0S\u002BoTCDKa",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qh4 b4 9.Nce2 exf6 10.Nf3 Bg7 11.Bh6 O-O 12.Bxg7 Kxg7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "L868GqDSa4VgFo4ziy/\u002BJiT396HtC9Re": {
+      "lineHash": "L868GqDSa4VgFo4ziy/\u002BJiT396HtC9Re",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qh4 b4 9.Nd5 e6 10.Ne3 h6 11.Nf3 Bd6 12.Ng4 h5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "8K/8MCpq5ot5/muhXzndA61FWoKPWgeB": {
+      "lineHash": "8K/8MCpq5ot5/muhXzndA61FWoKPWgeB",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qe4 e6 9.Nxb5 Qa5\u002B 10.Nc3 d5 11.Qd3 d4 12.Bd2 dxc3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Mlvda8vackyAEVRTlF1HRI4Jj0iPR9XT": {
+      "lineHash": "Mlvda8vackyAEVRTlF1HRI4Jj0iPR9XT",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qe4 e6 9.Nxb5 Qa5\u002B 10.Nc3 d5 11.Qh4 d4 12.Bd2 dxc3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "W/eQDE6RK3/y8b16r/U6YEepEy1WlmdC": {
+      "lineHash": "W/eQDE6RK3/y8b16r/U6YEepEy1WlmdC",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.e5 axb5 7.exf6 Nc6 8.Qe4 e6 9.Nd5 Ra4 10.Qe3 Rd4 11.Ne7 Bxe7 12.fxe7 Qxe7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "rx/eOUrSbZBGP5dVAsxJT6lWrmFFeN8A": {
+      "lineHash": "rx/eOUrSbZBGP5dVAsxJT6lWrmFFeN8A",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.Qa4 Nc6 7.Nf3 Bg7 8.Bf4 O-O 9.O-O-O Ng4 10.Bxc6 bxc6 11.Bg3 Qb6 12.Rd2 Bh6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "BUYvxlHIJ10XfChB7Qdidb9ZnOf0pz8J": {
+      "lineHash": "BUYvxlHIJ10XfChB7Qdidb9ZnOf0pz8J",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Bb5 a6 6.Qa4 Nc6 7.Nf3 Bg7 8.e5 Ng8 9.Bf4 Nh6 10.O-O O-O 11.Rad1 Nf5 12.Rfe1 Ra7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "fVbJaYKU8Mk8lHiqnvheYkt8Zqam5r1r": {
+      "lineHash": "fVbJaYKU8Mk8lHiqnvheYkt8Zqam5r1r",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be3 Bg7 11.Rd1 Qc8 12.Be2 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "XJQ05VOvs02a6jf///W9vkStDC/zwwLA": {
+      "lineHash": "XJQ05VOvs02a6jf///W9vkStDC/zwwLA",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be3 Bg7 11.Rd1 Qc8 12.g3 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "E//bMpVeP9zE5NEVeMjs768kF7FnSqcc": {
+      "lineHash": "E//bMpVeP9zE5NEVeMjs768kF7FnSqcc",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be3 Bg7 11.Rd1 Qc8 12.Bb5 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Q8xt271QWhIm5YZXaUnPqafP76Yu3Cnq": {
+      "lineHash": "Q8xt271QWhIm5YZXaUnPqafP76Yu3Cnq",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be3 Bg7 11.Be2 O-O 12.O-O a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "PWDBd7l9abLmfV/78x8qh98ok2Y1wlhV": {
+      "lineHash": "PWDBd7l9abLmfV/78x8qh98ok2Y1wlhV",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be3 Bg7 11.Be2 O-O 12.Rd1 Qf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "74hoYCXb7e2CepyA0NzmLp7DIZjyBtgI": {
+      "lineHash": "74hoYCXb7e2CepyA0NzmLp7DIZjyBtgI",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Bb5 Bg7 11.O-O O-O 12.Rd1 Qf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Tu9DUSuQ7y0zDPCKrkwNXkal3b9xNmuF": {
+      "lineHash": "Tu9DUSuQ7y0zDPCKrkwNXkal3b9xNmuF",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Bb5 Bg7 11.O-O O-O 12.Bxc6 Qxc6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "waI7l9mkpjLBrTUlHZiyeLV6ErAo7e9V": {
+      "lineHash": "waI7l9mkpjLBrTUlHZiyeLV6ErAo7e9V",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Bb5 Bg7 11.O-O O-O 12.Bf4 a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "FlnjP2tkTD8VbUkXbH94LbjpAthXaQQi": {
+      "lineHash": "FlnjP2tkTD8VbUkXbH94LbjpAthXaQQi",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Bb5 Bg7 11.Be3 O-O 12.Rd1 Qg4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "03VZV/qNnE8i0EwDDqbNRE3mtfloL6eV": {
+      "lineHash": "03VZV/qNnE8i0EwDDqbNRE3mtfloL6eV",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Bb5 Bg7 11.Be3 O-O 12.O-O a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "TdjEjAU69byO0AItZfgh49S/guTnC2fR": {
+      "lineHash": "TdjEjAU69byO0AItZfgh49S/guTnC2fR",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be2 Bg7 11.O-O O-O 12.Bf4 a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "gLAmnm\u002B19TE3hN\u002B2anZLp8D15FEdubpf": {
+      "lineHash": "gLAmnm\u002B19TE3hN\u002B2anZLp8D15FEdubpf",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be2 Bg7 11.O-O O-O 12.Be3 Rad8",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "vooCbE4pJXahMxtaauqggQ2JRP048hM6": {
+      "lineHash": "vooCbE4pJXahMxtaauqggQ2JRP048hM6",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be2 Bg7 11.O-O O-O 12.Rd1 Qf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "w42Hl6AWm4eUWvPV7tq\u002B90X8Y1IzdlPZ": {
+      "lineHash": "w42Hl6AWm4eUWvPV7tq\u002B90X8Y1IzdlPZ",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be2 Bg7 11.Be3 O-O 12.Rd1 Qe6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "KjGCDqxdrqVHWyEW2JTraqHXc0HXPOiI": {
+      "lineHash": "KjGCDqxdrqVHWyEW2JTraqHXc0HXPOiI",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.d4 cxd4 4.Qxd4 Nf6 5.Nf3 Nc6 6.Qa4 d6 7.e5 dxe5 8.Nxe5 Bd7 9.Nxd7 Qxd7 10.Be2 Bg7 11.Be3 O-O 12.O-O a6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "rkSLW20E0noBY\u002BWUjq\u002BqhoiZJ7t7i1RO": {
+      "lineHash": "rkSLW20E0noBY\u002BWUjq\u002BqhoiZJ7t7i1RO",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.d3 O-O",
+      "moveCount": 14,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "uw6ZGq5wLUhBT9s5vIq3SWXula02N6NT": {
+      "lineHash": "uw6ZGq5wLUhBT9s5vIq3SWXula02N6NT",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.Qe1 O-O 8.d3 d5 9.Bb3 Nd4 10.Nxd4 cxd4 11.Ne2 dxe4 12.dxe4 d3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "zX/V5n2OnmQBQ4eumtB5l9sf38Lv6ys2": {
+      "lineHash": "zX/V5n2OnmQBQ4eumtB5l9sf38Lv6ys2",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.Qe1 O-O 8.d3 d5 9.Bb3 Nd4 10.Nxd4 cxd4 11.Nd1 dxe4 12.dxe4 d3",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "x7ujjWBH9vDz7D2252wqZ8G/pW\u002B\u002BNfjt": {
+      "lineHash": "x7ujjWBH9vDz7D2252wqZ8G/pW\u002B\u002BNfjt",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.Qe1 O-O 8.d3 d5 9.Bb3 Nd4 10.Kh1 Nec6 11.Bd2 c4 12.dxc4 dxc4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "yARCII2Et0DGZZ7jJ991Niz7a5luluys": {
+      "lineHash": "yARCII2Et0DGZZ7jJ991Niz7a5luluys",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.e5 d5 8.exd6 Qxd6 9.Ne4 Qxf4 10.d3 Qc7 11.Qe1 O-O 12.Qh4 Nf5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ePJ53bX9sMt\u002BqSkqpyaOhhCnMPauALC0": {
+      "lineHash": "ePJ53bX9sMt\u002BqSkqpyaOhhCnMPauALC0",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.e5 d5 8.exd6 Qxd6 9.d3 b6 10.Ne4 Qc7 11.Qe1 Nf5 12.c3 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "t\u002B10/1YhOduMkyFjvFWbaRZFwiBIV1x7": {
+      "lineHash": "t\u002B10/1YhOduMkyFjvFWbaRZFwiBIV1x7",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.O-O Nge7 7.e5 d5 8.exd6 Qxd6 9.d3 b6 10.Ne4 Qc7 11.c3 O-O 12.Qe1 h6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "tTm9/NyF6Gt0MSC0k5pLPDklW8\u002BWsfSI": {
+      "lineHash": "tTm9/NyF6Gt0MSC0k5pLPDklW8\u002BWsfSI",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.f5 Nge7 7.fxe6 dxe6 8.d3 O-O 9.O-O",
+      "moveCount": 17,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "vou2X6ljh5OsD/xcsdIYl1UldTjwmzx\u002B": {
+      "lineHash": "vou2X6ljh5OsD/xcsdIYl1UldTjwmzx\u002B",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.f5 Nge7 7.fxe6 dxe6 8.O-O O-O",
+      "moveCount": 16,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "xmXHB1vJit2wFrNvlEGjzFvJPfA0NrMW": {
+      "lineHash": "xmXHB1vJit2wFrNvlEGjzFvJPfA0NrMW",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.O-O O-O 8.Qe1 d5 9.Bb3 Nd4 10.Nxd4 cxd4 11.Ne2 dxe4 12.dxe4 b5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jdynboTK\u002BlM/ENEiUalmCAemhpcGBtb4": {
+      "lineHash": "jdynboTK\u002BlM/ENEiUalmCAemhpcGBtb4",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.O-O O-O 8.Qe1 d5 9.exd5 exd5 10.Bb3 Be6 11.Ng5 Qd7 12.Nxe6 fxe6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "UHxQln8jrDNg1yCiM/yXx3AzoDvPhZdn": {
+      "lineHash": "UHxQln8jrDNg1yCiM/yXx3AzoDvPhZdn",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.O-O O-O 8.Bb3 d5 9.e5 f6 10.exf6 Bxf6 11.Re1 Nf5 12.Bd2 Rb8",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "mwoWPuixWBpWwGJOUFBMNJm1J6zgpmgs": {
+      "lineHash": "mwoWPuixWBpWwGJOUFBMNJm1J6zgpmgs",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.O-O O-O 8.Kh1 d5 9.Bb3 Nd4 10.Nxd4 cxd4 11.Ne2 Bd7 12.Qe1 Bc6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "hR4eX/wRfi8Dp6OrjaA039bgyqRLxOjy": {
+      "lineHash": "hR4eX/wRfi8Dp6OrjaA039bgyqRLxOjy",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.e5 d6 8.exd6 Qxd6 9.O-O b6 10.Ne4 Qc7 11.Kh1 Bb7 12.a4 O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "stGYdfSdAz3InkBiq\u002B4TBfUThETbZoHl": {
+      "lineHash": "stGYdfSdAz3InkBiq\u002B4TBfUThETbZoHl",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.a3 d5 8.Ba2 O-O 9.O-O Nd4 10.e5 f6 11.Nxd4 cxd4 12.Ne2 fxe5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "h0IYJKkmReR4cDsFAdQonJtD83RzLyo3": {
+      "lineHash": "h0IYJKkmReR4cDsFAdQonJtD83RzLyo3",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.Bc4 e6 6.d3 Nge7 7.a3 d5 8.Ba2 O-O 9.O-O Nd4 10.f5 dxe4 11.dxe4 exf5 12.Bg5 h6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "EO1fsvHEjbVbKvSiAkPRpZJ8vqQWg4Cr": {
+      "lineHash": "EO1fsvHEjbVbKvSiAkPRpZJ8vqQWg4Cr",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.d3 O-O 9.Be3 Nd4 10.Qd2 Nec6 11.Ne1 b5 12.Nd1 Ne7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "s/dGFogZrfRr24ug4P6rqyAZwqkPEye1": {
+      "lineHash": "s/dGFogZrfRr24ug4P6rqyAZwqkPEye1",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.d3 O-O 9.Be3 Nd4 10.Qd2 Nec6 11.Nd1 Nxf3\u002B 12.Bxf3 b6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "WoDHGWPvjAnqMON\u002Bj5eqwXvSem4a\u002BwHx": {
+      "lineHash": "WoDHGWPvjAnqMON\u002Bj5eqwXvSem4a\u002BwHx",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.d3 O-O 9.Be3 Nd4 10.Bf2 e5 11.Nd5 Nxd5 12.exd5 Nxf3\u002B",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "v0R8k6Kl0e8JNZvKIIvtSX1xZXDaquoy": {
+      "lineHash": "v0R8k6Kl0e8JNZvKIIvtSX1xZXDaquoy",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.d3 O-O 9.Rb1 b6 10.Ne2 d5 11.Bd2 Bb7 12.a3 Qd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "PhysPEVu/1DkxldioA/F9PDloNc/Tkle": {
+      "lineHash": "PhysPEVu/1DkxldioA/F9PDloNc/Tkle",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.d3 O-O 9.h4 h5 10.Ne2 b6 11.c3 e5 12.d4 exd4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "DrD3uZpgqso9phr7ZWPwdVxKO/oh7mwH": {
+      "lineHash": "DrD3uZpgqso9phr7ZWPwdVxKO/oh7mwH",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.O-O Nge7 8.Ne2 e5 9.d3 O-O 10.c3 f5 11.Be3 b6 12.Qb3\u002B Kh8",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "uT5HP72wg58VKOnGMtDrsBOE1Ss/7bYT": {
+      "lineHash": "uT5HP72wg58VKOnGMtDrsBOE1Ss/7bYT",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.g3 d6 6.Bg2 e6 7.d3 Nge7 8.O-O O-O 9.Be3 Nd4 10.e5 Nef5 11.Bf2 Nxf3\u002B 12.Qxf3 Nd4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "PD/XnOOeFiyOZmGARM091dGpUWu4N\u002BFo": {
+      "lineHash": "PD/XnOOeFiyOZmGARM091dGpUWu4N\u002BFo",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.g3 e6 7.Bg2 Nge7 8.O-O O-O 9.Be3 Rb8 10.Qd2 b5 11.Rae1 b4 12.Nd1 Qa5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4An0VeaUosJX5W0Bjrvv1MW7rmq3dv0q": {
+      "lineHash": "4An0VeaUosJX5W0Bjrvv1MW7rmq3dv0q",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.g3 e6 7.Bg2 Nge7 8.O-O O-O 9.Ne2 Rb8 10.h3 b5 11.c3 b4 12.c4 d5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "EUpoJxbnTXeSk2cdQBt1G8qRajCEGZcG": {
+      "lineHash": "EUpoJxbnTXeSk2cdQBt1G8qRajCEGZcG",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.g3 e6 7.Bg2 Nge7 8.O-O O-O 9.Qe1 Nd4 10.Rf2 Rb8 11.Nd1 d5 12.c3 Nxf3\u002B",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "uRMZmQIF0vPdb0MnfXINM7cW/hAjUT0O": {
+      "lineHash": "uRMZmQIF0vPdb0MnfXINM7cW/hAjUT0O",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.g3 e6 7.Be3 Nge7 8.Bg2 b6 9.O-O d5 10.exd5 Nxd5 11.Nxd5 exd5 12.d4 Qd6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "IRmfUb9sOnL/qstBGQ7GPg/gVOpUMBMh": {
+      "lineHash": "IRmfUb9sOnL/qstBGQ7GPg/gVOpUMBMh",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.h3 Nf6 7.g4 b6 8.Bg2 Bb7 9.O-O O-O 10.Nd5 Nd7 11.c3 e6 12.Ne3 Qc7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4duXriTkkn6dKgmCxv1c\u002B4nEiEubi2Nv": {
+      "lineHash": "4duXriTkkn6dKgmCxv1c\u002B4nEiEubi2Nv",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.h3 Nf6 7.Be3 O-O 8.Qd2 Qa5 9.g4 Rd8 10.f5 d5 11.exd5 Nxd5 12.Nxd5 Qxd2\u002B",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jPElpZmYRxz1mTL3mJoFw9PiOLxJsjx0": {
+      "lineHash": "jPElpZmYRxz1mTL3mJoFw9PiOLxJsjx0",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.f4 Bg7 4.Nf3 Nc6 5.d3 d6 6.Be2 Bg4 7.O-O Nf6 8.Qe1 Nd4 9.Nxd4 cxd4 10.Nb1 Rc8 11.Bxg4 Nxg4 12.Qe2 Qd7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "iAsNBEkloWe5bzipr0sfFPJM\u002BCngHnf5": {
+      "lineHash": "iAsNBEkloWe5bzipr0sfFPJM\u002BCngHnf5",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.g3 Bg7 4.Bg2 Nc6 5.d3 d6 6.Be3 Nf6 7.h3 O-O 8.Qd2 Nd4 9.Nce2 e5 10.c3 Nc6 11.f4 Re8 12.Nf3 c4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "OyePCqY/vFcccphHCMri0E1YVFiOoaiU": {
+      "lineHash": "OyePCqY/vFcccphHCMri0E1YVFiOoaiU",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.d4 cxd4 5.Nxd4 Nc6 6.Be3 Nf6 7.Bc4 O-O 8.Bb3 d6 9.f3 Bd7 10.Qd2 Nxd4 11.Bxd4 b5 12.h4 a5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T11:59:38.8617507-08:00",
+          "success": true,
+          "depthReached": 5,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T11:59:38.8617507-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "aaeRlhnfO5Hy945\u002Biu89kLaVm3\u002BU\u002BVSA": {
+      "lineHash": "aaeRlhnfO5Hy945\u002Biu89kLaVm3\u002BU\u002BVSA",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.g3 Nc6 5.Bg2 d6 6.d3 e5 7.O-O Nge7 8.a4 O-O 9.Ne2 h6 10.c3 Kh7 11.Ne1 f5 12.f4 d5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "FeJxB3r2GR6ahklKUKf4hwKQfsAvLhke": {
+      "lineHash": "FeJxB3r2GR6ahklKUKf4hwKQfsAvLhke",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.Bc4 Nc6 5.O-O e6 6.d4 cxd4 7.Nb5 d6 8.Nbxd4 Nge7 9.Nb5 O-O 10.Nxd6 b6 11.Bg5 h6 12.Bh4 Bxb2",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "h26aOKpAQnVSNldtRcobIH36z1R/Zvxu": {
+      "lineHash": "h26aOKpAQnVSNldtRcobIH36z1R/Zvxu",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.g3 Nc6 5.Bg2 d6 6.O-O e5 7.Nd5 Nge7 8.c3 O-O 9.d3 Nxd5 10.exd5 Ne7 11.d4 cxd4 12.cxd4 e4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "d3k1QeGiGO5Rrz3OzhYXIlqUsQCgGjny": {
+      "lineHash": "d3k1QeGiGO5Rrz3OzhYXIlqUsQCgGjny",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.g3 Nc6 5.Bg2 d6 6.d3 e5 7.O-O Nge7 8.Be3 O-O 9.Qd2 Nd4 10.Bh6 Bg4 11.Bxg7 Kxg7 12.Nxd4 cxd4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "/vjBkNga3I5soQ6Gh2w1fBywrZYOu9/A": {
+      "lineHash": "/vjBkNga3I5soQ6Gh2w1fBywrZYOu9/A",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.Nf3 Bg7 4.g3 Nc6 5.Bg2 d6 6.O-O e5 7.a3 Nge7 8.b4 O-O 9.bxc5 dxc5 10.a4 h6 11.d3 Be6 12.Nd2 Na5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-27T14:20:36.4906431-08:00",
+          "success": true,
+          "depthReached": 11,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-27T14:20:36.4906431-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
     }
   }
 }
