@@ -22,6 +22,7 @@ namespace OTBFlashCards
         private bool showPriorityOnly = false; // Filter to show only priority variations
         private List<int> sisterVariationIndices = new List<int>(); // Indices of sister variations at current position
         private int currentSisterIndex = 0; // Current position within sister variations
+        private ChessBoard chessBoard; // Track the board state for FEN generation
 
         public AssistedModeForm(VariationLine variation, string sourceFile = null)
         {
@@ -84,18 +85,21 @@ namespace OTBFlashCards
             // Set up the form
             var variation = variations[currentVariationIndex];
             labelTitle.Text = $"Assisted Mode - Variation {currentVariationIndex + 1}/{variations.Count} ({variation.MoveCount} moves)";
-            
+
             // Apply priority filter if needed
             if (showPriorityOnly)
             {
                 ApplyPriorityFilter();
             }
-            
+
             // Load variation data
             currentVariationData = StudyDataManager.GetOrCreateVariation(variation, sourceFilePath);
             markedAsFailed = false;
             sessionStartTime = DateTime.Now;
-            
+
+            // Initialize chess board to starting position
+            chessBoard = new ChessBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+
             UpdateDisplay();
         }
 
@@ -145,6 +149,9 @@ namespace OTBFlashCards
         private void UpdateDisplay()
         {
             var variation = variations[currentVariationIndex];
+
+            // Update chess board to current position
+            UpdateChessBoardPosition();
 
             // Update sister variations for current position
             UpdateSisterVariations();
@@ -299,12 +306,13 @@ namespace OTBFlashCards
                 textBoxMoves.AppendText("Study Tools:\n");
                 textBoxMoves.AppendText("  F → Mark as Failed  |  S → Mark as Success  |  T → Toggle Priority ⭐\n");
                 textBoxMoves.AppendText("  D → Set Depth Limit  |  L → Line Notes  |  M → Move Notes\n");
+                textBoxMoves.AppendText("  C → Open position in Chess.com  |  Shift+C → Open position BEFORE current move\n");
                 textBoxMoves.AppendText("\n");
                 textBoxMoves.AppendText("  H → Hide help  |  Esc → Exit (saves attempt)\n");
             }
             else
             {
-                textBoxMoves.AppendText("H=Help | Space/Arrows=Nav | N/P=Vars | [/]=Alts | F/S=Fail/Success | D=Depth | L/M=Notes | Esc=Exit\n");
+                textBoxMoves.AppendText("H=Help | Space/Arrows=Nav | N/P=Vars | [/]=Alts | F/S=Fail/Success | C=Chess.com | D=Depth | L/M=Notes | Esc=Exit\n");
             }
             
             textBoxMoves.AppendText("═══════════════════════════════════════════════════");
@@ -810,6 +818,78 @@ namespace OTBFlashCards
             return uniqueMoves.Count > 1;
         }
 
+        private void UpdateChessBoardPosition()
+        {
+            // Reset board to starting position
+            chessBoard = new ChessBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+
+            // Apply all moves up to current position
+            var variation = variations[currentVariationIndex];
+            for (int i = 0; i <= currentMoveIndex && i < variation.Moves.Count; i++)
+            {
+                try
+                {
+                    chessBoard.ApplyMove(variation.Moves[i], null);
+                }
+                catch
+                {
+                    // If move fails, just continue - we'll have the best approximation
+                }
+            }
+        }
+
+        private void OpenInChessCom(bool usePreviousMove = false)
+        {
+            try
+            {
+                string fen;
+
+                if (usePreviousMove && currentMoveIndex > 0)
+                {
+                    // Get position BEFORE current move
+                    var tempBoard = new ChessBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
+                    var variation = variations[currentVariationIndex];
+
+                    // Apply all moves up to (but not including) current move
+                    for (int i = 0; i < currentMoveIndex && i < variation.Moves.Count; i++)
+                    {
+                        try
+                        {
+                            tempBoard.ApplyMove(variation.Moves[i], null);
+                        }
+                        catch
+                        {
+                            // If move fails, just continue
+                        }
+                    }
+                    fen = tempBoard.GetCurrentFEN();
+                }
+                else
+                {
+                    // Get current FEN position
+                    fen = chessBoard.GetCurrentFEN();
+                }
+
+                // URL encode the FEN
+                string encodedFen = System.Web.HttpUtility.UrlEncode(fen);
+
+                // Chess.com analysis board URL
+                string url = $"https://www.chess.com/analysis?fen={encodedFen}";
+
+                // Open in default browser
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to open Chess.com:\n\n{ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         private void SwitchToSisterVariation(int newVariationIndex)
         {
             if (newVariationIndex == currentVariationIndex)
@@ -1050,6 +1130,14 @@ namespace OTBFlashCards
 
                 case Keys.M:
                     EditMoveNotes();
+                    return true;
+
+                case Keys.C:
+                    OpenInChessCom();
+                    return true;
+
+                case Keys.C | Keys.Shift:
+                    OpenInChessCom(usePreviousMove: true);
                     return true;
 
                 case Keys.Escape:

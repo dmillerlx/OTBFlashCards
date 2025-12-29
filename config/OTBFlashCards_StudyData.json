@@ -18,14 +18,21 @@
       "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2025-12-28T12:52:30.1964694-08:00",
+          "success": true,
+          "depthReached": 6,
+          "notes": ""
+        }
+      ],
       "metrics": {
-        "totalAttempts": 0,
-        "successfulAttempts": 0,
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
         "failedAttempts": 0,
-        "lastAttemptDate": null,
-        "successRate": 0,
-        "currentStreak": 0
+        "lastAttemptDate": "2025-12-28T12:52:30.1964694-08:00",
+        "successRate": 100,
+        "currentStreak": 1
       }
     },
     "9oTumz3xNj0Wtb04OPchhlgJ5gDFoR2I": {
@@ -452,14 +459,21 @@
       "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2025-12-28T17:14:57.9667613-08:00",
+          "success": true,
+          "depthReached": 31,
+          "notes": ""
+        }
+      ],
       "metrics": {
-        "totalAttempts": 0,
-        "successfulAttempts": 0,
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
         "failedAttempts": 0,
-        "lastAttemptDate": null,
-        "successRate": 0,
-        "currentStreak": 0
+        "lastAttemptDate": "2025-12-28T17:14:57.9667613-08:00",
+        "successRate": 100,
+        "currentStreak": 1
       }
     },
     "gNhmEvfrsJ/BftT3NPjYSnIWYk203YCH": {
@@ -1124,14 +1138,21 @@
       "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2025-12-28T12:54:36.096039-08:00",
+          "success": true,
+          "depthReached": 6,
+          "notes": ""
+        }
+      ],
       "metrics": {
-        "totalAttempts": 0,
-        "successfulAttempts": 0,
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
         "failedAttempts": 0,
-        "lastAttemptDate": null,
-        "successRate": 0,
-        "currentStreak": 0
+        "lastAttemptDate": "2025-12-28T12:54:36.096039-08:00",
+        "successRate": 100,
+        "currentStreak": 1
       }
     },
     "xKQd1xsg7yUAPK0VTeXmeV0\u002Bh8XjS/5X": {
@@ -2880,14 +2901,21 @@
       "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2025-12-28T10:24:55.14685-08:00",
+          "success": true,
+          "depthReached": 12,
+          "notes": ""
+        }
+      ],
       "metrics": {
-        "totalAttempts": 0,
-        "successfulAttempts": 0,
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
         "failedAttempts": 0,
-        "lastAttemptDate": null,
-        "successRate": 0,
-        "currentStreak": 0
+        "lastAttemptDate": "2025-12-28T10:24:55.14685-08:00",
+        "successRate": 100,
+        "currentStreak": 1
       }
     },
     "iAsNBEkloWe5bzipr0sfFPJM\u002BCngHnf5": {
@@ -2922,15 +2950,21 @@
           "success": true,
           "depthReached": 5,
           "notes": ""
+        },
+        {
+          "date": "2025-12-28T12:58:35.5216139-08:00",
+          "success": true,
+          "depthReached": 5,
+          "notes": ""
         }
       ],
       "metrics": {
-        "totalAttempts": 1,
-        "successfulAttempts": 1,
+        "totalAttempts": 2,
+        "successfulAttempts": 2,
         "failedAttempts": 0,
-        "lastAttemptDate": "2025-12-27T11:59:38.8617507-08:00",
+        "lastAttemptDate": "2025-12-28T12:58:35.5216139-08:00",
         "successRate": 100,
-        "currentStreak": 1
+        "currentStreak": 2
       }
     },
     "aaeRlhnfO5Hy945\u002Biu89kLaVm3\u002BU\u002BVSA": {
@@ -3026,6 +3060,653 @@
         "successfulAttempts": 1,
         "failedAttempts": 0,
         "lastAttemptDate": "2025-12-27T14:20:36.4906431-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "PNaJLHZYXRd/EZlGgm9CT64hF6r0oR85": {
+      "lineHash": "PNaJLHZYXRd/EZlGgm9CT64hF6r0oR85",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.g3 Bg7 4.Bg2 Nc6 5.Nge2 d6 6.O-O e5 7.f4 Nge7 8.d3 Nd4 9.Nxd4 cxd4 10.Nd5 Nxd5 11.exd5 O-O 12.b3 Qc7",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Wphl3JjMHcf25Ae60VK72FQTGrG69con": {
+      "lineHash": "Wphl3JjMHcf25Ae60VK72FQTGrG69con",
+      "fullLine": "1.e4 c5 2.Nc3 g6 3.g3 Bg7 4.Bg2 Nc6 5.Nge2 d6 6.d3 Nf6 7.O-O O-O 8.f4 Rb8 9.Be3 b5 10.Qd2 Ng4 11.Nd1 Nxe3 12.Nxe3 Bxb2",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as black\\Black - Theodore - Dragon - Closed Sicilian - Tree - 12 - 2025-12-26.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "D2H4ciurgOTDOoE/9hBtOwOYle2ChpG8": {
+      "lineHash": "D2H4ciurgOTDOoE/9hBtOwOYle2ChpG8",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Bc4 c5 8.Ne2 O-O 9.O-O Nc6 10.Be3 Bg4 11.f3 Bd7 12.d5 Ne5 13.Bb3 c4",
+      "moveCount": 26,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-28T10:32:05.7894953-08:00",
+          "success": true,
+          "depthReached": 25,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-28T10:32:05.7894953-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "IEPnmAOvpi/Q0W/RtyQKUMGeSGsUtndg": {
+      "lineHash": "IEPnmAOvpi/Q0W/RtyQKUMGeSGsUtndg",
+      "fullLine": "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5 4.hxg5 d5 5.e3",
+      "moveCount": 9,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "NbTXIbXyjhFxkbcXcI/eYWdJDCNHX39C": {
+      "lineHash": "NbTXIbXyjhFxkbcXcI/eYWdJDCNHX39C",
+      "fullLine": "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.c4 Ne4! 5.Bd2 b6 6.e3 Bb7 7.Nc3 O-O",
+      "moveCount": 14,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "Y3VnDf4S2z8BcWT5aeX8FnJFhsUt0Gwt": {
+      "lineHash": "Y3VnDf4S2z8BcWT5aeX8FnJFhsUt0Gwt",
+      "fullLine": "1.d4 Nf6 2.f3 d5",
+      "moveCount": 4,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "6qSNP8AHVmhwJy1nsbrmHzE\u002B97qPyXJb": {
+      "lineHash": "6qSNP8AHVmhwJy1nsbrmHzE\u002B97qPyXJb",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 c5 8.Be2 Nc6? 9.d5 Bxc3\u002B 10.Bd2 Bxa1 11.Qxa1",
+      "moveCount": 21,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "1TttbiYq5o3/Ovjb8pgEHE0EHNLmrI5U": {
+      "lineHash": "1TttbiYq5o3/Ovjb8pgEHE0EHNLmrI5U",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.f3 d5 4.cxd5 Nxd5 5.e4 Nb6 6.Be3 Bg7 7.Nc3 O-O 8.Qd2 Nc6 9.O-O-O f5!",
+      "moveCount": 18,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "ZZ4w7PDTWyYEYiFhW1q96Cti0X29eoYc": {
+      "lineHash": "ZZ4w7PDTWyYEYiFhW1q96Cti0X29eoYc",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.Bg5 O-O 5.Bxf6 Bxf6 6.e4 c5 7.Nc3 cxd4 8.Nxd4 Nc6",
+      "moveCount": 16,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "GHzOjiiBW/6UValjAU2Sv8xK\u002BTLB/fbo": {
+      "lineHash": "GHzOjiiBW/6UValjAU2Sv8xK\u002BTLB/fbo",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 d5! 5.Nf3 O-O 6.O-O Nc6! 7.Nc3 dxc4! 8.Qa4",
+      "moveCount": 15,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "n3CNuEJawPxLAtvHXBhYpva6jnrJaukK": {
+      "lineHash": "n3CNuEJawPxLAtvHXBhYpva6jnrJaukK",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.h4 c5 4.d5 b5!",
+      "moveCount": 8,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "6L0IUKV4SPh4dsLYGXyAHxY4/s8UqK2N": {
+      "lineHash": "6L0IUKV4SPh4dsLYGXyAHxY4/s8UqK2N",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.g3 c6! 4.Nc3 d5",
+      "moveCount": 8,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4EePC5arG6sTwwdiKVusZrHS/VSj4/DN": {
+      "lineHash": "4EePC5arG6sTwwdiKVusZrHS/VSj4/DN",
+      "fullLine": "1.d4 Nf6 2.c4 g6 3.f3 Bg7 4.e4 d6",
+      "moveCount": 8,
+      "sourceFile": "C:\\chess\\Sync\\Fidel\\Opening Tree\\Theo_Grunfeld.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "FAMctyGaUvQB5oXJVCCTUGOfj82lKI4K": {
+      "lineHash": "FAMctyGaUvQB5oXJVCCTUGOfj82lKI4K",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3 c4 7.Nbd2 Na5 8.Be2 Bd7 9.O-O Ne7 10.Rb1 Qc7",
+      "moveCount": 20,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "8bMl83bkH9JEu41CEyaAKCWS82KzsGdY": {
+      "lineHash": "8bMl83bkH9JEu41CEyaAKCWS82KzsGdY",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Nge7 6.Na3 cxd4 7.cxd4 Nf5 8.Nc2 Be7 9.Bd3 O-O 10.O-O",
+      "moveCount": 19,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "DZxvSwvmEPLl15faHDgMcUpVrt8BlpsX": {
+      "lineHash": "DZxvSwvmEPLl15faHDgMcUpVrt8BlpsX",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Nge7 6.Na3 cxd4 7.cxd4 Nf5 8.Nc2 Bd7 9.Bd3 Qb6 10.O-O",
+      "moveCount": 19,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "eo0J5U\u002BaWyOZPpCA7BMi8HgWmWfxSz4/": {
+      "lineHash": "eo0J5U\u002BaWyOZPpCA7BMi8HgWmWfxSz4/",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Nge7 6.Na3 cxd4 7.cxd4 Nf5 8.Nc2 Qb6 9.Bd3 Bb4\u002B 10.Kf1 Be7 11.h4 Bd7 12.g4 Nh6",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "jDbkVoSfF8PebxzLPhzMZWklhk59L2xf": {
+      "lineHash": "jDbkVoSfF8PebxzLPhzMZWklhk59L2xf",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Bd7 6.a3 c4 7.Nbd2 Na5 8.g3",
+      "moveCount": 15,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "HJSCmXbEicAy/O3Ppde9XjEgs4goOdj3": {
+      "lineHash": "HJSCmXbEicAy/O3Ppde9XjEgs4goOdj3",
+      "fullLine": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Bd7 6.Be2 Nge7 7.O-O Nf5 8.dxc5 Bxc5 9.Bd3 Nh4 10.Nbd2",
+      "moveCount": 19,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - French Defense Advanced.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-28T16:29:11.6902722-08:00",
+          "success": true,
+          "depthReached": 19,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-28T16:29:11.6902722-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "p895Hs2FmpuRqEdptFm\u002Bucn61QYX2HuY": {
+      "lineHash": "p895Hs2FmpuRqEdptFm\u002Bucn61QYX2HuY",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3 5.Qxf3 e6 6.d4 dxe4 7.Nxe4 Nf6 8.Bd3 Qxd4 9.c3 Qd8 10.O-O Nbd7 11.Bf4 Nxe4",
+      "moveCount": 22,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "12. Bxe4 is the only move all other moves is -3\u002B",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "\u002BmbLv\u002BrvS9EGpmJ1sFgaCPGYSkJg1rx/": {
+      "lineHash": "\u002BmbLv\u002BrvS9EGpmJ1sFgaCPGYSkJg1rx/",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Nxe4 Bg4 5.h3 Bxf3 6.Qxf3 e6 7.Bc4 Nf6 8.Nxf6\u002B",
+      "moveCount": 15,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "RMqVRKHKP5AKLzJXKBRweBKyNFdTlbV7": {
+      "lineHash": "RMqVRKHKP5AKLzJXKBRweBKyNFdTlbV7",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3 5.Qxf3 e6 6.d3 Nf6",
+      "moveCount": 12,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "N\u002BDvzGoyJAGqLtsjcqCh9\u002Bt\u002B0SywpmKT": {
+      "lineHash": "N\u002BDvzGoyJAGqLtsjcqCh9\u002Bt\u002B0SywpmKT",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3 5.Qxf3 dxe4",
+      "moveCount": 10,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "/qLmYUk212yUy7aPVSzBmBzJzEjAaHyy": {
+      "lineHash": "/qLmYUk212yUy7aPVSzBmBzJzEjAaHyy",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6 7.Ne5 Bh7 8.Qh5 g6 9.Bc4 e6 10.Qe2",
+      "moveCount": 19,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "6zRRGpO9xLCbtMXxXA4BJ/DTQVsxn5UI": {
+      "lineHash": "6zRRGpO9xLCbtMXxXA4BJ/DTQVsxn5UI",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Nxe4 Bg4 5.h3 Bxf3 6.Qxf3 Nd7 7.d4 Ndf6 8.Nxf6\u002B Nxf6 9.c3",
+      "moveCount": 17,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "svzvT88hgHh3sj7ymg6GWkybgVLB3qrU": {
+      "lineHash": "svzvT88hgHh3sj7ymg6GWkybgVLB3qrU",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3 5.Qxf3 Nf6 6.d3 e6 7.g3 Bb4 8.Bd2 d4 9.Nb1 Qb6 10.b3 a5 11.a3 Bxd2\u002B",
+      "moveCount": 22,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "l3N4ZXY3OlhMYQ\u002B7S/kD4dYepy9n7pzH": {
+      "lineHash": "l3N4ZXY3OlhMYQ\u002B7S/kD4dYepy9n7pzH",
+      "fullLine": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bh5 5.exd5 cxd5 6.Bb5\u002B Nc6 7.g4 Bg6 8.Ne5 Rc8 9.d4 e6 10.Qe2 Bb4 11.h4 Nge7 12.h5 Be4 13.f3 O-O 14.Nxc6",
+      "moveCount": 27,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Caro-Kann Two Knights.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-28T16:55:24.4821921-08:00",
+          "success": true,
+          "depthReached": 26,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-28T16:55:24.4821921-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "vy5F5vd0qQe7YN92Snoz\u002BpISrMdHK\u002BBn": {
+      "lineHash": "vy5F5vd0qQe7YN92Snoz\u002BpISrMdHK\u002BBn",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5\u002B c6 7.dxc6 bxc6 8.Bd3 Nd5 9.Nf3 Bd6 10.O-O O-O 11.Re1 f5 12.Nxe5 Qc7 13.Nf3",
+      "moveCount": 25,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Italian_2knights - tree.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "FRSTgg3DQkYWhtTLR9jAMokbMSK9tcQh": {
+      "lineHash": "FRSTgg3DQkYWhtTLR9jAMokbMSK9tcQh",
+      "fullLine": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4 Bb6 9.Nc3 O-O 10.Be3 Bg4 11.h3 Bh5 12.Qc2 Bg6 13.Qb3 Ne7 14.O-O c6 15.Bd3 Nd2 16.Nxd2 Bxd3 17.Rfe1",
+      "moveCount": 33,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\Italian_Guicco_Piano 6.e5 (Theodores preferrence).pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-28T17:27:42.830874-08:00",
+          "success": true,
+          "depthReached": 33,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-28T17:27:42.830874-08:00",
+        "successRate": 100,
+        "currentStreak": 1
+      }
+    },
+    "g9YhrpnR6ULRMFFf7eTHRVxjmBRvI6dR": {
+      "lineHash": "g9YhrpnR6ULRMFFf7eTHRVxjmBRvI6dR",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Be7 9.Qd2 O-O 10.O-O-O Nbd7 11.g4 b5 12.g5 b4 13.Ne2 Ne8 14.f4 a5 15.f5 a4 16.fxe6 axb3 17.cxb3 fxe6 18.Bh3 Rxa2 19.Bxe6\u002B Kh8 20.Ng3",
+      "moveCount": 39,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Open Sicilian Against Najdorf - Tree - v001 final.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "fqYI8Zew/EPbAqY7Aw0Q/1VHwusPpo8G": {
+      "lineHash": "fqYI8Zew/EPbAqY7Aw0Q/1VHwusPpo8G",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Nbd7 9.Qd2 b5 10.O-O-O Nb6 11.Qf2 Nc4 12.Bxc4 bxc4",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Open Sicilian Against Najdorf - Tree - v001 final.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "4bWAqy95bk/4LuTEMtgjJsL2IactkSbs": {
+      "lineHash": "4bWAqy95bk/4LuTEMtgjJsL2IactkSbs",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 h5 9.Qd2 Nbd7 10.O-O-O Rc8 11.Kb1 Be7 12.Nd5 Nxd5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Open Sicilian Against Najdorf - Tree - v001 final.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "RW0mpzQeAxWmW3R/cvzDrOJj69nRRLzq": {
+      "lineHash": "RW0mpzQeAxWmW3R/cvzDrOJj69nRRLzq",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Be7 9.Qd2 Nbd7 10.g4 b5 11.g5 Nh5 12.O-O-O O-O",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Open Sicilian Against Najdorf - Tree - v001 final.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [],
+      "metrics": {
+        "totalAttempts": 0,
+        "successfulAttempts": 0,
+        "failedAttempts": 0,
+        "lastAttemptDate": null,
+        "successRate": 0,
+        "currentStreak": 0
+      }
+    },
+    "YqV\u002BZZUVlKuocUFIwjijZkJMPMYuyt9X": {
+      "lineHash": "YqV\u002BZZUVlKuocUFIwjijZkJMPMYuyt9X",
+      "fullLine": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Be7 9.Qd2 h5 10.O-O-O Nbd7 11.Kb1 Rc8 12.Nd5 Nxd5",
+      "moveCount": 24,
+      "sourceFile": "C:\\chess\\Sync\\Opening Prep\\Theodore as white\\White - Theodore - Open Sicilian Against Najdorf - Tree - v001 final.pgn",
+      "isPriority": false,
+      "lineNotes": "",
+      "moveNotes": {},
+      "attempts": [
+        {
+          "date": "2025-12-28T18:16:06.8242379-08:00",
+          "success": true,
+          "depthReached": 24,
+          "notes": ""
+        }
+      ],
+      "metrics": {
+        "totalAttempts": 1,
+        "successfulAttempts": 1,
+        "failedAttempts": 0,
+        "lastAttemptDate": "2025-12-28T18:16:06.8242379-08:00",
         "successRate": 100,
         "currentStreak": 1
       }

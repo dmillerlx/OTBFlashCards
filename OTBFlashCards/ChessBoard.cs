@@ -611,5 +611,49 @@ namespace OTBFlashCards
             return (startRow, startCol, targetRow, targetCol, takes, piece, promo, specialMove);
         }
 
+        public string GetCurrentFEN()
+        {
+            // Generate FEN notation from current board state
+            string fenBoard = "";
+
+            for (int row = 0; row < 8; row++)
+            {
+                int emptyCount = 0;
+                for (int col = 0; col < 8; col++)
+                {
+                    string piece = board[row, col];
+                    if (piece == null)
+                    {
+                        emptyCount++;
+                    }
+                    else
+                    {
+                        if (emptyCount > 0)
+                        {
+                            fenBoard += emptyCount.ToString();
+                            emptyCount = 0;
+                        }
+                        fenBoard += piece;
+                    }
+                }
+
+                if (emptyCount > 0)
+                {
+                    fenBoard += emptyCount.ToString();
+                }
+
+                if (row < 7)
+                {
+                    fenBoard += "/";
+                }
+            }
+
+            // Add side to move
+            string sideToMove = isWhiteTurn ? "w" : "b";
+
+            // Simplified FEN - just board and side to move (castling and en passant would require tracking)
+            return fenBoard + " " + sideToMove + " - - 0 1";
+        }
+
     }
 }
