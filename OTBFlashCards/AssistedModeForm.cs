@@ -842,39 +842,40 @@ namespace OTBFlashCards
         {
             try
             {
-                string fen;
+                var variation = variations[currentVariationIndex];
 
-                if (usePreviousMove && currentMoveIndex > 0)
+                // Determine how many moves to include
+                int movesToInclude = usePreviousMove && currentMoveIndex > 0
+                    ? currentMoveIndex
+                    : currentMoveIndex + 1;
+
+                // Generate PGN from ALL moves in the variation
+                var pgnMoves = new System.Text.StringBuilder();
+                for (int i = 0; i < variation.Moves.Count; i++)
                 {
-                    // Get position BEFORE current move
-                    var tempBoard = new ChessBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
-                    var variation = variations[currentVariationIndex];
-
-                    // Apply all moves up to (but not including) current move
-                    for (int i = 0; i < currentMoveIndex && i < variation.Moves.Count; i++)
+                    // Add move number for white's moves (even indices)
+                    if (i % 2 == 0)
                     {
-                        try
-                        {
-                            tempBoard.ApplyMove(variation.Moves[i], null);
-                        }
-                        catch
-                        {
-                            // If move fails, just continue
-                        }
+                        int moveNumber = (i / 2) + 1;
+                        pgnMoves.Append($"{moveNumber}.");
                     }
-                    fen = tempBoard.GetCurrentFEN();
-                }
-                else
-                {
-                    // Get current FEN position
-                    fen = chessBoard.GetCurrentFEN();
+
+                    // Add the move
+                    pgnMoves.Append(variation.Moves[i]);
+                    pgnMoves.Append(" ");
                 }
 
-                // URL encode the FEN
-                string encodedFen = System.Web.HttpUtility.UrlEncode(fen);
+                string pgn = pgnMoves.ToString().Trim();
 
-                // Chess.com analysis board URL
-                string url = $"https://www.chess.com/analysis?fen={encodedFen}";
+                // URL encode the PGN
+                string encodedPgn = System.Web.HttpUtility.UrlEncode(pgn);
+
+                // Try using tab parameter with 0-indexed ply count
+                // tab 0 = starting position, tab 1 = after first half-move, etc.
+                int tab = movesToInclude;
+
+                // Chess.com analysis board URL with PGN and tab
+                string url = $"https://www.chess.com/analysis?pgn={encodedPgn}&tab={tab}";
 
                 // Open in default browser
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OTBFlashCards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59646bd88ffa550eca408d76ed779cf5500378ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fa812846757bbc305945d1ba7abffb5f4f20577")]
 [assembly: System.Reflection.AssemblyProductAttribute("OTBFlashCards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OTBFlashCards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

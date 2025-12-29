@@ -3622,14 +3622,51 @@
       "isPriority": false,
       "lineNotes": "",
       "moveNotes": {},
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2025-12-28T18:25:35.863474-08:00",
+          "success": true,
+          "depthReached": 39,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-28T18:28:22.6636879-08:00",
+          "success": true,
+          "depthReached": 39,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-28T18:32:36.6206572-08:00",
+          "success": true,
+          "depthReached": 19,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-28T18:33:25.8155357-08:00",
+          "success": true,
+          "depthReached": 39,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-28T18:39:30.0683244-08:00",
+          "success": true,
+          "depthReached": 22,
+          "notes": ""
+        },
+        {
+          "date": "2025-12-28T18:42:19.6079513-08:00",
+          "success": true,
+          "depthReached": 2,
+          "notes": ""
+        }
+      ],
       "metrics": {
-        "totalAttempts": 0,
-        "successfulAttempts": 0,
+        "totalAttempts": 6,
+        "successfulAttempts": 6,
         "failedAttempts": 0,
-        "lastAttemptDate": null,
-        "successRate": 0,
-        "currentStreak": 0
+        "lastAttemptDate": "2025-12-28T18:42:19.6079513-08:00",
+        "successRate": 100,
+        "currentStreak": 6
       }
     },
     "fqYI8Zew/EPbAqY7Aw0Q/1VHwusPpo8G": {
